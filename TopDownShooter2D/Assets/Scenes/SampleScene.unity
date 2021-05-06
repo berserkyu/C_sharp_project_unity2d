@@ -234,6 +234,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[1].Array.data[67].Y
       value: -270000000
       objectReference: {fileID: 0}
+    - target: {fileID: 6586064750010065759, guid: 1eacd72756254e04ca4fd70996a98852, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6586064750229841145, guid: 1eacd72756254e04ca4fd70996a98852, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -408,7 +412,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &667982078
 MonoBehaviour:

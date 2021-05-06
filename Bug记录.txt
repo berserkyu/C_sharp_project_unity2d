@@ -9,3 +9,5 @@
 
 5月6日 	俊宇
 	- 发现人物可以利用每一帧移动的距离无视碰撞体直接卡进墙体里面。
+		（已解决） 将Player和Wall的rigidbody2D中的collision detection从discrete改成continuous
+		
