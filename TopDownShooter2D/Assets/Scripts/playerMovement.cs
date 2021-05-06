@@ -5,7 +5,7 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     public UnityEngine.UI.Text hpText, staminaTxt;
-    private float walkingSpeed = 5, runningSpeed = 60, dodgingSpeed = 30, dodgeFrameCounter = 0;
+    private float walkingSpeed = 5, runningSpeed = 60, dodgingSpeed = 10, dodgeFrameCounter = 0;
     private float bulletSpeed = 200, playerAttackPoint = 10;
     private float hp, stamina;
     private static float maxStamina = 100000, maxHp = 100;

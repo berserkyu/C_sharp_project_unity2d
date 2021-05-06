@@ -1,6 +1,5 @@
 sceneSetups:
-- path: "D:/Schooool/\u5927\u4E8C\u4E0B/C#/\u5927\u4F5C\u4E1A/ActualProject/New Unity
-    Project (2)/Assets/Scenes/1.unity"
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
