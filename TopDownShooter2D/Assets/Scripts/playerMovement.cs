@@ -5,19 +5,20 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     public UnityEngine.UI.Text hpText, staminaTxt;
-    private float walkingSpeed = 5, runningSpeed = 15, dodgingSpeed = 30, dodgeFrameCounter = 0;
+    private float walkingSpeed = 5, runningSpeed = 60, dodgingSpeed = 30, dodgeFrameCounter = 0;
     private float bulletSpeed = 200, playerAttackPoint = 10;
-    private float hp, stamina, maxHp, maxStamina;
+    private float hp, stamina;
+    private static float maxStamina = 100000, maxHp = 100;
     private Animator playerAnim;
-    private bool isDodging = false;
+    public static bool isDodging = false;
     public Rigidbody2D rb;
     private float horiMove, vertiMove;
     // Start is called before the first frame update
     void Start()
     {
         playerAnim = transform.GetChild(0).gameObject.GetComponent<Animator>();
-        stamina = maxStamina = 50;
-        hp = maxHp = 100;
+        stamina = maxStamina;
+        hp = maxHp;
     }
     private void manageMovement()
     {
@@ -43,13 +44,12 @@ public class playerMovement : MonoBehaviour
         {
             stamina -= 5;
             isDodging = true;
-            Debug.Log("gonna dodge");
         }
         if (isDodging)
         {
             dodgeFrameCounter += Time.deltaTime;
             curSpeed = dodgingSpeed;
-            if (dodgeFrameCounter > 0.25)
+            if (dodgeFrameCounter > 0.3)
             {
                 isDodging = false;
                 dodgeFrameCounter = 0;

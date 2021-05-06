@@ -9,16 +9,32 @@ public class PlayerBehaviour : MonoBehaviour
     //objects for behaviours
     [SerializeField] private Animator  playerAnim;
     private float horiMove, vertiMove, faceDirection, angle;
+    private bool isDodging, isPlayingDodge;
     //variables of player's attribute/status
 
-    private bool isDodging = false;
     // Start is called before the first frame update
     
     private void manageAnimation()
     {
-        //idle animation
-        Debug.Log(angle);
-        if(angle>45 && angle < 135)
+
+        //dodging animation
+        /*
+         * if (isDodging)
+        {
+            transform.localScale = new Vector3(0.3f, 0.3f, 1);
+            if (isPlayingDodge) return;
+            else
+            {
+                isPlayingDodge = true;
+                playerAnim.Play("dodgingHorizontal");
+                return;
+            }
+            
+        }
+         */
+
+        // idle animation
+        if (angle>45 && angle < 135)
         {
             if (vertiMove == 0 && horiMove == 0) playerAnim.Play("IdleUp");
             else playerAnim.Play("runUp");
@@ -47,6 +63,8 @@ public class PlayerBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isDodging = playerMovement.isDodging;
+        if (!isDodging) isPlayingDodge = false;
         //manage player movement
         horiMove = Input.GetAxis("Horizontal");
         vertiMove = Input.GetAxis("Vertical");
