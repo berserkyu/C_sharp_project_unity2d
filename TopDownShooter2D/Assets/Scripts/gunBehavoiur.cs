@@ -103,6 +103,6 @@ public class gunBehavoiur : MonoBehaviour
     void Update()
     {
         manageGunBehaviour();
-        ammoCount.text = ("currentAmmo : " + curBullet + "(" + megazines[curMegazine] + ")");
+        //ammoCount.text = ("currentAmmo : " + curBullet + "(" + megazines[curMegazine] + ")");
     }
 }

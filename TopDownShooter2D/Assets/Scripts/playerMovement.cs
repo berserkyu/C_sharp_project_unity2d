@@ -13,6 +13,28 @@ public class playerMovement : MonoBehaviour
     public static bool isDodging = false;
     public Rigidbody2D rb;
     private float horiMove, vertiMove;
+
+    public static playerMovement instance;
+
+    void Awake()
+    {
+        
+        if (instance == null)
+        {
+            Debug.Log("Created Player");
+            instance = this;
+        }
+        else
+        {
+            if (instance != this)
+            {
+                Debug.Log("Destroyed player\n");
+                Destroy(gameObject);
+            }
+        }
+        DontDestroyOnLoad(gameObject);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,7 +83,7 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         manageMovement();
-        hpText.text = "HP: " + hp;
-        staminaTxt.text = "stamina : " + (int)stamina;
+        //hpText.text = "HP: " + hp;
+       // staminaTxt.text = "stamina : " + (int)stamina;
     }
 }

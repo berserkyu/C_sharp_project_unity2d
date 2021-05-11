@@ -9,7 +9,7 @@ public class Exit : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Scene2");
         }
     }
 }
