@@ -10,6 +10,7 @@ public class Exit : MonoBehaviour
         if(other.tag == "Player")
         {
             SceneManager.LoadScene("Scene2");
+            FindObjectOfType<SceneFader>();
         }
     }
 }
