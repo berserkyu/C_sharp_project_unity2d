@@ -13,7 +13,6 @@ public class KeyHolder : MonoBehaviour
 
     public void AddKey(Key.KeyType keyType)
     {
-        Debug.Log("Added key:" + keyType);
         keyList.Add(keyType);
     }
 
@@ -28,17 +27,19 @@ public class KeyHolder : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //if touches a key
         Key key = collision.GetComponent<Key>();
         if (key != null)
         {
             AddKey(key.GetKeyType());
             Destroy(key.gameObject);
         }
+        //not touching a key ,thus nothing has to be done
         else
         {
             return;
         }
-
+        //open the door that prticular key corresponds to 
         KeyDoor keyDoor = key.GetKeyDoor();
         if (keyDoor != null)
         {

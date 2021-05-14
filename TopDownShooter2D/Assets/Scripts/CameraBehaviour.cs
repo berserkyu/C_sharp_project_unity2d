@@ -12,14 +12,12 @@ public class CameraBehaviour : MonoBehaviour
 
         if (instance == null)
         {
-            Debug.Log("Created Camera");
             instance = this;
         }
         else
         {
             if (instance != this)
             {
-                Debug.Log("Destroyed camera\n");
                 Destroy(gameObject);
             }
         }

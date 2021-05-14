@@ -21,14 +21,12 @@ public class playerMovement : MonoBehaviour
         
         if (instance == null)
         {
-            Debug.Log("Created Player");
             instance = this;
         }
         else
         {
             if (instance != this)
             {
-                Debug.Log("Destroyed player\n");
                 Destroy(gameObject);
             }
         }
