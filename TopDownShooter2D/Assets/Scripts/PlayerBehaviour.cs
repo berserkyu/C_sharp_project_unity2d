@@ -8,12 +8,23 @@ public class PlayerBehaviour : MonoBehaviour
 {
     //objects for behaviours
     [SerializeField] private Animator  playerAnim;
+    [SerializeField] private Transform healthTrans;
+    public playerMovement player;
     private float horiMove, vertiMove, faceDirection, angle;
+    private float maxHp, curHp;
     private bool isDodging, isPlayingDodge;
-    //variables of player's attribute/status
-
-    // Start is called before the first frame update
     
+    //variables of player's attribute/status
+    public void setHp(float val)
+    {
+        curHp = val;
+    }
+    public void initHp(float maxVal,float val)
+    {
+        curHp = val;
+        maxHp = maxVal;
+    }
+
     private void manageAnimation()
     {
 
@@ -63,21 +74,22 @@ public class PlayerBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //check if is dodging
         isDodging = playerMovement.isDodging;
         if (!isDodging) isPlayingDodge = false;
-        //manage player movement
+
+        //manage gun position
         horiMove = Input.GetAxis("Horizontal");
         vertiMove = Input.GetAxis("Vertical");
-
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos = new Vector3(mousePos.x, mousePos.y, 0);
         Vector3 aimDir = (mousePos - transform.position).normalized;
         angle = Mathf.Atan2(aimDir.y, aimDir.x) * 180 / Mathf.PI;
         faceDirection = ((angle > 90 || angle < -90) ? -1 : 1);
-
-
         manageAnimation();
-        
+        //manage health bar
+        healthTrans.localScale = new Vector3(curHp / maxHp, 1, 1);
+
     }
     
 }

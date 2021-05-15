@@ -13,12 +13,13 @@ public class playerMovement : MonoBehaviour
     public static bool isDodging = false;
     public Rigidbody2D rb;
     private float horiMove, vertiMove;
+    public PlayerBehaviour pb;
 
     public static playerMovement instance;
 
     void Awake()
     {
-        
+        pb.initHp(maxHp, maxHp);
         if (instance == null)
         {
             instance = this;
@@ -80,8 +81,9 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        pb.setHp(hp);
         manageMovement();
-        //hpText.text = "HP: " + hp;
-       // staminaTxt.text = "stamina : " + (int)stamina;
     }
+
+    
 }

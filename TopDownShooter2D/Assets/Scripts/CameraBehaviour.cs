@@ -6,10 +6,12 @@ public class CameraBehaviour : MonoBehaviour
 {
     public Transform playerTrans;
     public static CameraBehaviour instance;
+    [SerializeField] private playerMovement player;
+    // private Image health;
+
 
     void Awake()
     {
-
         if (instance == null)
         {
             instance = this;

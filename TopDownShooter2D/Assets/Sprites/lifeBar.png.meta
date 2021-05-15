@@ -163,13 +163,13 @@ TextureImporter:
       name: lifeBar_1
       rect:
         serializedVersion: 2
-        x: 291
-        y: 212
-        width: 183
-        height: 5
+        x: 278
+        y: 203
+        width: 217
+        height: 25
       alignment: 9
-      pivot: {x: 0.0046381094, y: 3.6090455}
-      border: {x: 0, y: 0, z: 0, w: 3}
+      pivot: {x: 0.019592144, y: 0.5225403}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -335,8 +335,8 @@ TextureImporter:
         y: 54
         width: 217
         height: 25
-      alignment: 9
-      pivot: {x: -0.010603803, y: 10.356332}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

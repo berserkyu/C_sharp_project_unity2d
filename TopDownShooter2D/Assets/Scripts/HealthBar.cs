@@ -13,13 +13,11 @@ public class HealthBar : MonoBehaviour
     void Start()
     {
         healthBar = GetComponent<Image>();
-        //HealthCurrent = HealthMax;
     }
 
     // Update is called once per frame
     void Update()
     {
-        healthBar.fillAmount = (float)HealthCurrent / (float)HealthMax;
-        
+        healthBar.fillAmount = (HealthCurrent / HealthMax);
     }
 }
