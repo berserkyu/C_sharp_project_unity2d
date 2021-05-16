@@ -14,7 +14,7 @@ public class HealthSystem
     public int GetHealth()
     {
         return health;
-    }
+    } 
     public float GetHealthPercent()//因为用scale来调整血条的情况，血条的range是0到1之间
     {
         return (float)health / (float)healthMax;//需要强制转换成float类型

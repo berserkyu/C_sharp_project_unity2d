@@ -9,11 +9,12 @@ public class EnemyFollowPlayer : MonoBehaviour
     private Transform player;
     public HealthBar healthBar;
     public HealthSystem healthSystem;
-
+    private int damageVal;
     
 
     void Start()
     {
+        damageVal = 10;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         HealthSystem healthSystem = new HealthSystem(100);
         healthBar.Setup(healthSystem);
@@ -37,7 +38,10 @@ public class EnemyFollowPlayer : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            healthSystem.Damage(10);
+            GameObject gb = collision.gameObject.transform.GetChild(0).gameObject;
+            if (gb == null) return;
+            PlayerBehaviour pb = gb.GetComponent<PlayerBehaviour>();
+            if (pb != null) pb.damage(damageVal);
         }
     }
 

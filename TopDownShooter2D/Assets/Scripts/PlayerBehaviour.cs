@@ -10,19 +10,25 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private Animator  playerAnim;
     [SerializeField] private Transform healthTrans;
     public playerMovement player;
+    private int maxHp;
     private float horiMove, vertiMove, faceDirection, angle;
-    private float maxHp, curHp;
+    private HealthSystem hpSys;
+   // private float maxHp, curHp;
     private bool isDodging, isPlayingDodge;
-    
-    //variables of player's attribute/status
-    public void setHp(float val)
+    float dmgFrameCnt = 0;
+    void Start()
     {
-        curHp = val;
+        maxHp = 100;
+        hpSys = new HealthSystem(maxHp);
     }
-    public void initHp(float maxVal,float val)
+    //variables of player's attribute/status
+    public void heal(int val)
     {
-        curHp = val;
-        maxHp = maxVal;
+        hpSys.Heal(val);
+    }
+    public void damage(int val)
+    {
+        hpSys.Damage(val);
     }
 
     private void manageAnimation()
@@ -88,7 +94,13 @@ public class PlayerBehaviour : MonoBehaviour
         faceDirection = ((angle > 90 || angle < -90) ? -1 : 1);
         manageAnimation();
         //manage health bar
-        healthTrans.localScale = new Vector3(curHp / maxHp, 1, 1);
+        dmgFrameCnt += Time.deltaTime;
+        if (dmgFrameCnt > 1)
+        {
+            dmgFrameCnt = 0;
+            //hpSys.Damage(10);
+        }
+        healthTrans.localScale = new Vector3(hpSys.GetHealthPercent(), 1, 1);
 
     }
     
