@@ -1,23 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    public static float HealthCurrent;
-    public static float HealthMax;
-    private Image healthBar;
+    private HealthSystem healthSystem;
+    public void Setup(HealthSystem healthSystem)
+    {
+        this.healthSystem = healthSystem;
+        healthSystem.OnHealthChanged += HealthSystem_OnHealthChanged;
+    }
+    private void HealthSystem_OnHealthChanged(object sender, System.EventArgs e)
+    {
+        transform.Find("health").localScale = new Vector3(healthSystem.GetHealthPercent(), 1);//控制Health 的scale
+    }
+
 
     // Start is called before the first frame update
     void Start()
     {
-        healthBar = GetComponent<Image>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        healthBar.fillAmount = (HealthCurrent / HealthMax);
+       
     }
 }

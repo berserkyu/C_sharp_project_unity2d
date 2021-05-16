@@ -7,13 +7,16 @@ public class EnemyFollowPlayer : MonoBehaviour
     public float speed;
     public float lineOfSite;
     private Transform player;
-    public int damage;
-    private PlayerHealth playerHealth;
+    public HealthBar healthBar;
+    public HealthSystem healthSystem;
+
+    
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
+        HealthSystem healthSystem = new HealthSystem(100);
+        healthBar.Setup(healthSystem);
     }
 
     void Update()
@@ -30,16 +33,12 @@ public class EnemyFollowPlayer : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, lineOfSite);
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.gameObject.CompareTag("Player") && other.GetType().ToString() == "UnityEngine.BoxCollider2D")//敌人触碰后会减player血量
+        if (collision.gameObject.tag == "Player")
         {
-            if (playerHealth != null)
-            {
-                damage = 10;
-                playerHealth.DamagePlayer(damage);
-            }
+            healthSystem.Damage(10);
         }
-
     }
+
 }
