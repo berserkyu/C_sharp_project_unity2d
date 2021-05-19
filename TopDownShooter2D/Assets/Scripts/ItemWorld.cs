@@ -16,6 +16,10 @@ public class ItemWorld : MonoBehaviour
         Transform transform = Instantiate(ItemAssets.Instance.pfItemWorld, position, Quaternion.identity);
         ItemWorld itemWorld = transform.GetComponent<ItemWorld>();
         itemWorld.SetItem(item);
+        if(item.item_Type == Item.ItemType.Medkit)
+        {
+            itemWorld.gameObject.transform.localScale = new Vector3(2, 2, 1);
+        }
         return itemWorld;
     }
     
