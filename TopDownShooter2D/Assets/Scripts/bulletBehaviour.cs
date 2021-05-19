@@ -4,9 +4,20 @@ using UnityEngine;
 
 public class bulletBehaviour : MonoBehaviour
 {
+    private int dmg = 5;
+    private gunBehaviour gun;
+
+    public void setGunBehaviour(gunBehaviour gb)
+    {
+        gun = gb as gunBehaviour;
+    }
+
     void OnCollisionEnter2D(Collision2D obj)
     {
         Debug.Log("Bullet hit"+obj.collider.name);
-        Destroy(this.gameObject);
+        obj.gameObject.GetComponent<enemyBattle>()?.damage(dmg);
+        Destroy(gameObject);
+        gun.createWeaponTracer(transform.position);
+        
     }
 }

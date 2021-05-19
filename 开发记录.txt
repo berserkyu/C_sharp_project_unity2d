@@ -32,3 +32,7 @@
 	-添加Item外皮
 	-添加在地图上生成Item功能
 	-添加捡起Item功能（存在bug）
+
+5月19日 俊宇
+	-改进weapon tracer
+	-增加测试boss与敌人扣血机制

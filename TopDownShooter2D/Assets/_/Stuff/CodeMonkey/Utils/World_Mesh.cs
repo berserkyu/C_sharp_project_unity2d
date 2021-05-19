@@ -159,6 +159,11 @@ namespace CodeMonkey.Utils {
             gameObject.GetComponent<Renderer>().sortingOrder = sortingOrder;
         }
 
+        public void SetSortingLayerName(string layerName)
+        {
+            gameObject.GetComponent<Renderer>().sortingLayerName = layerName;
+        }
+
         public void SetLocalScale(Vector3 localScale) {
             transform.localScale = localScale;
         }
@@ -177,6 +182,11 @@ namespace CodeMonkey.Utils {
 
         public int GetSortingOrder() {
             return gameObject.GetComponent<Renderer>().sortingOrder;
+        }
+
+        public string GetSortingLayerName()
+        {
+            return gameObject.GetComponent<Renderer>().sortingLayerName;
         }
 
         public void Show() {

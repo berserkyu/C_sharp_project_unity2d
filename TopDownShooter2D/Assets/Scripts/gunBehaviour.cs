@@ -39,7 +39,7 @@ public class gunBehaviour : MonoBehaviour
         float distance = Vector3.Distance(fromPos, toPos);
         Vector3 tracerSpawnPos = fromPos + dir * distance * 0.5f;
         World_Mesh worldMesh = World_Mesh.Create(tracerSpawnPos, eulerZ, 6f, distance, weaponTracerMaterial, null, 1000);
-        //worldMesh.SetSortingLayerName("Non_background_layer1");
+        worldMesh.SetSortingLayerName("Non_background_layer1");
         worldMesh.SetSortingOrder(5);
         float timer = 0.1f;
         FunctionUpdater.Create(() =>
@@ -82,12 +82,10 @@ public class gunBehaviour : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && curBullet >  0)
         {
                      
-            //GameObject new_bullet = Instantiate(Bullet, FirePointTrans.position, FirePointTrans.rotation);
-          //  float shootingAngle = Mathf.Atan2(aimDir.y,aimDir.x);
-           // new_bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(bulletSpeed * Mathf.Cos(shootingAngle), bulletSpeed * Mathf.Sin(shootingAngle));
-           // new_bullet.GetComponent<bulletBehaviour>()?.setShootFrom(this);
-            
-            //createWeaponTracer(mousePos);
+            GameObject new_bullet = Instantiate(Bullet, FirePointTrans.position, FirePointTrans.rotation);
+            float shootingAngle = Mathf.Atan2(aimDir.y,aimDir.x);
+            new_bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(bulletSpeed * Mathf.Cos(shootingAngle), bulletSpeed * Mathf.Sin(shootingAngle));
+            new_bullet.GetComponent<bulletBehaviour>()?.setGunBehaviour(this);
             curBullet--;
         }
         //reload
@@ -109,6 +107,5 @@ public class gunBehaviour : MonoBehaviour
     {
         fromPos = FirePointTrans.position;
         manageGunBehaviour();
-        //ammoCount.text = ("currentAmmo : " + curBullet + "(" + megazines[curMegazine] + ")");
     }
 }
