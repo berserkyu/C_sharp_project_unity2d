@@ -16,6 +16,7 @@ public class PlayerBehaviour : MonoBehaviour
    // private float maxHp, curHp;
     private bool isDodging, isPlayingDodge;
     float dmgFrameCnt = 0;
+
     void Start()
     {
         maxHp = 100;

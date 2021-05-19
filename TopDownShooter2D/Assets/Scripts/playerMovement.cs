@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
+    [SerializeField] private UI_Inventory uiInventory;
     public UnityEngine.UI.Text hpText, staminaTxt;
     private float walkingSpeed = 5, runningSpeed = 60, dodgingSpeed = 10, dodgeFrameCounter = 0;
     private float bulletSpeed = 200, playerAttackPoint = 10;
@@ -13,7 +14,7 @@ public class playerMovement : MonoBehaviour
     public static bool isDodging = false;
     public Rigidbody2D rb;
     private float horiMove, vertiMove;
-
+    private Inventory inventory;
     public static playerMovement instance;
 
     void Awake()
@@ -38,6 +39,10 @@ public class playerMovement : MonoBehaviour
         playerAnim = transform.GetChild(0).gameObject.GetComponent<Animator>();
         stamina = maxStamina;
         hp = maxHp;
+
+        inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
+        
     }
     private void manageMovement()
     {
@@ -81,5 +86,14 @@ public class playerMovement : MonoBehaviour
         manageMovement();
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        ItemWorld itemWorld = collision.GetComponent<ItemWorld>();
+        if (itemWorld != null)
+        {
+            inventory.AddItem(itemWorld.GetItem());
+            itemWorld.DestroySelf();
+        }
+    }
+
 }
