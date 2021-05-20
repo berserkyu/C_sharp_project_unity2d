@@ -5,18 +5,26 @@ using UnityEngine;
 public class bossAim : MonoBehaviour
 {
     [SerializeField] private Transform playerTrans, firePointTrans;
-    [SerializeField] private GameObject bossBullet;
+    [SerializeField] private GameObject bossBullet, magicBall;
     private Vector3 aimDir;
-    private float shootCnt = 0;
+    private float shootCnt = 0, skillCnt = 0;
     private float bulletSpeed = 40, angle = 0;
     // Start is called before the first frame update
     void Start()
     {
         
     }
+
     public float getAngle()
     {
         return angle;
+    }
+    private void castBallSkill()
+    {
+        Vector3 pos = playerTrans.position;
+        pos.y -= 2;
+        GameObject new_ball = Instantiate(magicBall, pos, new Quaternion(0,0,0,0));
+
     }
     private void fireBullet()
     {
@@ -48,6 +56,16 @@ public class bossAim : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
         }
         shootCnt += Time.deltaTime;
-        if (shootCnt >= 1) fireBullet();
+        skillCnt += Time.deltaTime;
+        if (skillCnt >= 3)
+        {
+            castBallSkill();
+            skillCnt = 0;
+        }
+        else if (shootCnt >= 1)
+        {
+            fireBullet();
+            shootCnt = 0;
+        }
     }
 }

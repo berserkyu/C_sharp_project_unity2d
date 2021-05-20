@@ -9,17 +9,21 @@ public class PlayerBehaviour : MonoBehaviour
     //objects for behaviours
     [SerializeField] private Animator  playerAnim;
     [SerializeField] private Transform healthTrans;
-    public playerMovement player;
+    [SerializeField] private playerMovement movement;
+    [SerializeField] private gunBehaviour gun;
+    [SerializeField] private SpriteRenderer playerSprite;
+    //public playerMovement player;
+
     private int maxHp;
     private float horiMove, vertiMove, faceDirection, angle;
     private HealthSystem hpSys;
-   // private float maxHp, curHp;
-    private bool isDodging, isPlayingDodge;
+    // private float maxHp, curHp;
+    private bool isDodging, isPlayingDodge, dead;
     float dmgFrameCnt = 0;
 
     void Start()
     {
-        maxHp = 100;
+        maxHp = 1000;
         hpSys = new HealthSystem(maxHp);
     }
     //variables of player's attribute/status
@@ -29,30 +33,52 @@ public class PlayerBehaviour : MonoBehaviour
     }
     public void damage(int val)
     {
+        Debug.Log("color changed");
+        playerSprite.color = new Color(1f, 0.411f, 0.411f, 1f);
+        float dmgTimer = 0.3f;
+        FunctionUpdater.Create(() =>
+        {
+            dmgTimer -= Time.deltaTime;
+            if (dmgTimer <= 0)
+            {
+                playerSprite.color = new Color(1f,1f, 1f, 1f);
+                return true;
+            }
+            return false;
+
+        });
         hpSys.Damage(val);
     }
 
     private void manageAnimation()
     {
-
-        //dodging animation
-        /*
-         * if (isDodging)
+        if (hpSys.GetHealth() == 0 && !dead)
         {
-            transform.localScale = new Vector3(0.3f, 0.3f, 1);
-            if (isPlayingDodge) return;
-            else
-            {
-                isPlayingDodge = true;
-                playerAnim.Play("dodgingHorizontal");
-                return;
-            }
-            
+            gun.die();
+            movement.enabled = false;
+            gun.enabled = false;
+            playerAnim.Play("playerDead");
+            dead = true;
         }
-         */
+        if (hpSys.GetHealth() == 0) return;
+        //dodging animation
+            /*
+             * if (isDodging)
+            {
+                transform.localScale = new Vector3(0.3f, 0.3f, 1);
+                if (isPlayingDodge) return;
+                else
+                {
+                    isPlayingDodge = true;
+                    playerAnim.Play("dodgingHorizontal");
+                    return;
+                }
 
-        // idle animation
-        if (angle>45 && angle < 135)
+            }
+             */
+
+            // idle animation
+            if (angle>45 && angle < 135)
         {
             if (vertiMove == 0 && horiMove == 0) playerAnim.Play("IdleUp");
             else playerAnim.Play("runUp");

@@ -12,10 +12,14 @@ public class gunBehaviour : MonoBehaviour
     public UnityEngine.UI.Text ammoCount; 
     private Animator gunAnim;
     private Vector3 fromPos;
-   
     private List<int> megazines, megazinesBullet;
     private int curBullet, curMegazine;
     private float bulletSpeed = 600;
+    public void die()
+    {
+        transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
+        aimTrans.eulerAngles = new Vector3(0, 0, -90);
+    }
     // Update is called once per frame
     private void Start()
     {
@@ -32,7 +36,6 @@ public class gunBehaviour : MonoBehaviour
     
     public void createWeaponTracer(Vector3 toPos)
     {
-        Debug.Log("created weapon tracer");
         gunAnim.Play("handGunFiring");
         Vector3 dir = (toPos - fromPos).normalized;
         float eulerZ = UtilsClass.GetAngleFromVectorFloat(dir) - 90;
@@ -40,7 +43,7 @@ public class gunBehaviour : MonoBehaviour
         Vector3 tracerSpawnPos = fromPos + dir * distance * 0.5f;
         World_Mesh worldMesh = World_Mesh.Create(tracerSpawnPos, eulerZ, 6f, distance, weaponTracerMaterial, null, 1000);
         worldMesh.SetSortingLayerName("Non_background_layer1");
-        worldMesh.SetSortingOrder(5);
+        worldMesh.SetSortingOrder(3);
         float timer = 0.1f;
         FunctionUpdater.Create(() =>
         {

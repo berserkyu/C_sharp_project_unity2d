@@ -11,6 +11,10 @@ public class bossAnimation : MonoBehaviour
     {
         
     }
+    public void die()
+    {
+
+    }
 
     // Update is called once per frame
     void Update()

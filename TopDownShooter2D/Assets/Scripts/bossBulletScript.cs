@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bossBulletScript : MonoBehaviour
 {
-    private int dmg = 3;
+    private int dmg = 20;
     // Start is called before the first frame update
     void Start()
     {
