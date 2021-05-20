@@ -76,6 +76,7 @@
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\enemyBattle.cs" />
      <Compile Include="Assets\Scripts\bulletBehaviour.cs" />
+     <Compile Include="Assets\Scripts\magicBallScript.cs" />
      <Compile Include="Assets\Scripts\bossAnimation.cs" />
      <Compile Include="Assets\Scripts\bossBulletScript.cs" />
      <Compile Include="Assets\Scripts\Key.cs" />

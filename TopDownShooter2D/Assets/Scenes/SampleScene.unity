@@ -236,6 +236,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &163685695 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8637723536550645225, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
+  m_PrefabInstance: {fileID: 2110242220}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4ce174a77449e41951a0306ead0eed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &539909751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3839,6 +3850,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9025643998089537394, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
   m_PrefabInstance: {fileID: 2110242220}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1135294635 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 9025643997049860547, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
+  m_PrefabInstance: {fileID: 2110242220}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1290235733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4039,6 +4055,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9025643997049860551, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 163685695}
+    - target: {fileID: 9025643997049860551, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
+      propertyPath: movement
+      value: 
+      objectReference: {fileID: 921001519}
+    - target: {fileID: 9025643997049860551, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
+      propertyPath: playerSprite
+      value: 
+      objectReference: {fileID: 1135294635}
     - target: {fileID: 9025643998089537392, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
       propertyPath: uiInventory
       value: 
