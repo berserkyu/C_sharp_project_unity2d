@@ -41,11 +41,11 @@ public class bossAim : MonoBehaviour
         transform.eulerAngles = new Vector3(0, 0, angle);
         if (angle < 135 && angle > 45)
         {
-            transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 0;
+            transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 3;
         }
         else
         {
-            transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
+            transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
         }
         if (angle > 90 || angle < -90)
         {
@@ -57,7 +57,7 @@ public class bossAim : MonoBehaviour
         }
         shootCnt += Time.deltaTime;
         skillCnt += Time.deltaTime;
-        if (skillCnt >= 3)
+        if (skillCnt >= 2)
         {
             castBallSkill();
             skillCnt = 0;

@@ -9,34 +9,54 @@ public class gunBehaviour : MonoBehaviour
     [SerializeField] private Material weaponTracerMaterial;
     [SerializeField] private Transform aimTrans, FirePointTrans;
     [SerializeField] private GameObject Bullet;
-    public UnityEngine.UI.Text ammoCount; 
+    [SerializeField] private int weaponType , megazinesNo, singleMegazineBullet;
+    public UnityEngine.UI.Text ammoCount;
+    private bool canShootThisFrame = true;
     private Animator gunAnim;
     private Vector3 fromPos;
-    private List<int> megazines, megazinesBullet;
-    private int curBullet, curMegazine;
+    private int curBullet;
     private float bulletSpeed = 600;
+    private float autoWeaponCounter = 0f;
+
     public void die()
     {
         transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
         aimTrans.eulerAngles = new Vector3(0, 0, -90);
     }
+    public void canShoot(bool val)
+    {
+        canShootThisFrame = val;
+    }
     // Update is called once per frame
     private void Start()
     {
         gunAnim = transform.GetChild(0).GetComponent<Animator>();
-        curMegazine = 0;
-        curBullet = 10;
-        megazines = new List<int>();
-        megazinesBullet = new List<int>();
-        megazinesBullet.Add(10);
-        megazines.Add(100);
+        gunAnim.Play("gunHolding");
+        curBullet = singleMegazineBullet;
     }
-
-
+    private void handGunFiring(Vector3 aimDir)
+    {
+        GameObject new_bullet = Instantiate(Bullet, FirePointTrans.position, FirePointTrans.rotation);
+        float shootingAngle = Mathf.Atan2(aimDir.y, aimDir.x);
+        new_bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(bulletSpeed * Mathf.Cos(shootingAngle), bulletSpeed * Mathf.Sin(shootingAngle));
+        new_bullet.GetComponent<bulletBehaviour>()?.setGunBehaviour(this);
+    }
+    private void shotGunFiring(Vector3 aimDir)
+    {
+        GameObject[] new_bullets = new GameObject[3];
+        float diviationAngle = (10f/180f)*Mathf.PI;
+        for(int i = 0; i < 3; i++)
+        {
+            new_bullets[i] = Instantiate(Bullet, FirePointTrans.position, FirePointTrans.rotation);
+            float shootingAngle = Mathf.Atan2(aimDir.y, aimDir.x) + (i-1)*diviationAngle;
+            new_bullets[i].GetComponent<Rigidbody2D>().velocity = new Vector2(bulletSpeed * Mathf.Cos(shootingAngle), bulletSpeed * Mathf.Sin(shootingAngle));
+            new_bullets[i].GetComponent<bulletBehaviour>()?.setGunBehaviour(this);
+        }
+    }
     
     public void createWeaponTracer(Vector3 toPos)
     {
-        gunAnim.Play("handGunFiring");
+       
         Vector3 dir = (toPos - fromPos).normalized;
         float eulerZ = UtilsClass.GetAngleFromVectorFloat(dir) - 90;
         float distance = Vector3.Distance(fromPos, toPos);
@@ -44,28 +64,29 @@ public class gunBehaviour : MonoBehaviour
         World_Mesh worldMesh = World_Mesh.Create(tracerSpawnPos, eulerZ, 6f, distance, weaponTracerMaterial, null, 1000);
         worldMesh.SetSortingLayerName("Non_background_layer1");
         worldMesh.SetSortingOrder(3);
-        float timer = 0.1f;
+        float timer = 0.075f;
         FunctionUpdater.Create(() =>
         {
             timer -= Time.deltaTime;
             if (timer <= 0)
             {
-                gunAnim.Play("handGunHolding");
+                if (gameObject.activeSelf) gunAnim.Play("gunHolding");
                 worldMesh.DestroySelf();
                 return true;
             }
             return false;
         });
     }
-    private void manageGunBehaviour()
+
+    private void manageGunAimingPosition(ref Vector3 aimDir)
     {
         //manage gun aiming position
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos = new Vector3(mousePos.x, mousePos.y, 0);
-        Vector3 aimDir = (mousePos - aimTrans.position).normalized;
+        aimDir = (mousePos - aimTrans.position).normalized;
         float angle = Mathf.Atan2(aimDir.y, aimDir.x) * 180 / Mathf.PI;
         aimTrans.eulerAngles = new Vector3(0, 0, angle);
-        if(angle <135 && angle > 45)
+        if (angle < 135 && angle > 45)
         {
             transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 2;
         }
@@ -81,34 +102,46 @@ public class gunBehaviour : MonoBehaviour
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
-        //control gun firing
-        if (Input.GetMouseButtonDown(0) && curBullet >  0)
+    }
+
+    private void manageGunBehaviour()
+    {
+        Vector3 aimDir = new Vector3();
+        autoWeaponCounter += Time.deltaTime;
+        manageGunAimingPosition(ref aimDir);
+        if (!canShootThisFrame)
         {
-                     
-            GameObject new_bullet = Instantiate(Bullet, FirePointTrans.position, FirePointTrans.rotation);
-            float shootingAngle = Mathf.Atan2(aimDir.y,aimDir.x);
-            new_bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(bulletSpeed * Mathf.Cos(shootingAngle), bulletSpeed * Mathf.Sin(shootingAngle));
-            new_bullet.GetComponent<bulletBehaviour>()?.setGunBehaviour(this);
+            canShootThisFrame = true;
+            gunAnim.Play("gunHolding");
+            return;
+        }
+        //control gun firing
+        if(weaponType==3 && Input.GetMouseButton(0) && curBullet > 0 && autoWeaponCounter>0.1)
+        {
+            gunAnim.Play("gunFiring");
+            handGunFiring(aimDir);
+            autoWeaponCounter = 0f;
             curBullet--;
         }
-        //reload
-        if (Input.GetKeyDown(KeyCode.R))
+        else if (weaponType!=3 && Input.GetMouseButtonDown(0) && curBullet >  0)
         {
-            if (megazines[curMegazine] < megazinesBullet[curMegazine])
-            {
-                curBullet = megazines[curMegazine];
-                megazines[curMegazine] = 0;
-            }
-            else
-            {
-                curBullet = 10;
-                megazines[curMegazine] -= megazinesBullet[curMegazine];
-            }
+            gunAnim.Play("gunFiring");
+            if (weaponType == 2) shotGunFiring(aimDir);
+            else handGunFiring(aimDir);
+            curBullet--;
+        }
+        
+        
+        //reload
+        if (Input.GetKeyDown(KeyCode.R) && megazinesNo>0)
+        {
+            curBullet = singleMegazineBullet;
+            megazinesNo--;
         }
     }
     void Update()
     {
-        fromPos = FirePointTrans.position;
         manageGunBehaviour();
+        fromPos = FirePointTrans.position;
     }
 }

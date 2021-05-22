@@ -16,7 +16,6 @@ public class playerMovement : MonoBehaviour
     private float horiMove, vertiMove;
     private Inventory inventory;
     public static playerMovement instance;
-
     void Awake()
     {
         if (instance == null)

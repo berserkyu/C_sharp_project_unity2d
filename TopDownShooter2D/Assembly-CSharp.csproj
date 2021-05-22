@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\magicBallScript.cs" />
      <Compile Include="Assets\Scripts\bossAnimation.cs" />
      <Compile Include="Assets\Scripts\bossBulletScript.cs" />
+     <Compile Include="Assets\weaponsManager.cs" />
      <Compile Include="Assets\Scripts\Key.cs" />
      <Compile Include="Assets\Scripts\ItemWorldSpawner.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_BarMultiple.cs" />

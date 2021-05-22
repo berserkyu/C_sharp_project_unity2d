@@ -13,9 +13,8 @@ public class bulletBehaviour : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D obj)
-    {
-        //Debug.Log("Bullet hit"+obj.collider.name);
-        obj.gameObject.GetComponent<enemyBattle>()?.damage(dmg);
+    { 
+        obj.gameObject.GetComponent<enemyBattle>()?.damage(dmg); 
         gun.createWeaponTracer(transform.position);
         Destroy(gameObject);
 
