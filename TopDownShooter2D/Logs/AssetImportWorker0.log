@@ -1,83 +1,588 @@
 Using pre-set license
-Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16303 MB
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.985; Version 2009; 64bit' Language: 'zh' Physical Memory: 8111 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Schooool/大二下/C#/大作业/ActualProject/TopDownShooter2D
+C:/Users/mengh/Desktop/github123/C_sharp_project_unity2d/TopDownShooter2D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7939
-Successfully changed project path to: D:/Schooool/大二下/C#/大作业/ActualProject/TopDownShooter2D
-D:/Schooool/大二下/C#/大作业/ActualProject/TopDownShooter2D
+58370
+Successfully changed project path to: C:/Users/mengh/Desktop/github123/C_sharp_project_unity2d/TopDownShooter2D
+C:/Users/mengh/Desktop/github123/C_sharp_project_unity2d/TopDownShooter2D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.0f1 (3721df5a8b28)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Schooool/大二下/C#/大作业/ActualProject/TopDownShooter2D/Assets
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mengh/Desktop/github123/C_sharp_project_unity2d/TopDownShooter2D/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   25.21.14.1798
+    VRAM:     4021 MB
+    Driver:   24.21.13.9901
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001656 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003930 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.03 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 83.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
+- Completed reload, in  1.970 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003477 seconds.
+Registered in 0.011827 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.98 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 169.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
+- Completed reload, in  2.506 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1864 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.0 MB.
-System memory in use after: 87.1 MB.
+Unloading 1865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2340.
-Total: 1.766500 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.061800 ms MarkObjects: 1.499100 ms  DeleteObjects: 0.049300 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 2.204500 ms (FindLiveObjects: 0.356700 ms CreateObjectMapping: 0.136700 ms MarkObjects: 1.642200 ms  DeleteObjects: 0.067800 ms)
 
 ========================================================================
 Received Import Request.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e904b4ee455e53f45f4617f463de1136') in 0.022430 seconds
-  Import took 0.025004 seconds .
+  path: Assets/Sprites/SpriteResource/动画素材/Black_Red_Yellow_Green.png
+  artifactKey: Guid(18dbeb6646b724042898e2c455073547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Black_Red_Yellow_Green.png using Guid(18dbeb6646b724042898e2c455073547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84deafb001d383a426534ce864bab462') in 0.239622 seconds
+  Import took 0.246043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/BossSword.png
+  artifactKey: Guid(d40d9f1f277852647b20eeaac4829cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/BossSword.png using Guid(d40d9f1f277852647b20eeaac4829cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16d96b2cbcd6d21d3d91dae78783261') in 0.033397 seconds
+  Import took 0.038225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ShieldHexagons.png
+  artifactKey: Guid(ef158fd9884355f4481125513fd177b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ShieldHexagons.png using Guid(ef158fd9884355f4481125513fd177b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff67b2f47f8f7080945336c94b31f50') in 0.041744 seconds
+  Import took 0.051916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ShurikenEmission.png
+  artifactKey: Guid(7b58502cc978c0241aaf468e2e155f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ShurikenEmission.png using Guid(7b58502cc978c0241aaf468e2e155f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933c9014bc973de9fa993a71dd1ef50c') in 0.025893 seconds
+  Import took 0.031792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/item_1.png
+  artifactKey: Guid(9324edce106ef6b4e93282bad3fe2e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/item_1.png using Guid(9324edce106ef6b4e93282bad3fe2e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528585f2a0288be6fd033cf5016000d6') in 0.042031 seconds
+  Import took 0.054857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ShurikenWhite.png
+  artifactKey: Guid(35171f1ba65df9148ad2e6d60e3615a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ShurikenWhite.png using Guid(35171f1ba65df9148ad2e6d60e3615a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6657a8bf41a8db1b304e381b0c58ea2') in 0.047847 seconds
+  Import took 0.052757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/FriendlyMinionSpriteSheet.png
+  artifactKey: Guid(ac9033ffa2bee764b9b92aaf7235e35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/FriendlyMinionSpriteSheet.png using Guid(ac9033ffa2bee764b9b92aaf7235e35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcf2ca6effa7076f290b19ea3b3becb') in 0.021269 seconds
+  Import took 0.032068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/RifleIcon_256.png
+  artifactKey: Guid(9d925b43dc29587458c8370782e5a8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/RifleIcon_256.png using Guid(9d925b43dc29587458c8370782e5a8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c87a1a0ef90bf334cae2766bc6f404') in 0.036510 seconds
+  Import took 0.045767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ShieldTransformerDestroyed.png
+  artifactKey: Guid(ffc569d45bcb30e4d8b040ca858e44fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ShieldTransformerDestroyed.png using Guid(ffc569d45bcb30e4d8b040ca858e44fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80a38ffa8de30a430792ed4e259fc36') in 0.052263 seconds
+  Import took 0.059014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Damn Noisy Kids Atlas.png
+  artifactKey: Guid(767c4cbd40b02154da3d8341d7673901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Damn Noisy Kids Atlas.png using Guid(767c4cbd40b02154da3d8341d7673901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5c6041840603200735566dcce6e98d') in 0.043225 seconds
+  Import took 0.056046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/GradientVertical_2.png
+  artifactKey: Guid(2ce6bc237ca77db4eaa7ea19bbc179c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/GradientVertical_2.png using Guid(2ce6bc237ca77db4eaa7ea19bbc179c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7feed7eddf6ca5bbb8205a10fbb864fe') in 0.034636 seconds
+  Import took 0.044531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Heart_0.png
+  artifactKey: Guid(d79b275449f2cf94a8595b92df464035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Heart_0.png using Guid(d79b275449f2cf94a8595b92df464035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07066af5549caf915c6b599a8cc92b66') in 0.031817 seconds
+  Import took 0.042536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ManaPotion.png
+  artifactKey: Guid(a86284e80df6563449c0f86e790154c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ManaPotion.png using Guid(a86284e80df6563449c0f86e790154c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5074b5f1f34018f1dd308e550ad2231f') in 0.047089 seconds
+  Import took 0.053060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/MarineCompleteSpriteSheet_512.png
+  artifactKey: Guid(8399c2967ba5e3246824a39299b6ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/MarineCompleteSpriteSheet_512.png using Guid(8399c2967ba5e3246824a39299b6ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7c1a5734e341496b1d6ba3ca51d0ad') in 0.145598 seconds
+  Import took 0.152221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/MinionSpriteSheetV2_Yellow.png
+  artifactKey: Guid(018d0ed3e73948d42a6da79cb0156ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/MinionSpriteSheetV2_Yellow.png using Guid(018d0ed3e73948d42a6da79cb0156ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c9a0f75f862c90d6cc2178f71c8eaf') in 0.039427 seconds
+  Import took 0.052693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/CodeMonkeyLogo.png
+  artifactKey: Guid(85db56240d7015144a85ad432d8af7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/CodeMonkeyLogo.png using Guid(85db56240d7015144a85ad432d8af7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7d80d7760e74879b5a5f0c501a36e4') in 0.053833 seconds
+  Import took 0.059963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Key.png
+  artifactKey: Guid(2ef64b9c39516e849b57b351ed1292a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Key.png using Guid(2ef64b9c39516e849b57b351ed1292a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0449e5c5fc8185f18abc4eb9d16e396') in 0.024777 seconds
+  Import took 0.030995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ButtonBackground.png
+  artifactKey: Guid(d6a9eea0f59db6b48994e10e7c2cba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ButtonBackground.png using Guid(d6a9eea0f59db6b48994e10e7c2cba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca28f50afff346bf6a3f13ea9dc78444') in 0.027504 seconds
+  Import took 0.031797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/DoorKeyHole.png
+  artifactKey: Guid(f54b6f873605467418b3a0a0facaab3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/DoorKeyHole.png using Guid(f54b6f873605467418b3a0a0facaab3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2cf21ec0c7f750e2c061e0cd64c83c') in 0.047547 seconds
+  Import took 0.052382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/enemypicture.PNG
+  artifactKey: Guid(e6b7f7330c9a44e4283a51f1d5ace732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/enemypicture.PNG using Guid(e6b7f7330c9a44e4283a51f1d5ace732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d77a6500a01c129f0c81687bd93bf99') in 0.063204 seconds
+  Import took 0.069082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/DoorKeyHoleEmission.png
+  artifactKey: Guid(2fe29f908058b344cb5ca06471ecf848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/DoorKeyHoleEmission.png using Guid(2fe29f908058b344cb5ca06471ecf848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8488dfa711438ac76c5ba46805178fd7') in 0.049273 seconds
+  Import took 0.056462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/enemypicture.PNG
+  artifactKey: Guid(e6b7f7330c9a44e4283a51f1d5ace732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/enemypicture.PNG using Guid(e6b7f7330c9a44e4283a51f1d5ace732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d77a6500a01c129f0c81687bd93bf99') in 0.033524 seconds
+  Import took 0.040594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Pillar.png
+  artifactKey: Guid(fa3d18b687043764fbad16525cfa7b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Pillar.png using Guid(fa3d18b687043764fbad16525cfa7b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57763bacb2f444f2e3d6b1afc9e463e8') in 0.041897 seconds
+  Import took 0.050510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/KeyEmission.png
+  artifactKey: Guid(626bbd9b1296ae84c80456d567103074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/KeyEmission.png using Guid(626bbd9b1296ae84c80456d567103074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a21d36c90ee3eb946f6923d3be46cd') in 0.038951 seconds
+  Import took 0.047639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/FloorTile.png
+  artifactKey: Guid(1fb4694d77dabdf4d9bb3a8e7a232f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/FloorTile.png using Guid(1fb4694d77dabdf4d9bb3a8e7a232f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b214cfa6c4554675303f62a4548c2c') in 0.051272 seconds
+  Import took 0.063198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/GradientVertical.png
+  artifactKey: Guid(9a33d0498c6818f4fb62e41816b53dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/GradientVertical.png using Guid(9a33d0498c6818f4fb62e41816b53dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3311503f049c20409cc7b086d7ae01') in 0.038273 seconds
+  Import took 0.046271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Heart_1.png
+  artifactKey: Guid(a2ebabc977115034cad5391657232cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Heart_1.png using Guid(a2ebabc977115034cad5391657232cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c5c5d5d0c3544f9a8f76d150d15e46') in 0.025152 seconds
+  Import took 0.031744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Footprint.png
+  artifactKey: Guid(54d5cdf3e12580045b7f0f745a53fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Footprint.png using Guid(54d5cdf3e12580045b7f0f745a53fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd9ad8d6e1c9ec12a2815400e1cc959') in 0.047123 seconds
+  Import took 0.054191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Medkit.png
+  artifactKey: Guid(71a1a2382b23fc242961dc9120a38420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Medkit.png using Guid(71a1a2382b23fc242961dc9120a38420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c40d1a78bd57e88ba498593f5a236e7') in 0.025219 seconds
+  Import took 0.030059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Heart_3.png
+  artifactKey: Guid(6380adbcf2983264c9120ea6683c3127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Heart_3.png using Guid(6380adbcf2983264c9120ea6683c3127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dd64575aef6caf74c03138c2c85ae4') in 0.047321 seconds
+  Import took 0.053718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Gradient.png
+  artifactKey: Guid(418fcc14957a135409d837400a6a1b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Gradient.png using Guid(418fcc14957a135409d837400a6a1b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef8077f6960314b3fb3ceb74b036962') in 0.043084 seconds
+  Import took 0.059067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001281 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ImpactSpritesheet.png
+  artifactKey: Guid(2fe279a7630018c41a618744cf05a2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ImpactSpritesheet.png using Guid(2fe279a7630018c41a618744cf05a2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dd304b59b96d76a7e11ca3ddc5e3d7') in 0.031125 seconds
+  Import took 0.041517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/MuzzleFlash.png
+  artifactKey: Guid(0a6d3d660e3b326408e39ff77cf84d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/MuzzleFlash.png using Guid(0a6d3d660e3b326408e39ff77cf84d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8703bb40887b461bb2db963a4f9fe689') in 0.037713 seconds
+  Import took 0.048176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Shoot_Flash.png
+  artifactKey: Guid(f3b31322329e04a4bbe0ac4c69787163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Shoot_Flash.png using Guid(f3b31322329e04a4bbe0ac4c69787163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39272af1fb1c87a95e27e0e587357e97') in 0.044743 seconds
+  Import took 0.059953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Door.png
+  artifactKey: Guid(bdfd1f22e5eb80646831d62b77ed1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Door.png using Guid(bdfd1f22e5eb80646831d62b77ed1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126d37a84d0fc5183ad59c16c28e1a36') in 0.042102 seconds
+  Import took 0.048049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ShieldTransformer.png
+  artifactKey: Guid(ff77cda21d14e2b4f8b01a6d1516b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ShieldTransformer.png using Guid(ff77cda21d14e2b4f8b01a6d1516b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad83745539e972314cda40f32b7b6820') in 0.045293 seconds
+  Import took 0.054598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Heart_4.png
+  artifactKey: Guid(90f9dd2d821256c46baeb428e5defcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Heart_4.png using Guid(90f9dd2d821256c46baeb428e5defcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477950fdac7866a803d3be5bafa1fb84') in 0.029274 seconds
+  Import took 0.042148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ShieldHexagonsEmission.png
+  artifactKey: Guid(0492607a4e93b0c4ba41422a1754f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ShieldHexagonsEmission.png using Guid(0492607a4e93b0c4ba41422a1754f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af96bcd26b11d4804ce2ba5b066d06de') in 0.050084 seconds
+  Import took 0.054809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/EnemyMinionSpriteSheet.png
+  artifactKey: Guid(9689987c9569c0a4fa94d26a99d27ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/EnemyMinionSpriteSheet.png using Guid(9689987c9569c0a4fa94d26a99d27ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01eb42cdb4b7d5a1e1a629e90dd3418') in 0.049340 seconds
+  Import took 0.058262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/MinionSpriteSheetV2.png
+  artifactKey: Guid(7a1a8476a787dc441975c2bdbcba604d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/MinionSpriteSheetV2.png using Guid(7a1a8476a787dc441975c2bdbcba604d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428b7e3bae152454fbe662b7a724845e') in 0.046975 seconds
+  Import took 0.059733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/DoorEmission.png
+  artifactKey: Guid(325ed0d70c538f648884fac889c480b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/DoorEmission.png using Guid(325ed0d70c538f648884fac889c480b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61cee92116b1230d5f271cc8de71054') in 0.026309 seconds
+  Import took 0.035175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/HealthPotion.png
+  artifactKey: Guid(fade877626895334d982d5f8f0f1e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/HealthPotion.png using Guid(fade877626895334d982d5f8f0f1e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba70a2ae6b87b4dc659b1a34bb05a0d') in 0.075104 seconds
+  Import took 0.108729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/EnemyDeadBody.png
+  artifactKey: Guid(89e720e97190a7c4ca4a6262f6a665f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/EnemyDeadBody.png using Guid(89e720e97190a7c4ca4a6262f6a665f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43407e040c8a05152fedaa0cade59f5') in 0.061647 seconds
+  Import took 0.070697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/ShieldTransformerEmission.png
+  artifactKey: Guid(74436542f659e8f4fa6ebb3567647f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/ShieldTransformerEmission.png using Guid(74436542f659e8f4fa6ebb3567647f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad00381d734a978aa212ee3d5f0e89e9') in 0.030945 seconds
+  Import took 0.042571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Shadow.png
+  artifactKey: Guid(1a5a1d14c7b32144593f88fbaddad8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Shadow.png using Guid(1a5a1d14c7b32144593f88fbaddad8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8da42a10bd852b6d516dcf812d3c97') in 0.037254 seconds
+  Import took 0.054620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/HealthIcon.png
+  artifactKey: Guid(297e2e1673ddb4241addf9364e375e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/HealthIcon.png using Guid(297e2e1673ddb4241addf9364e375e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b76e44d178732b1909d2e3eac1250e') in 0.055384 seconds
+  Import took 0.070757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/Heart_2.png
+  artifactKey: Guid(0ac0f6febcff1f641bb5ac338d12bdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/Heart_2.png using Guid(0ac0f6febcff1f641bb5ac338d12bdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10b039db6cbc8c7d40456c6d662050e') in 0.027420 seconds
+  Import took 0.040203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Sprites/SpriteResource/动画素材/MinionSpriteSheetV2_Red.png
+  artifactKey: Guid(3075da35d8e940243a98dd634febfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/动画素材/MinionSpriteSheetV2_Red.png using Guid(3075da35d8e940243a98dd634febfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249fbf4dfc90334429aa8df136ace303') in 0.035546 seconds
+  Import took 0.046616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.500442 seconds.
+  path: Assets/Sprites/TileSetSprites/character and tileset/Dungeon_Tileset.png
+  artifactKey: Guid(8a137b9dc366f3b4a9631ddbf7e8ff32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSetSprites/character and tileset/Dungeon_Tileset.png using Guid(8a137b9dc366f3b4a9631ddbf7e8ff32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510fbe91e0e618329cbb577334217850') in 0.389142 seconds
+  Import took 0.401746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sprites/TileSetSprites/items and trap_animation/flag/flag_1.png
+  artifactKey: Guid(8380ab9be0334774980e4dcd5f6f2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSetSprites/items and trap_animation/flag/flag_1.png using Guid(8380ab9be0334774980e4dcd5f6f2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a39710581d572a8e94b1ccdf35da53') in 0.057127 seconds
+  Import took 0.068526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Sprites/TileSetSprites/character and tileset/Dungeon_Tileset.png
+  artifactKey: Guid(8a137b9dc366f3b4a9631ddbf7e8ff32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSetSprites/character and tileset/Dungeon_Tileset.png using Guid(8a137b9dc366f3b4a9631ddbf7e8ff32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510fbe91e0e618329cbb577334217850') in 0.420240 seconds
+  Import took 0.425971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/TileSetSprites/items and trap_animation/flag/flag_1.png
+  artifactKey: Guid(8380ab9be0334774980e4dcd5f6f2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSetSprites/items and trap_animation/flag/flag_1.png using Guid(8380ab9be0334774980e4dcd5f6f2cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a39710581d572a8e94b1ccdf35da53') in 0.008831 seconds
+  Import took 0.017579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Sprites/TileSetSprites/items and trap_animation/flag/flag_2.png
+  artifactKey: Guid(ec33acce3acb7c4489d21aab45ed5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSetSprites/items and trap_animation/flag/flag_2.png using Guid(ec33acce3acb7c4489d21aab45ed5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bd73a7f6562f8f154d78d4b7022b23') in 0.032575 seconds
+  Import took 0.041744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Sprites/TileSetSprites/items and trap_animation/flag/flag_3.png
+  artifactKey: Guid(7dd9eea869234ae4eaec5d822af35acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileSetSprites/items and trap_animation/flag/flag_3.png using Guid(7dd9eea869234ae4eaec5d822af35acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0cf2f85870325add6e441cca6faa51') in 0.040030 seconds
+  Import took 0.050157 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.802 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1855 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2403.
+Total: 5.771500 ms (FindLiveObjects: 1.397100 ms CreateObjectMapping: 0.291000 ms MarkObjects: 3.988900 ms  DeleteObjects: 0.091700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.572 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1855 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2407.
+Total: 3.230800 ms (FindLiveObjects: 0.394600 ms CreateObjectMapping: 0.167900 ms MarkObjects: 2.639000 ms  DeleteObjects: 0.027400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1855 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2411.
+Total: 3.603600 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.160200 ms MarkObjects: 3.004700 ms  DeleteObjects: 0.052100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.708 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2416.
+Total: 2.825000 ms (FindLiveObjects: 0.436700 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.198800 ms  DeleteObjects: 0.034500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

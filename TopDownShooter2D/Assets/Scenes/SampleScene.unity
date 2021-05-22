@@ -3852,6 +3852,8 @@ GameObject:
   - component: {fileID: 1290235735}
   - component: {fileID: 1290235738}
   - component: {fileID: 1290235737}
+  - component: {fileID: 1290235740}
+  - component: {fileID: 1290235739}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Untagged
@@ -3867,8 +3869,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290235733}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.34, y: 2.17, z: 57.2456}
-  m_LocalScale: {x: 0.52538186, y: 0.52538186, z: 0.52538186}
+  m_LocalPosition: {x: 16.83, y: -1.7, z: 57.2456}
+  m_LocalScale: {x: 1.3079382, y: 1.3079382, z: 1.3079382}
   m_Children: []
   m_Father: {fileID: 127406658}
   m_RootOrder: 0
@@ -3928,7 +3930,7 @@ SpriteRenderer:
   m_SortingLayerID: 970201079
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: af9ecb19c1ff3bc48ab4c39fc85b03e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e6b7f7330c9a44e4283a51f1d5ace732, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3973,19 +3975,43 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.018147111, y: 0.24587953}
+  m_Offset: {x: -0.026802838, y: -0.2395854}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.02, y: 3.34}
+    oldSize: {x: 1.75, y: 1.55}
     newSize: {x: 2.02, y: 3.34}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6770742, y: 1.9482362}
+  m_Size: {x: 1.1265787, y: 0.97730637}
   m_EdgeRadius: 0
+--- !u!114 &1290235739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290235733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc4395d1972b014dbccb949b5a34b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1290235740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290235733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6097ff04b7e13434085cced04261da08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1653905954
 GameObject:
   m_ObjectHideFlags: 0

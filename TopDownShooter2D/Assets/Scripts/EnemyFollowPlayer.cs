@@ -6,11 +6,12 @@ public class EnemyFollowPlayer : MonoBehaviour
 {
     public float speed;
     public float lineOfSite;
+    private Rigidbody2D rb;
     private Transform player;
     public HealthBar healthBar;
     public HealthSystem healthSystem;
     private int damageVal;
-    
+
 
     void Start()
     {
@@ -18,15 +19,20 @@ public class EnemyFollowPlayer : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         HealthSystem healthSystem = new HealthSystem(100);
         healthBar.Setup(healthSystem);
+        rb = this.GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-        if (distanceFromPlayer < lineOfSite) 
+        if (distanceFromPlayer < lineOfSite)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
         }
+
+        Vector3 direction = player.position - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        rb.rotation = angle;
     }
 
     private void OnDrawGizmosSelected()
