@@ -23,6 +23,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 40;
         maxHp = 1000;
         hpSys = new HealthSystem(maxHp);
     }

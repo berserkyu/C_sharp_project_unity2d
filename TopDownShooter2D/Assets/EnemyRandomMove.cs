@@ -4,31 +4,65 @@ using UnityEngine;
 
 public class EnemyRandomMove : MonoBehaviour
 {
+    [SerializeField] Rigidbody2D rb;
     private EnemyPathfindingMovement pathfindingMovement;
     private Vector3 startPosition;
     private Vector3 roamPosition;
-
-    private void Awake()
+    private float randomMovementFrameCounter = 4f,movingSpeed = 3f;
+    private float distance = 10f;
+    
+    public void randomMoveUpdate()
     {
-        pathfindingMovement = GetComponent<EnemyPathfindMovement>();
+        randomMovementFrameCounter += Time.deltaTime;
+        if (randomMovementFrameCounter >= 1.5)
+        {
+            Vector3 curPosition = rb.position;
+            float turningAngle = Random.Range(0, 359);
+            turningAngle = (turningAngle/180)*Mathf.PI;
+            Vector3 targetPosition = new Vector3(curPosition.x + distance *Mathf.Cos(turningAngle), curPosition.y +distance* Mathf.Sin(turningAngle), curPosition.z);
+            Vector3 dir = (targetPosition - curPosition).normalized;
+            rb.velocity = dir * movingSpeed;
+            
+            randomMovementFrameCounter = 0f;
+        }
+    }
+    public void resetRandomMoveFrameCnt()
+    {
+        randomMovementFrameCounter = 0;
+    }
+    /*
+     private void Awake()
+    {
+        pathfindingMovement = GetComponent<EnemyPathfindingMovement>();
     }
     private void Start()
     {
         startPosition = transform.position;
-        roamPosition = GetRoamingPosition;
+        roamPosition = GetRoamingPosition();
     }
-
-    private void Update()
+     private void Update()
     {
+        //moveToTimer?
         pathfindingMovement.MoveTo(roamPosition);
         float reachedPositionDistance = 1f;
         if (Vector3.Distance(transform.position, roamPosition) < reachedPositionDistance)
         {
-            roamPosition = GetRandomPosition();
+            roamPosition = GetRoamingPosition();
         }
     }
-    private Vector3 GetRandomPosition()
+
+    private Vector3 GetRandomDir()
     {
-        return startingPosition + GetRandomDir() * Random.Range(10f, 70f);
+        return new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f),0);
     }
+    private Vector3 GetRoamingPosition()
+    {
+        //random dir ?
+        return startPosition + GetRandomDir() * Random.Range(10f, 70f);
+    }
+    */
 }
+     
+     
+
+    

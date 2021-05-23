@@ -4,20 +4,28 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
+    //道具的UI
     [SerializeField] private UI_Inventory uiInventory;
-    public UnityEngine.UI.Text hpText, staminaTxt;
+    //移动参数
     private float walkingSpeed = 5, runningSpeed = 60, dodgingSpeed = 10, dodgeFrameCounter = 0;
-    private float bulletSpeed = 200, playerAttackPoint = 10;
+    //当前Hp,耐力值
     private float hp, stamina;
+    //最大hp,耐力值
     private static float maxStamina = 100000, maxHp = 100;
     private Animator playerAnim;
+    //当前是否正在躲闪
     public static bool isDodging = false;
+
     public Rigidbody2D rb;
     private float horiMove, vertiMove;
     private Inventory inventory;
+    //单例模式的实例
     public static playerMovement instance;
+
+
     void Awake()
     {
+        //单例模式：一个场景里同时只允许一个playerObject的存在，并且从始至终都是同一个实例
         if (instance == null)
         {
             instance = this;
@@ -29,6 +37,7 @@ public class playerMovement : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+        //?
         DontDestroyOnLoad(gameObject);
     }
 
@@ -45,10 +54,12 @@ public class playerMovement : MonoBehaviour
     }
     private void manageMovement()
     {
+        //若键盘接收到移动命令
         horiMove = Input.GetAxis("Horizontal");
         vertiMove = Input.GetAxis("Vertical");
-
+        //当前速度
         float curSpeed = walkingSpeed;
+        //若是正在奔跑，则加速，减少耐力
         if (Input.GetButton("Run") && stamina > 1)
         {
             curSpeed = runningSpeed;

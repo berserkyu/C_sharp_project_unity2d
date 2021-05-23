@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-05-23T01:12:26.567+08:00
-  initializedAtString: 2021-05-23T01:12:26.567+08:00
+  lastUpdatedAtString: 2021-05-23T17:09:07.339+08:00
+  initializedAtString: 2021-05-23T14:02:25.363+08:00
   currentGitRemote:
     name: origin
-    url: https://github.com/berserkyu/C_sharp_project_unity2d.git
+    url: git@github.com:berserkyu/C_sharp_project_unity2d.git
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: Dev
     remote:
       name: origin
-      url: https://github.com/berserkyu/C_sharp_project_unity2d.git
+      url: git@github.com:berserkyu/C_sharp_project_unity2d.git
     trackingBranch: Dev
   currentConfigRemote:
     name: origin
-    url: https://github.com/berserkyu/C_sharp_project_unity2d.git
+    url: git@github.com:berserkyu/C_sharp_project_unity2d.git
   currentHead: 

@@ -1,37 +1,90 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using CodeMonkey;
+using CodeMonkey.Utils;
 
 public class EnemyPathfindingMovement : MonoBehaviour
 {
-
+    
     private const float SPEED = 30f;
-
-    private EnemyMain enemyMain;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Collider2D col2dTile;
+    private float movingSpeed = 5;
+    [SerializeField] private Transform playerTrans;
     private List<Vector3> pathVectorList;
+    private List<List<int>> directions;
     private int currentPathIndex;
     private float pathfindingTimer;
     private Vector3 moveDir;
     private Vector3 lastMoveDir;
-
-    private void Awake()
+    private System.Random rand;
+    private DequeVector3 dq;
+    void Awake()
     {
-        enemyMain = GetComponent<EnemyMain>();
+        //dq = new DequeVector3(60);
+        int r = 5;
+        rand = new System.Random();
+        directions = new List<List<int>>();
+              //{deltaX,deltaY}:上        下         左         右         右上       左上      右下          左下
+        int[,] t = new int[,]{ { 0, r }, { 0, -r }, { -r, 0 }, { r, 0 }, { r, r }, { -r, r }, { r, -r }, { -r, -r } };
+        for(int i = 0; i < 8; i++)
+        {
+            List<int> temp = new List<int>();
+            Debug.Log(t[i, 0]);
+            Debug.Log(t[i, 1]);
+            temp.Add(t[i, 0]);
+            temp.Add(t[i, 1]);
+            directions.Add(temp);
+        }
     }
-
     private void Update()
     {
-        pathfindingTimer -= Time.deltaTime;
-
-        HandleMovement();
+       // pathfindingTimer -= Time.deltaTime;
+        //HandleMovement();
     }
 
     private void FixedUpdate()
     {
-        enemyMain.EnemyRigidbody2D.velocity = moveDir * SPEED;
+        //rb.velocity = moveDir * SPEED;
     }
+    //使用贪心算法的寻路算法
+    public void greedyPathFindingUpdate()
+    {
+        RaycastHit2D hitPlayer = Physics2D.Linecast(rb.position, playerTrans.position);
+        if (hitPlayer.collider == null || hitPlayer.collider.gameObject.name=="Player")
+        {
+            transform.position = Vector2.MoveTowards(transform.position, playerTrans.position, movingSpeed * Time.deltaTime);
+            return;
+        }
+            
+        Vector3 curPos = rb.position;
+        int t = rand.Next(7);
+        List<int> dirToGo = directions[7];
+        float minDist = 100000f;
 
-    private void HandleMovement()
+        foreach(List<int> dir in directions)
+        {
+            Vector3 tempDir = new Vector3(curPos.x + dir[0], curPos.y + dir[1], curPos.z);
+            RaycastHit2D hit = Physics2D.Linecast(rb.position, tempDir);
+            if (hit.collider != null)
+            {
+                continue;
+            }
+            
+            if (Vector3.Distance(tempDir,playerTrans.position) < minDist)
+            {
+                dirToGo = dir;
+                minDist = Vector3.Distance(tempDir, playerTrans.position);
+            } 
+        }
+        Vector3 toGo = new Vector3(curPos.x + dirToGo[0], curPos.y + dirToGo[1], curPos.z);
+        Vector3 dirVecToGo = (toGo - curPos).normalized;
+        rb.velocity = dirVecToGo * movingSpeed;
+
+    }
+    /*
+     private void HandleMovement()
     {
         PrintPathfindingPath();
         if (pathVectorList != null)
@@ -42,7 +95,7 @@ public class EnemyPathfindingMovement : MonoBehaviour
             {
                 moveDir = (targetPosition - GetPosition()).normalized;
                 lastMoveDir = moveDir;
-                enemyMain.CharacterAnims.PlayMoveAnim(moveDir);
+                //enemyMain.CharacterAnims.PlayMoveAnim(moveDir);
             }
             else
             {
@@ -50,13 +103,13 @@ public class EnemyPathfindingMovement : MonoBehaviour
                 if (currentPathIndex >= pathVectorList.Count)
                 {
                     StopMoving();
-                    enemyMain.CharacterAnims.PlayIdleAnim();
+                   // enemyMain.CharacterAnims.PlayIdleAnim();
                 }
             }
         }
         else
         {
-            enemyMain.CharacterAnims.PlayIdleAnim();
+           // enemyMain.CharacterAnims.PlayIdleAnim();
         }
     }
 
@@ -93,7 +146,7 @@ public class EnemyPathfindingMovement : MonoBehaviour
     public void SetTargetPosition(Vector3 targetPosition)
     {
         currentPathIndex = 0;
-
+        //GridPathFinding??????
         pathVectorList = GridPathfinding.instance.GetPathRouteWithShortcuts(GetPosition(), targetPosition).pathVectorList;
         pathfindingTimer = .1f;
 
@@ -121,7 +174,11 @@ public class EnemyPathfindingMovement : MonoBehaviour
     public void Disable()
     {
         enabled = false;
-        enemyMain.EnemyRigidbody2D.velocity = Vector3.zero;
+        //enemy main ?????????
+        //enemyMain.EnemyRigidbody2D.velocity = Vector3.zero;
     }
+     
+     */
+
 
 }

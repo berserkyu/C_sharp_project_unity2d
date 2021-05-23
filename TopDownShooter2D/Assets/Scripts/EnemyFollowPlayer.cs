@@ -11,35 +11,51 @@ public class EnemyFollowPlayer : MonoBehaviour
     public HealthBar healthBar;
     public HealthSystem healthSystem;
     private int damageVal;
-
+    private EnemyPathfindingMovement pathfinding;
+    private EnemyRandomMove randMove;
+    private bool foundPlayer = false;
 
     void Start()
     {
+        pathfinding = GetComponent<EnemyPathfindingMovement>();
+        randMove = GetComponent<EnemyRandomMove>();
         damageVal = 10;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         HealthSystem healthSystem = new HealthSystem(100);
         healthBar.Setup(healthSystem);
         rb = this.GetComponent<Rigidbody2D>();
     }
-
-    void Update()
+    
+     void Update()
     {
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-        if (distanceFromPlayer < lineOfSite)
+        if (distanceFromPlayer < 10 || foundPlayer)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
+            foundPlayer = true;
+
+            pathfinding.greedyPathFindingUpdate();
+            //
         }
+        else 
+        {
+            if (distanceFromPlayer > 20) foundPlayer = false;
+            randMove.randomMoveUpdate();
+        }
+        
 
         Vector3 direction = player.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         rb.rotation = angle;
     }
-
-    private void OnDrawGizmosSelected()
+    /*
+     * private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, lineOfSite);
     }
+     */
+
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -48,6 +64,11 @@ public class EnemyFollowPlayer : MonoBehaviour
             if (gb == null) return;
             PlayerBehaviour pb = gb.GetComponent<PlayerBehaviour>();
             if (pb != null) pb.damage(damageVal);
+        }
+        else
+        {
+            randMove.resetRandomMoveFrameCnt();
+            randMove.randomMoveUpdate();
         }
     }
 
