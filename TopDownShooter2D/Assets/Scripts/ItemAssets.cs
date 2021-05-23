@@ -12,7 +12,7 @@ public class ItemAssets : MonoBehaviour
     }
 
     public Transform pfItemWorld;
-
+    public Sprite rifleSprite;
     public Sprite pistolSprite;
     public Sprite healthPotionSprite;
     public Sprite coinSprite;

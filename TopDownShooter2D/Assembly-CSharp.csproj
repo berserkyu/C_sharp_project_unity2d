@@ -58,6 +58,7 @@
      <Compile Include="Assets\spawnThings.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\Button_Sprite.cs" />
      <Compile Include="Assets\Scripts\bossAim.cs" />
+     <Compile Include="Assets\Scripts\DequeVector3.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UtilsClass.cs" />
      <Compile Include="Assets\Scripts\UI_Inventory.cs" />
      <Compile Include="Assets\Scripts\HealthSystem.cs" />

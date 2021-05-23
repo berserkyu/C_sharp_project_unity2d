@@ -4,21 +4,32 @@ using UnityEngine;
 
 public class weaponsManager : MonoBehaviour
 {
-    enum WeaponType { handGun, shotGun, rifle };
-    private WeaponType weaponType = WeaponType.handGun;
+    
+
     [SerializeField] private GameObject handGun, shotGun, rifle;
     private int[] noOfMegazines;
     private int[] bulletsOfSingleMegazine;
     private int curBulletLeft, curMegazineIndex;
+    private static bool[] canUseWeapon;
+    
+    public static void setWeaponAvailability(int type,bool val)
+    {
+        if (type < -1 || type > 3) return;
+        canUseWeapon[type] = val;
+    }
     // Start is called before the first frame update
     void Start()
     {
+        canUseWeapon = new bool[] { true, false, false };
         Physics.IgnoreLayerCollision(6, 6);
         curMegazineIndex = 0;
         shotGun.SetActive(false);
         rifle.SetActive(false);
     }
-
+    private void onWeapoonsGet(Item.ItemType type)
+    {
+        canUseWeapon[(type == Item.ItemType.Shotgun?0:1)] = true;
+    }
     private void manageWeaponSwitch()
     {
         if (Input.GetButtonDown("handGunSwitch"))
@@ -28,14 +39,14 @@ public class weaponsManager : MonoBehaviour
             shotGun.SetActive(false);
             rifle.SetActive(false);
         }
-        else if (Input.GetButtonDown("shotGunSwitch"))
+        else if (Input.GetButtonDown("shotGunSwitch") && canUseWeapon[1])
         {
             shotGun.SetActive(true);
             shotGun.GetComponent<gunBehaviour>()?.canShoot(false);
             handGun.SetActive(false);
             rifle.SetActive(false);
         }
-        else if (Input.GetButtonDown("rifleSwitch"))
+        else if (Input.GetButtonDown("rifleSwitch") && canUseWeapon[2])
         {
             rifle.SetActive(true);
             rifle.GetComponent<gunBehaviour>()?.canShoot(false);

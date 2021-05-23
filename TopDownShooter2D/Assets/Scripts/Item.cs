@@ -13,6 +13,7 @@ public class Item
         Medkit,
         Pistol,
         Shotgun,
+        Rifle,
         Bullet
     }
 
@@ -30,6 +31,11 @@ public class Item
             case ItemType.Pistol: return ItemAssets.Instance.pistolSprite;
             case ItemType.Shotgun: return ItemAssets.Instance.shotgunSprite;
             case ItemType.Bullet: return ItemAssets.Instance.bulletSprite;
+            case ItemType.Rifle: return ItemAssets.Instance.rifleSprite;
         }
+    }
+    public ItemType getType()
+    {
+        return item_Type;
     }
 }
