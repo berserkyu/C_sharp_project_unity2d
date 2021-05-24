@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\gunBehaviour.cs" />
      <Compile Include="Assets\EnemyShootFollowPlayer.cs" />
      <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
+     <Compile Include="Assets\bulletInstanceManager.cs" />
      <Compile Include="Assets\Scripts\ItemAssets.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_Bar.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />

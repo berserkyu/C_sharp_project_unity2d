@@ -30,6 +30,7 @@ namespace CodeMonkey.Utils {
         private Mesh mesh;
 
 
+
         public static World_Mesh Create(Vector3 position, float eulerZ, float meshWidth, float meshHeight, Material material, UVCoords uvCoords, int sortingOrderOffset = 0) {
             return new World_Mesh(null, position, Vector3.one, eulerZ, meshWidth, meshHeight, material, uvCoords, sortingOrderOffset);
         }
@@ -51,6 +52,11 @@ namespace CodeMonkey.Utils {
             return (int)(baseSortingOrder - position.y) + offset;
         }
 
+        public void setMaterialTransparency(float val)
+        {
+            Color c = material.color;
+            material.color = new Color(c.r, c.g, c.b, val);
+        }
 
         public class UVCoords {
             public int x, y, width, height;

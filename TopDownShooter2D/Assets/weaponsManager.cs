@@ -11,7 +11,7 @@ public class weaponsManager : MonoBehaviour
     private int[] bulletsOfSingleMegazine;
     private int curBulletLeft, curMegazineIndex;
     private static bool[] canUseWeapon;
-    
+
     public static void setWeaponAvailability(int type,bool val)
     {
         if (type < -1 || type > 3) return;
@@ -21,7 +21,7 @@ public class weaponsManager : MonoBehaviour
     void Start()
     {
         canUseWeapon = new bool[] { true, false, false };
-        Physics.IgnoreLayerCollision(6, 6);
+        Physics.IgnoreLayerCollision(6, 6,true);
         curMegazineIndex = 0;
         shotGun.SetActive(false);
         rifle.SetActive(false);
