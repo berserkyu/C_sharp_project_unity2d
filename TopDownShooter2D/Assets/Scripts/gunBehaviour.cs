@@ -9,9 +9,11 @@ public class gunBehaviour : MonoBehaviour
     [SerializeField] private Material weaponTracerMaterial;
     [SerializeField] private Transform aimTrans, FirePointTrans;
     [SerializeField] private int weaponType , megazinesNo, singleMegazineBullet;
-    [SerializeField] private AudioSource gunFireSound;
+    [SerializeField] private AudioSource gunFireSound,reloadSound;
+    [SerializeField] private AudioClip gunFire;
+    [SerializeField] private CameraShake cameraShake;
     
-    public UnityEngine.UI.Text ammoCount;
+    public UnityEngine.UI.Text ammoCount; 
     private bool canShootThisFrame = true;
     private Animator gunAnim;
     private Vector3 fromPos;
@@ -109,21 +111,26 @@ public class gunBehaviour : MonoBehaviour
 
     private void manageGunBehaviour()
     {
+        
         Vector3 aimDir = new Vector3();
         autoWeaponCounter += Time.deltaTime;
         manageGunAimingPosition(ref aimDir);
-        if (!canShootThisFrame || reloadingCounter<0.5)
+        if (reloadSound.isPlaying) return;
+        /*
+         * if (!canShootThisFrame || reloadingCounter<0.5)
         {
             reloadingCounter += Time.deltaTime;
             canShootThisFrame = true;
             gunAnim.Play("gunHolding");
             return;
         }
+         */
+
         //reload
         if (Input.GetKeyDown(KeyCode.R) && megazinesNo > 0)
         {
+            reloadSound.Play();
             gunFireSound.Stop();
-            reloadingCounter = 0;
             curBullet = singleMegazineBullet;
             megazinesNo--;
             canShootThisFrame = false;
@@ -132,23 +139,31 @@ public class gunBehaviour : MonoBehaviour
         //control gun firing
         //rifle firing
         //if out of bullets or stop shooting
-        if ((weaponType == 3 && !Input.GetMouseButton(0)) || curBullet == 0) gunFireSound.Stop();
-        if (weaponType==3 && Input.GetMouseButton(0) && curBullet > 0 && autoWeaponCounter>0.1)
+        if (weaponType == 3 && Input.GetMouseButton(0) && curBullet > 0 && autoWeaponCounter > 0.1)
         {
+            cameraShake.shakeCamera(0.1f, 0.1f);
             gunAnim.Play("gunFiring");
-            if(!gunFireSound.isPlaying) gunFireSound.Play();
+            gunFireSound.PlayOneShot(gunFire);
             handGunFiring(aimDir);
             autoWeaponCounter = 0f;
             curBullet--;
         }
-        else if (weaponType!=3 && Input.GetMouseButtonDown(0) && curBullet >  0)
+        else if (weaponType != 3 && Input.GetMouseButtonDown(0) && curBullet > 0)
         {
             gunAnim.Play("gunFiring");
-            gunFireSound.Play();
+            gunFireSound.PlayOneShot(gunFire);
+
             //shot gun firing
-            if (weaponType == 2) shotGunFiring(aimDir);
+            if (weaponType == 2) {
+                shotGunFiring(aimDir);
+                cameraShake.shakeCamera(0.1f, 0.3f);
+            }
             //hand gun firing 
-            else handGunFiring(aimDir);
+            else
+            {
+                handGunFiring(aimDir); 
+                cameraShake.shakeCamera(0.1f, 0.1f);
+            }
             curBullet--;
         }
         

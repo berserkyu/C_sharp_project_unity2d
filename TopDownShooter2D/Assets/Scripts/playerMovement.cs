@@ -69,15 +69,7 @@ public class playerMovement : MonoBehaviour
         {
             if (stamina <= maxStamina - Time.deltaTime) stamina += Time.deltaTime;
         }
-
-
-        bool gonnaDodge = Input.GetButtonDown("Dodge");
-
-        if (gonnaDodge && stamina > 5)
-        {
-            stamina -= 5;
-            isDodging = true;
-        }
+        isDodging = PlayerBehaviour.getIsDodging();
         if (isDodging)
         {
             dodgeFrameCounter += Time.deltaTime;

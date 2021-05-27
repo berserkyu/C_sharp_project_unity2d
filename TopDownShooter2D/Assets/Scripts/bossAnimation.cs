@@ -6,15 +6,27 @@ public class bossAnimation : MonoBehaviour
 {
     [SerializeField] private bossAim ba;
     [SerializeField] private Animator bossAnim;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject bossObject;
+
     public void die()
     {
-
+        ba.enabled = false;
+        StartCoroutine(fadesOut());
     }
+    IEnumerator fadesOut()
+    {
+        SpriteRenderer spriteBody = GetComponent<SpriteRenderer>();
+        SpriteRenderer spriteAim = ba.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>();
+        float frameCnt = 3f;
+        while (frameCnt > 0)
+        {
+            spriteAim.color = new Color(frameCnt / 2, 1, frameCnt / 2, frameCnt / 2);
+            spriteBody.color = spriteAim.color;
+            frameCnt -= Time.deltaTime;
+            yield return null;
+        }
+        bossObject.SetActive(false);
+    }   
 
     // Update is called once per frame
     void Update()

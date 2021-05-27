@@ -3939,11 +3939,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9025643998089537394, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
   m_PrefabInstance: {fileID: 2110242220}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &1107164963 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 277274650, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
-  m_PrefabInstance: {fileID: 2110242220}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1283719793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4292398202791844083, guid: fc3b6223fc53a884cb70b07cda48b7c0, type: 3}
@@ -4186,6 +4181,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4fac97b314f6fd4684201be77b9d604, type: 3}
+--- !u!114 &1633113350 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1633113350, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+  m_PrefabInstance: {fileID: 8634138628531619337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e55210842b0d37b4f940189561033253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1653905954
 GameObject:
   m_ObjectHideFlags: 0
@@ -4261,11 +4267,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de45eeabafbb1843b2644968ef28da9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &1945142886 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1935107093, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
-  m_PrefabInstance: {fileID: 2110242220}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2010752293 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6586064750229841145, guid: 1eacd72756254e04ca4fd70996a98852, type: 3}
@@ -4279,13 +4280,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 418169142, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
-      propertyPath: gunFireSound
+      propertyPath: cameraShake
       value: 
-      objectReference: {fileID: 1107164963}
+      objectReference: {fileID: 1633113350}
+    - target: {fileID: 1512239487, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
+      propertyPath: cameraShake
+      value: 
+      objectReference: {fileID: 1633113350}
     - target: {fileID: 1923353897, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
-      propertyPath: gunFireSound
+      propertyPath: cameraShake
       value: 
-      objectReference: {fileID: 1945142886}
+      objectReference: {fileID: 1633113350}
     - target: {fileID: 9025643998089537392, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
       propertyPath: uiInventory
       value: 
@@ -4579,10 +4584,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1339107106548413589, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1339107106742566755, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -4639,9 +4640,5 @@ PrefabInstance:
       propertyPath: playerTrans
       value: 
       objectReference: {fileID: 1100077087}
-    - target: {fileID: 8634138628701434069, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}

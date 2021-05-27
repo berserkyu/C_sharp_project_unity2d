@@ -15,12 +15,17 @@ public class PlayerBehaviour : MonoBehaviour
     //public playerMovement player;
 
     private int maxHp;
+   // private Animation curAnim;
     private float horiMove, vertiMove, faceDirection, angle;
     private HealthSystem hpSys;
     // private float maxHp, curHp;
-    private bool isDodging, isPlayingDodge, dead;
+    private static bool isDodging;
+    private  bool dead;
     float dmgFrameCnt = 0;
-
+    public static bool getIsDodging()
+    {
+        return isDodging;
+    }
     void Start()
     {
         Application.targetFrameRate = 40;
@@ -50,7 +55,15 @@ public class PlayerBehaviour : MonoBehaviour
         });
         hpSys.Damage(val);
     }
-
+    private bool isPlaying(Animator anim,string animationName)
+    {
+        return anim.GetCurrentAnimatorStateInfo(0).IsName(animationName);
+    }
+    public void doneDodging()
+    {
+        Debug.Log("doneDodging");
+        isDodging = false;
+    }
     private void manageAnimation()
     {
         if (hpSys.GetHealth() == 0 && !dead)
@@ -63,20 +76,12 @@ public class PlayerBehaviour : MonoBehaviour
         }
         if (hpSys.GetHealth() == 0) return;
         //dodging animation
-            /*
-             * if (isDodging)
-            {
-                transform.localScale = new Vector3(0.3f, 0.3f, 1);
-                if (isPlayingDodge) return;
-                else
-                {
-                    isPlayingDodge = true;
-                    playerAnim.Play("dodgingHorizontal");
-                    return;
-                }
+        if (isDodging)
+        {
+            if (!isPlaying(playerAnim, "dodgingHorizontal"))  playerAnim.Play("dodgingHorizontal");
+            return;
+        }
 
-            }
-             */
 
             // idle animation
             if (angle>45 && angle < 135)
@@ -109,8 +114,8 @@ public class PlayerBehaviour : MonoBehaviour
     void Update()
     {
         //check if is dodging
-        isDodging = playerMovement.isDodging;
-        if (!isDodging) isPlayingDodge = false;
+        if(!isDodging) isDodging = Input.GetButtonDown("Dodge");
+        Debug.Log("isDodging " + isDodging);
 
         //manage gun position
         horiMove = Input.GetAxis("Horizontal");

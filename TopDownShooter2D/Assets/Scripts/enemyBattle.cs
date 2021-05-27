@@ -22,6 +22,9 @@ public class enemyBattle : MonoBehaviour
     void Update()
     {
         healthTrans.localScale = new Vector3(hpSys.GetHealthPercent(), 1, 1);
-
+        if (hpSys.GetHealth() == 0)
+        {
+            transform.GetChild(0)?.gameObject.GetComponent<bossAnimation>()?.die();
+        }
     }
 }

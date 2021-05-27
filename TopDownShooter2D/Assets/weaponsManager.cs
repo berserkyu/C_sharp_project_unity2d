@@ -20,7 +20,7 @@ public class weaponsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        canUseWeapon = new bool[] { true, false, false };
+        canUseWeapon = new bool[] { true, false, true};
         Physics.IgnoreLayerCollision(6, 6,true);
         curMegazineIndex = 0;
         shotGun.SetActive(false);
