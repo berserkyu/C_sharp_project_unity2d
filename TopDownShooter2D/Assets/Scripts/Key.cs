@@ -10,7 +10,8 @@ public class Key : MonoBehaviour
     public enum KeyType
     {
         Silver,
-        Gold
+        Gold,
+        Special
     }
     public KeyDoor GetKeyDoor()
     {
