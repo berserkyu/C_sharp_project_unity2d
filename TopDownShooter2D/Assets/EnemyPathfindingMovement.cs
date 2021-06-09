@@ -26,13 +26,11 @@ public class EnemyPathfindingMovement : MonoBehaviour
         int r = 5;
         rand = new System.Random();
         directions = new List<List<int>>();
-              //{deltaX,deltaY}:ÉÏ        ÏÂ         ×ó         ÓÒ         ÓÒÉÏ       ×óÉÏ      ÓÒÏÂ          ×óÏÂ
+              //{deltaX,deltaY}:ï¿½ï¿½        ï¿½ï¿½         ï¿½ï¿½         ï¿½ï¿½         ï¿½ï¿½ï¿½ï¿½       ï¿½ï¿½ï¿½ï¿½      ï¿½ï¿½ï¿½ï¿½          ï¿½ï¿½ï¿½ï¿½
         int[,] t = new int[,]{ { 0, r }, { 0, -r }, { -r, 0 }, { r, 0 }, { r, r }, { -r, r }, { r, -r }, { -r, -r } };
         for(int i = 0; i < 8; i++)
         {
             List<int> temp = new List<int>();
-            Debug.Log(t[i, 0]);
-            Debug.Log(t[i, 1]);
             temp.Add(t[i, 0]);
             temp.Add(t[i, 1]);
             directions.Add(temp);
@@ -40,21 +38,20 @@ public class EnemyPathfindingMovement : MonoBehaviour
     }
     private void Update()
     {
-       // pathfindingTimer -= Time.deltaTime;
-        //HandleMovement();
     }
 
     private void FixedUpdate()
     {
-        //rb.velocity = moveDir * SPEED;
     }
-    //Ê¹ÓÃÌ°ÐÄËã·¨µÄÑ°Â·Ëã·¨
+    //Ê¹ï¿½ï¿½Ì°ï¿½ï¿½ï¿½ã·¨ï¿½ï¿½Ñ°Â·ï¿½ã·¨
     public void greedyPathFindingUpdate()
     {
+        Vector3 dirVecToGo;
         RaycastHit2D hitPlayer = Physics2D.Linecast(rb.position, playerTrans.position);
-        if (hitPlayer.collider == null || hitPlayer.collider.gameObject.name=="Player")
+        if (hitPlayer.collider.gameObject.name=="Player")
         {
-            transform.position = Vector2.MoveTowards(transform.position, playerTrans.position, movingSpeed * Time.deltaTime);
+            dirVecToGo = (hitPlayer.collider.transform.position-transform.position).normalized;
+            rb.velocity = dirVecToGo * movingSpeed;
             return;
         }
             
@@ -79,7 +76,7 @@ public class EnemyPathfindingMovement : MonoBehaviour
             } 
         }
         Vector3 toGo = new Vector3(curPos.x + dirToGo[0], curPos.y + dirToGo[1], curPos.z);
-        Vector3 dirVecToGo = (toGo - curPos).normalized;
+        dirVecToGo = (toGo - curPos).normalized;
         rb.velocity = dirVecToGo * movingSpeed;
 
     }
