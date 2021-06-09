@@ -7,11 +7,11 @@ public class playerMovement : MonoBehaviour
     //道具的UI
     [SerializeField] private UI_Inventory uiInventory;
     //移动参数
-    private float walkingSpeed = 5, runningSpeed = 60, dodgingSpeed = 10, dodgeFrameCounter = 0;
+    private float walkingSpeed = 3, runningSpeed = 6, dodgingSpeed = 10, dodgeFrameCounter = 0;
     //当前Hp,耐力值
     private float hp, stamina;
     //最大hp,耐力值
-    private static float maxStamina = 100000, maxHp = 100;
+    private static float maxStamina = 20, maxHp = 100;
     private Animator playerAnim;
     //当前是否正在躲闪
     public static bool isDodging = false;
@@ -40,7 +40,23 @@ public class playerMovement : MonoBehaviour
         //?
         DontDestroyOnLoad(gameObject);
     }
+    public float getStamina()
+    {
+        return stamina;
+    }
 
+    public void doneDodge()
+    {
+        isDodging = false;
+    }
+    public void startDodge()
+    {
+        horiMove = Input.GetAxis("Horizontal");
+        vertiMove = Input.GetAxis("Vertical");
+        stamina -= 5;
+        rb.velocity = new Vector2(dodgingSpeed * horiMove,dodgingSpeed * vertiMove);
+        isDodging = true;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -69,23 +85,16 @@ public class playerMovement : MonoBehaviour
         {
             if (stamina <= maxStamina - Time.deltaTime) stamina += Time.deltaTime;
         }
-        isDodging = PlayerBehaviour.getIsDodging();
         if (isDodging)
         {
-            dodgeFrameCounter += Time.deltaTime;
             curSpeed = dodgingSpeed;
-            if (dodgeFrameCounter > 0.3)
-            {
-                isDodging = false;
-                dodgeFrameCounter = 0;
-            }
         }
         rb.velocity = new Vector2(curSpeed * horiMove, curSpeed * vertiMove);
     }
     // Update is called once per frame
     void Update()
     {
-        manageMovement();
+        if(!isDodging) manageMovement();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

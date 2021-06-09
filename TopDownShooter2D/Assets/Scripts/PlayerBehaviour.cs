@@ -13,19 +13,16 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private gunBehaviour gun;
     [SerializeField] private SpriteRenderer playerSprite;
     //public playerMovement player;
-
+    private float dodgeCnt = 0f;
     private int maxHp;
    // private Animation curAnim;
     private float horiMove, vertiMove, faceDirection, angle;
+    private float dodgeCoolDownCnt = 0f;
     private HealthSystem hpSys;
     // private float maxHp, curHp;
     private static bool isDodging;
     private  bool dead;
     float dmgFrameCnt = 0;
-    public static bool getIsDodging()
-    {
-        return isDodging;
-    }
     void Start()
     {
         Application.targetFrameRate = 40;
@@ -39,7 +36,6 @@ public class PlayerBehaviour : MonoBehaviour
     }
     public void damage(int val)
     {
-        Debug.Log("color changed");
         playerSprite.color = new Color(1f, 0.411f, 0.411f, 1f);
         float dmgTimer = 0.3f;
         FunctionUpdater.Create(() =>
@@ -61,12 +57,18 @@ public class PlayerBehaviour : MonoBehaviour
     }
     public void doneDodging()
     {
-        Debug.Log("doneDodging");
+        dodgeCoolDownCnt = 0;
         isDodging = false;
+        movement.doneDodge();
+    }
+    public void startDodging()
+    {
+        isDodging = true;
+        movement.startDodge();
     }
     private void manageAnimation()
     {
-        if (hpSys.GetHealth() == 0 && !dead)
+        if (hpSys.GetHealth() <= 0 && !dead)
         {
             gun.die();
             movement.enabled = false;
@@ -74,14 +76,45 @@ public class PlayerBehaviour : MonoBehaviour
             playerAnim.Play("playerDead");
             dead = true;
         }
-        if (hpSys.GetHealth() == 0) return;
         //dodging animation
         if (isDodging)
         {
-            if (!isPlaying(playerAnim, "dodgingHorizontal"))  playerAnim.Play("dodgingHorizontal");
+            if (!isPlaying(playerAnim, "dodgingHorizontal") && !isPlaying(playerAnim, "dodgingHorizontalReverse") 
+                && !isPlaying(playerAnim, "dodgingDown") && !isPlaying(playerAnim, "dodgingUp") )
+            {
+                float face = Input.GetAxisRaw("Horizontal");
+                float ang = gun.getAngle();
+                if (face == -1)
+                {
+                    if (ang > 90 || ang < -90)
+                    {
+                        playerAnim.Play("dodgingHorizontal");
+                    }
+                    else
+                    {
+                        playerAnim.Play("dodgingHorizontalReverse");
+                    }
+                }
+                else if (face == 1)
+                {
+                    if (ang > 90 || ang < -90)
+                    {
+                        playerAnim.Play("dodgingHorizontalReverse");
+                    }
+                    else
+                    {
+                        playerAnim.Play("dodgingHorizontal");
+                    }
+                }
+                else
+                {
+                    if (ang < 0) playerAnim.Play("dodgingDown");
+                    else playerAnim.Play("dodgingUp");
+                }
+            }
             return;
         }
-
+        
 
             // idle animation
             if (angle>45 && angle < 135)
@@ -114,9 +147,12 @@ public class PlayerBehaviour : MonoBehaviour
     void Update()
     {
         //check if is dodging
-        if(!isDodging) isDodging = Input.GetButtonDown("Dodge");
-        Debug.Log("isDodging " + isDodging);
-
+        if (!isDodging && movement.getStamina() >= 5)
+        {
+            
+            isDodging = Input.GetButtonDown("Dodge");
+            Debug.Log("getting input" + isDodging);
+        }
         //manage gun position
         horiMove = Input.GetAxis("Horizontal");
         vertiMove = Input.GetAxis("Vertical");
@@ -131,7 +167,6 @@ public class PlayerBehaviour : MonoBehaviour
         if (dmgFrameCnt > 1)
         {
             dmgFrameCnt = 0;
-            //hpSys.Damage(10);
         }
         healthTrans.localScale = new Vector3(hpSys.GetHealthPercent(), 1, 1);
 

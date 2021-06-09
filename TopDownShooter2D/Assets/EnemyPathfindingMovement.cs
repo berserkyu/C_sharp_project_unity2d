@@ -36,14 +36,10 @@ public class EnemyPathfindingMovement : MonoBehaviour
             directions.Add(temp);
         }
     }
-    private void Update()
+    public void hitNonPlayer(Collision2D collision)
     {
-    }
 
-    private void FixedUpdate()
-    {
     }
-    //ʹ��̰���㷨��Ѱ·�㷨
     public void greedyPathFindingUpdate()
     {
         Vector3 dirVecToGo;

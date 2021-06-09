@@ -20,7 +20,7 @@ public class gunBehaviour : MonoBehaviour
     private int curBullet;
     private float bulletSpeed = 600;
     private float autoWeaponCounter = 0f, reloadingCounter = 1f;
-
+    private float angle;
     public void die()
     {
         transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
@@ -56,7 +56,10 @@ public class gunBehaviour : MonoBehaviour
             bulletInstanceManager.fireABullet(FirePointTrans.position, v, this);
         }
     }
-    
+    public float getAngle()
+    {
+        return angle;
+    }
     public void createWeaponTracer(Vector3 toPos)
     {
        
@@ -89,7 +92,7 @@ public class gunBehaviour : MonoBehaviour
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos = new Vector3(mousePos.x, mousePos.y, 0);
         aimDir = (mousePos - aimTrans.position).normalized;
-        float angle = Mathf.Atan2(aimDir.y, aimDir.x) * 180 / Mathf.PI;
+        angle = Mathf.Atan2(aimDir.y, aimDir.x) * 180 / Mathf.PI;
         aimTrans.eulerAngles = new Vector3(0, 0, angle);
         if (angle < 135 && angle > 45)
         {

@@ -32,13 +32,12 @@ public class EnemyFollowPlayer : MonoBehaviour
         if (distanceFromPlayer < 10 || foundPlayer)
         {
             foundPlayer = true;
-
             pathfinding.greedyPathFindingUpdate();
             //
         }
         else 
         {
-            if (distanceFromPlayer > 20) foundPlayer = false;
+            if (distanceFromPlayer > 15) foundPlayer = false;
             randMove.randomMoveUpdate();
         }
         
@@ -47,14 +46,6 @@ public class EnemyFollowPlayer : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         rb.rotation = angle;
     }
-    /*
-     * private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(transform.position, lineOfSite);
-    }
-     */
-
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -67,9 +58,26 @@ public class EnemyFollowPlayer : MonoBehaviour
         }
         else
         {
-            randMove.resetRandomMoveFrameCnt();
-            randMove.randomMoveUpdate();
+            float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
+            if (distanceFromPlayer < 10 || foundPlayer)
+            {
+                pathfinding.hitNonPlayer(collision);
+            }
+            else
+            {
+                randMove.resetRandomMoveFrameCnt();
+                randMove.randomMoveUpdate();
+            }
+                
         }
     }
+    /*
+  private void OnDrawGizmosSelected()
+{
+    Gizmos.color = Color.green;
+    Gizmos.DrawWireSphere(transform.position, lineOfSite);
+}
+ */
+
 
 }
