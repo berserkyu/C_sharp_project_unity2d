@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item_Name: Medkit
   item_Image: {fileID: 21300000, guid: 71a1a2382b23fc242961dc9120a38420, type: 3}
-  item_Held: 1
+  item_Held: 0
   item_Info: "\u6025\u6551\u5305\u3002\u53EF\u56DE\u590D\u751F\u547D\u503C\u3002"
   equip: 0

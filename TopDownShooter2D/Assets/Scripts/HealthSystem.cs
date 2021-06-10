@@ -11,7 +11,6 @@ public class HealthSystem
         this.healthMax = healthMax;
         health = healthMax;
     }
-    
     public int GetHealth()
     {
         return health;

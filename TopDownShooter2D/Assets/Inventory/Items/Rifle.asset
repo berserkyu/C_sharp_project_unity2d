@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item_Name: Rifle
   item_Image: {fileID: 21300000, guid: 9d925b43dc29587458c8370782e5a8d9, type: 3}
-  item_Held: 2
+  item_Held: 0
   item_Info: "\u81EA\u52A8\u5F0F\u6B65\u67AA\u3002\u53EF\u88C5\u5907\u3002"
   equip: 1
