@@ -15,7 +15,7 @@ public class playerMovement : MonoBehaviour
     private Animator playerAnim;
     //当前是否正在躲闪
     public static bool isDodging = false;
-
+    
     public Rigidbody2D rb;
     private float horiMove, vertiMove;
     private Inventory inventory;
@@ -44,7 +44,10 @@ public class playerMovement : MonoBehaviour
     {
         return stamina;
     }
-
+    public float getStaminaPercent()
+    {
+        return stamina / maxStamina;
+    }
     public void doneDodge()
     {
         isDodging = false;
