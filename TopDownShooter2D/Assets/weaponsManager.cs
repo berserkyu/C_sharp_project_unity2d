@@ -12,7 +12,7 @@ public class weaponsManager : MonoBehaviour
     private int curBulletLeft, curMegazineIndex;
     private static bool[] canUseWeapon;
 
-    public static void setWeaponAvailability(int type,bool val)
+    public void setWeaponAvailability(int type,bool val)
     {
         if (type < -1 || type > 3) return;
         canUseWeapon[type] = val;
@@ -20,7 +20,7 @@ public class weaponsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        canUseWeapon = new bool[] { true, false, true};
+        canUseWeapon = new bool[] { true, false, false};
         Physics.IgnoreLayerCollision(6, 6,true);
         curMegazineIndex = 0;
         shotGun.SetActive(false);

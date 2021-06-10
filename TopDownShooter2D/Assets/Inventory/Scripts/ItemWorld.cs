@@ -11,6 +11,10 @@ public class ItemWorld : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            int weaponToEnable = -1;
+            if (this_Item.item_Name == "Shotgun") weaponToEnable = 1;
+            if (this_Item.item_Name == "Rifle") weaponToEnable = 2;
+            other.gameObject.transform.Find("WeaponComponent")?.GetComponent<weaponsManager>()?.setWeaponAvailability(weaponToEnable, true);
             AddNewItem();
             Destroy(gameObject);
         }

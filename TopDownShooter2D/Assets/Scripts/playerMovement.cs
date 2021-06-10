@@ -44,7 +44,10 @@ public class playerMovement : MonoBehaviour
     {
         return stamina;
     }
-
+    public float getStaminaPercent()
+    {
+        return stamina / maxStamina;
+    }
     public void doneDodge()
     {
         isDodging = false;
@@ -63,8 +66,6 @@ public class playerMovement : MonoBehaviour
         playerAnim = transform.GetChild(0).gameObject.GetComponent<Animator>();
         stamina = maxStamina;
         hp = maxHp;
-
-
     }
     private void manageMovement()
     {
