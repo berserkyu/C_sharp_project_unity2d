@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyBattle : MonoBehaviour
+public class bossBattle : MonoBehaviour
 {
     private HealthSystem hpSys;
     [SerializeField] private Transform healthTrans;

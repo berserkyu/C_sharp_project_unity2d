@@ -14,9 +14,12 @@ public class playerMovement : MonoBehaviour
     //当前是否正在躲闪
     public static bool isDodging = false;
     
+<<<<<<< HEAD
     public GameObject myInventory;
     //Inventory是否打开
     private bool isInventoryOpen = false;
+=======
+>>>>>>> dea6bf7a8b7b86e94b84899d409d3a216a573fb1
     public Rigidbody2D rb;
     private float horiMove, vertiMove;
     //单例模式的实例
@@ -44,7 +47,10 @@ public class playerMovement : MonoBehaviour
     {
         return stamina;
     }
-
+    public float getStaminaPercent()
+    {
+        return stamina / maxStamina;
+    }
     public void doneDodge()
     {
         isDodging = false;
