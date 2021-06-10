@@ -26,10 +26,10 @@ public class weaponsManager : MonoBehaviour
         shotGun.SetActive(false);
         rifle.SetActive(false);
     }
-    private void onWeapoonsGet(Item.ItemType type)
+    /*private void onWeapoonsGet(Item.ItemType type)
     {
         canUseWeapon[(type == Item.ItemType.Shotgun?0:1)] = true;
-    }
+    }*/
     private void manageWeaponSwitch()
     {
         if (Input.GetButtonDown("handGunSwitch"))

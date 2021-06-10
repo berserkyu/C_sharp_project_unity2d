@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e2a4ce48bb90e4596ada880c2ec670, type: 3}
+  m_Name: Bullet
+  m_EditorClassIdentifier: 
+  item_Name: Bullet
+  item_Image: {fileID: 21300000, guid: 9c0f380dd626254408604b7a0bae338a, type: 3}
+  item_Held: 0
+  item_Info: "\u5B50\u5F39\u3002\u6240\u6709\u67AA\u68B0\u5171\u7528\u3002"
+  equip: 0

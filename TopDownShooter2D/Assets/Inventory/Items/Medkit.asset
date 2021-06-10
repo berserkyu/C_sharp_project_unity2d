@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e2a4ce48bb90e4596ada880c2ec670, type: 3}
+  m_Name: Medkit
+  m_EditorClassIdentifier: 
+  item_Name: Medkit
+  item_Image: {fileID: 21300000, guid: 71a1a2382b23fc242961dc9120a38420, type: 3}
+  item_Held: 1
+  item_Info: "\u6025\u6551\u5305\u3002\u53EF\u56DE\u590D\u751F\u547D\u503C\u3002"
+  equip: 0

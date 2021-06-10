@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-    //道具的UI
-    [SerializeField] private UI_Inventory uiInventory;
     //移动参数
     private float walkingSpeed = 3, runningSpeed = 6, dodgingSpeed = 10, dodgeFrameCounter = 0;
     //当前Hp,耐力值
@@ -15,10 +13,12 @@ public class playerMovement : MonoBehaviour
     private Animator playerAnim;
     //当前是否正在躲闪
     public static bool isDodging = false;
-
+    
+    public GameObject myInventory;
+    //Inventory是否打开
+    private bool isInventoryOpen = false;
     public Rigidbody2D rb;
     private float horiMove, vertiMove;
-    private Inventory inventory;
     //单例模式的实例
     public static playerMovement instance;
 
@@ -54,7 +54,7 @@ public class playerMovement : MonoBehaviour
         horiMove = Input.GetAxis("Horizontal");
         vertiMove = Input.GetAxis("Vertical");
         stamina -= 5;
-        rb.velocity = new Vector2(dodgingSpeed * horiMove,dodgingSpeed * vertiMove);
+        rb.velocity = new Vector2(dodgingSpeed * horiMove, dodgingSpeed * vertiMove);
         isDodging = true;
     }
     // Start is called before the first frame update
@@ -64,9 +64,7 @@ public class playerMovement : MonoBehaviour
         stamina = maxStamina;
         hp = maxHp;
 
-        inventory = new Inventory();
-        uiInventory.SetInventory(inventory);
-        
+
     }
     private void manageMovement()
     {
@@ -94,16 +92,18 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!isDodging) manageMovement();
+        if (!isDodging) manageMovement();
+        openMyInventory();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    //用按键打开Inventory
+    private void openMyInventory()
     {
-        ItemWorld itemWorld = collision.GetComponent<ItemWorld>();
-        if (itemWorld != null)
+        if(Input.GetKeyDown(KeyCode.I))
         {
-            inventory.AddItem(itemWorld.GetItem());
-            itemWorld.DestroySelf();
+            //点击I键使Inventory可以反复打开或关闭
+            isInventoryOpen = !isInventoryOpen;
+            myInventory.SetActive(isInventoryOpen);
         }
     }
 
