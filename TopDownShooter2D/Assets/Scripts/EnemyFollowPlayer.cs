@@ -29,16 +29,15 @@ public class EnemyFollowPlayer : MonoBehaviour
      void Update()
     {
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-        if (distanceFromPlayer < lineOfSite || foundPlayer)
+        if (distanceFromPlayer < lineOfSite)
         {
             foundPlayer = true;
             pathfinding.greedyPathFindingUpdate();
-            //
         }
         else 
         {
+            if(foundPlayer) randMove.resetRandomMoveFrameCnt();
             foundPlayer = false;
-            randMove.resetRandomMoveFrameCnt();
             randMove.randomMoveUpdate();
         }
         
@@ -66,8 +65,7 @@ public class EnemyFollowPlayer : MonoBehaviour
             }
             else
             {
-                randMove.resetRandomMoveFrameCnt();
-                randMove.randomMoveUpdate();
+                randMove.hitNonPlayer(collision);
             }
                 
         }

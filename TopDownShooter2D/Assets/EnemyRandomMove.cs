@@ -22,13 +22,21 @@ public class EnemyRandomMove : MonoBehaviour
             Vector3 targetPosition = new Vector3(curPosition.x + distance *Mathf.Cos(turningAngle), curPosition.y +distance* Mathf.Sin(turningAngle), curPosition.z);
             Vector3 dir = (targetPosition - curPosition).normalized;
             rb.velocity = dir * movingSpeed;
-            
-            randomMovementFrameCounter = 0f;
+            resetRandomMoveFrameCnt();
         }
     }
     public void resetRandomMoveFrameCnt()
     {
         randomMovementFrameCounter = 0;
+    }
+
+    public void hitNonPlayer(Collision2D collision)
+    {
+        Vector2 contactPt = collision.GetContact(0).point;
+        Vector3 t = new Vector3(contactPt.x,contactPt.y, 0);
+        Vector3 dir = (contactPt - rb.position).normalized;
+        rb.velocity = dir * (-movingSpeed);
+        resetRandomMoveFrameCnt();
     }
     /*
      private void Awake()

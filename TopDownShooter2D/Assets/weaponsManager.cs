@@ -14,7 +14,7 @@ public class weaponsManager : MonoBehaviour
 
     public void setWeaponAvailability(int type,bool val)
     {
-        if (type < -1 || type > 3) return;
+        if (type < 0 || type > 2) return;
         canUseWeapon[type] = val;
     }
     // Start is called before the first frame update
