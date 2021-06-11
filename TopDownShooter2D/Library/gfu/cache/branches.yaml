@@ -13,19 +13,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-06-11T00:40:02.938+08:00
-  initializedAtString: 2021-06-10T14:46:05.570+08:00
+  lastUpdatedAtString: 2021-06-11T15:14:29.501+08:00
+  initializedAtString: 2021-06-11T14:06:29.233+08:00
   localBranches:
   - name: Dev
     tracking: origin/Dev
+  - name: Master
+    tracking: origin/Master
   remoteBranches:
   - name: origin/Dev
     tracking: '[None]'
-  - name: origin/Master
+  - name: origin/HEAD
     tracking: '[None]'
   remotes:
   - name: origin
-    url: git@github.com:berserkyu/C_sharp_project_unity2d.git
+    url: https://github.com/berserkyu/C_sharp_project_unity2d.git
     login: 
     user: 
     host: 
@@ -34,34 +36,40 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - Dev
+    - Master
     values:
     - name: Dev
       remote:
         name: origin
-        url: git@github.com:berserkyu/C_sharp_project_unity2d.git
+        url: https://github.com/berserkyu/C_sharp_project_unity2d.git
       trackingBranch: Dev
+    - name: Master
+      remote:
+        name: origin
+        url: https://github.com/berserkyu/C_sharp_project_unity2d.git
+      trackingBranch: Master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - Dev
-      - Master
+      - HEAD
     subKeyValues:
     - Values:
       - name: Dev
         remote:
           name: origin
-          url: git@github.com:berserkyu/C_sharp_project_unity2d.git
+          url: https://github.com/berserkyu/C_sharp_project_unity2d.git
         trackingBranch: 
-      - name: Master
+      - name: HEAD
         remote:
           name: origin
-          url: git@github.com:berserkyu/C_sharp_project_unity2d.git
+          url: https://github.com/berserkyu/C_sharp_project_unity2d.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: git@github.com:berserkyu/C_sharp_project_unity2d.git
+      url: https://github.com/berserkyu/C_sharp_project_unity2d.git

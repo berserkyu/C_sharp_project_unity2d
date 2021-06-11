@@ -29,7 +29,7 @@ public class EnemyFollowPlayer : MonoBehaviour
      void Update()
     {
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-        if (distanceFromPlayer < 10 || foundPlayer)
+        if (distanceFromPlayer < lineOfSite || foundPlayer)
         {
             foundPlayer = true;
             pathfinding.greedyPathFindingUpdate();
@@ -37,14 +37,15 @@ public class EnemyFollowPlayer : MonoBehaviour
         }
         else 
         {
-            if (distanceFromPlayer > 15) foundPlayer = false;
+            foundPlayer = false;
+            randMove.resetRandomMoveFrameCnt();
             randMove.randomMoveUpdate();
         }
         
 
         Vector3 direction = player.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
+
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -71,13 +72,13 @@ public class EnemyFollowPlayer : MonoBehaviour
                 
         }
     }
-    /*
+    
   private void OnDrawGizmosSelected()
 {
     Gizmos.color = Color.green;
     Gizmos.DrawWireSphere(transform.position, lineOfSite);
 }
- */
+ 
 
 
 }
