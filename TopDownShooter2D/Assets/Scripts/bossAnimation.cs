@@ -7,9 +7,16 @@ public class bossAnimation : MonoBehaviour
     [SerializeField] private bossAim ba;
     [SerializeField] private Animator bossAnim;
     [SerializeField] private GameObject bossObject;
+    [SerializeField] private soundManager sm;
+    [SerializeField] private AudioClip deadSound;
+
 
     public void die()
     {
+        if (ba.enabled == true)
+        {
+            sm.playSound(deadSound);
+        }
         ba.enabled = false;
         StartCoroutine(fadesOut());
     }

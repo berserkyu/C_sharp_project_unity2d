@@ -6,7 +6,7 @@ public class bossBattle : MonoBehaviour
 {
     private HealthSystem hpSys;
     [SerializeField] private Transform healthTrans;
-    private int maxHp = 300;
+    [SerializeField] private int maxHp = 300;
     // Start is called before the first frame update
     void Start()
     {

@@ -6,6 +6,8 @@ public class bossAim : MonoBehaviour
 {
     [SerializeField] private Transform playerTrans, firePointTrans;
     [SerializeField] private GameObject bossBullet, magicBall;
+    [SerializeField] private soundManager sm;
+    [SerializeField] private AudioClip fire, skill;
     private Vector3 aimDir;
     private float shootCnt = 0, skillCnt = 0;
     private float bulletSpeed = 40, angle = 0;
@@ -21,6 +23,7 @@ public class bossAim : MonoBehaviour
     }
     private void castBallSkill()
     {
+        sm.playSound(skill);
         Vector3 pos = playerTrans.position;
         pos.y -= 2;
         GameObject new_ball = Instantiate(magicBall, pos, new Quaternion(0,0,0,0));
@@ -28,6 +31,7 @@ public class bossAim : MonoBehaviour
     }
     private void fireBullet()
     {
+        sm.playSound(fire);
         GameObject new_bullet = Instantiate(bossBullet, firePointTrans.position, firePointTrans.rotation);
         float shootingAngle = Mathf.Atan2(aimDir.y, aimDir.x);
         new_bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(bulletSpeed * Mathf.Cos(shootingAngle), bulletSpeed * Mathf.Sin(shootingAngle));
@@ -57,12 +61,13 @@ public class bossAim : MonoBehaviour
         }
         shootCnt += Time.deltaTime;
         skillCnt += Time.deltaTime;
-        if (skillCnt >= 2)
+        if (skillCnt >= 4)
         {
             castBallSkill();
+            shootCnt = 1;
             skillCnt = 0;
         }
-        else if (shootCnt >= 1)
+        else if (shootCnt >= 2)
         {
             fireBullet();
             shootCnt = 0;

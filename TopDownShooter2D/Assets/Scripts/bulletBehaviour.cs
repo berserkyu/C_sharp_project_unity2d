@@ -21,6 +21,7 @@ public class bulletBehaviour : MonoBehaviour
     {
         Vector2 pt = obj.GetContact(0).point;
         obj.gameObject.GetComponent<enemyBattle>()?.damage(dmg);
+        obj.gameObject.GetComponent<bossBattle>()?.damage(dmg);
         gun.createWeaponTracer(new Vector3(pt.x,pt.y,0));
         gameObject.SetActive(false);
 
