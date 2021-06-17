@@ -90,6 +90,7 @@
      <Compile Include="Assets\weaponsManager.cs" />
      <Compile Include="Assets\Scripts\Key.cs" />
      <Compile Include="Assets\Inventory\Scripts\Slot.cs" />
+     <Compile Include="Assets\soundManager.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_BarMultiple.cs" />
      <Compile Include="Assets\Scripts\Exit2.cs" />
      <Compile Include="Assets\Inventory\Scripts\InventoryManager.cs" />
