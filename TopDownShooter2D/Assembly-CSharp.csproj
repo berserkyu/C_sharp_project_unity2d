@@ -81,12 +81,12 @@
      <Compile Include="Assets\bulletInstanceManager.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_Bar.cs" />
      <Compile Include="Assets\Scripts\bossBattle.cs" />
+     <Compile Include="Assets\EnemyFollowPlayer.cs" />
      <Compile Include="Assets\Inventory\Scripts\ItemWorld.cs" />
      <Compile Include="Assets\Scripts\bulletBehaviour.cs" />
      <Compile Include="Assets\EnemyRandomMove.cs" />
      <Compile Include="Assets\Scripts\magicBallScript.cs" />
      <Compile Include="Assets\Scripts\gunBehavoiur.cs" />
-     <Compile Include="Assets\Scripts\EnemyGoblinFollow.cs" />
      <Compile Include="Assets\Scripts\bossAnimation.cs" />
      <Compile Include="Assets\Scripts\bossBulletScript.cs" />
      <Compile Include="Assets\weaponsManager.cs" />
@@ -97,7 +97,6 @@
      <Compile Include="Assets\Scripts\Exit2.cs" />
      <Compile Include="Assets\Inventory\Scripts\InventoryManager.cs" />
      <Compile Include="Assets\enemyBattle.cs" />
-     <Compile Include="Assets\Scripts\EnemyFollowPlayer.cs" />
      <Compile Include="Assets\EnemyPathfindingMovement.cs" />
      <Compile Include="Assets\getPlayerSpawn.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\FunctionPeriodic.cs" />

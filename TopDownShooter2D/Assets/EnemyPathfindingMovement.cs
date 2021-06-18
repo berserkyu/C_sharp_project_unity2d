@@ -10,7 +10,7 @@ public class EnemyPathfindingMovement : MonoBehaviour
     private const float SPEED = 30f;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Collider2D col2dTile;
-    private float movingSpeed = 3;
+    private float movingSpeed = 2;
     [SerializeField] private Transform playerTrans;
     private List<Vector3> pathVectorList;
     private List<List<int>> directions;

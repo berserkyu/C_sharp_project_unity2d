@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 3af134ebf2ca39d489ee4f9c85e942ac
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -406753619769135420
+    second: PossesedRightAttack01_0
+  - first:
+      213: 2121780040544069553
+    second: PossesedRightAttack01_1
+  - first:
+      213: -6827341658482163857
+    second: PossesedRightAttack01_2
+  - first:
+      213: 933280375876490696
+    second: PossesedRightAttack01_3
+  - first:
+      213: -7829596201301796186
+    second: PossesedRightAttack01_4
+  - first:
+      213: 5840944212644223891
+    second: PossesedRightAttack01_5
+  - first:
+      213: -143830491147368637
+    second: PossesedRightAttack01_6
+  - first:
+      213: -7630081256685629673
+    second: PossesedRightAttack01_7
+  - first:
+      213: -4990213410667261232
+    second: PossesedRightAttack01_8
+  - first:
+      213: 1835137110165369053
+    second: PossesedRightAttack01_9
+  - first:
+      213: -479857671567800377
+    second: PossesedRightAttack01_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +74,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +108,264 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PossesedRightAttack01_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 6
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce6e86ecbbea5af0800000000000000
+      internalID: -406753619769135420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 6
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7a42884b3127d10800000000000000
+      internalID: 2121780040544069553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 6
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fb1f53fe86041a0800000000000000
+      internalID: -6827341658482163857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 6
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c516ff9e8da3fc00800000000000000
+      internalID: 933280375876490696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 6
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa98a6ecbfa75390800000000000000
+      internalID: -7829596201301796186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 6
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b588390d33f0150800000000000000
+      internalID: 5840944212644223891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 6
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3478a4b2ee2010ef0800000000000000
+      internalID: -143830491147368637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 6
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f03efd5818c1690800000000000000
+      internalID: -7630081256685629673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 6
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d299cf97533fbab0800000000000000
+      internalID: -4990213410667261232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 7
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd03b8d8a77b77910800000000000000
+      internalID: 1835137110165369053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PossesedRightAttack01_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 7
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c784777df33759f0800000000000000
+      internalID: -479857671567800377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
