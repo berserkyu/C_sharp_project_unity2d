@@ -46,7 +46,7 @@ public class InventoryManager : MonoBehaviour
 
     public static void RefreshItem()
     {
-        for (int i = 0; i<instance.slot_Grid.transform.childCount; i++)
+        for (int i = 0; i < instance.slot_Grid.transform.childCount; i++) 
         {
             if (instance.slot_Grid.transform.childCount == 0) break;
             Destroy(instance.slot_Grid.transform.GetChild(i).gameObject);
@@ -55,6 +55,48 @@ public class InventoryManager : MonoBehaviour
         for (int i = 0; i < instance.my_Inventory.itemList.Count; i++) 
         {
             CreateNewItem(instance.my_Inventory.itemList[i]);
+        }
+    }
+    //使用道具后删除道具持有数
+    public static void DeleteItem(string itemName)
+    {
+        for (int i = 0; i < instance.my_Inventory.itemList.Count; i++)
+        {
+            if (instance.my_Inventory.itemList[i].item_Name == itemName)
+            {
+                instance.my_Inventory.itemList[i].item_Held -= 1;
+                if (instance.my_Inventory.itemList[i].item_Held <= 0)
+                {
+                    instance.my_Inventory.itemList[i].item_Held = 0;
+                    instance.my_Inventory.itemList.RemoveAt(i);
+                }
+            }
+        }
+        RefreshItem();
+    }
+    //使用道具button
+    public static void OnUseButtonClicked()
+    {
+        if (ItemUse.isStackEmpty()) return;
+
+        string item_Use =  ItemUse.ItemUsed();
+
+        if (item_Use != null) 
+        {
+            switch(item_Use)
+            {
+                case "Medkit":
+                    playerMovement.hpAdded();
+                    break;
+                case "Key":
+                    break;
+                default: break;
+            }
+            DeleteItem(item_Use);
+
+            //每次使用道具后若没有再点击其他道具则默认使用上一次用的道具
+            ItemUse.Clear();
+            ItemUse.ItemClicked(item_Use);
         }
     }
 }

@@ -7,13 +7,18 @@ public class playerMovement : MonoBehaviour
     //移动参数
     private float walkingSpeed = 3, runningSpeed = 6, dodgingSpeed = 10, dodgeFrameCounter = 0;
     //当前Hp,耐力值
-    private float hp, stamina;
+    private static float hp;
+    private float stamina;
     //最大hp,耐力值
     private static float maxStamina = 20, maxHp = 100;
     private Animator playerAnim;
     //当前是否正在躲闪
     public static bool isDodging = false;
-    
+
+    public GameObject myGun;
+    //Inventory打开时Gun是否能使用
+    private bool isGunEnabled = true;
+
     public GameObject myInventory;
     //Inventory是否打开
     private bool isInventoryOpen = false;
@@ -52,6 +57,7 @@ public class playerMovement : MonoBehaviour
     {
         isDodging = false;
     }
+
     public void startDodge()
     {
         horiMove = Input.GetAxis("Horizontal");
@@ -102,10 +108,21 @@ public class playerMovement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.I))
         {
+            //每次打开或关闭都重制栈
+            ItemUse.Clear();
+            //disable掉枪
+            isGunEnabled = !isGunEnabled;
+            myGun.SetActive(isGunEnabled);
+
             //点击I键使Inventory可以反复打开或关闭
             isInventoryOpen = !isInventoryOpen;
             myInventory.SetActive(isInventoryOpen);
         }
+    }
+    //加血
+    public static void hpAdded()
+    {
+        hp += 40;
     }
 
 }

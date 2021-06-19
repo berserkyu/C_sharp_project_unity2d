@@ -11,6 +11,7 @@ public class Slot : MonoBehaviour
 
     public void ItemOnClicked()
     {
+        ItemUse.ItemClicked(slot_Item.item_Name);
         InventoryManager.UpdateItemInfo(slot_Item.item_Info);
     }
 }
