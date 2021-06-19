@@ -5,10 +5,11 @@ using UnityEngine;
 public class getPlayerSpawn : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private Transform player;
+    private Transform player;
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         spawnPlayer();
     }
 

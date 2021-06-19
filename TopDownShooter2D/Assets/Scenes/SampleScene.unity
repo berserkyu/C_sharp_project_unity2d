@@ -5049,22 +5049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de45eeabafbb1843b2644968ef28da9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1943621634 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1943621634, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
-  m_PrefabInstance: {fileID: 8634138628531619337}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9919a580d3488fc42b09097ae96e954d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!82 &2008645857 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1341814455, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
-  m_PrefabInstance: {fileID: 2110242220}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2008645858 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9025643997049860551, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
@@ -5256,10 +5240,6 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1633113350}
-    - target: {fileID: 1341814455, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1512239487, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
       propertyPath: cameraShake
       value: 
@@ -5272,18 +5252,6 @@ PrefabInstance:
       propertyPath: spawnPt
       value: 
       objectReference: {fileID: 1653905955}
-    - target: {fileID: 9025643997049860551, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
-      propertyPath: healSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 0e117cdccf64435439e18c2193545aff, type: 3}
-    - target: {fileID: 9025643997049860551, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
-      propertyPath: damageSound
-      value: 
-      objectReference: {fileID: 8300000, guid: a9a8a80eb2904c34d8d808ced94a57ae, type: 3}
-    - target: {fileID: 9025643997049860551, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
-      propertyPath: soundEmitter
-      value: 
-      objectReference: {fileID: 2008645857}
     - target: {fileID: 9025643998089537392, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
       propertyPath: myInventory
       value: 
@@ -5402,26 +5370,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 48467764, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646659240, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1943621634}
-    - target: {fileID: 1646659240, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnUseButtonClicked
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646659240, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InventoryManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646659240, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 1943621634, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
       propertyPath: player
       value: 

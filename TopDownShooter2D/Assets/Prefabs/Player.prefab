@@ -1413,7 +1413,9 @@ MonoBehaviour:
   playerSprite: {fileID: 9025643997049860547}
   deadScene: {fileID: 85496135}
   spawnPt: {fileID: 0}
-  damageSound: {fileID: 1341814455}
+  soundEmitter: {fileID: 1341814455}
+  damageSound: {fileID: 8300000, guid: a9a8a80eb2904c34d8d808ced94a57ae, type: 3}
+  healSound: {fileID: 8300000, guid: 0e117cdccf64435439e18c2193545aff, type: 3}
 --- !u!114 &797845719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1436,7 +1438,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a9a8a80eb2904c34d8d808ced94a57ae, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

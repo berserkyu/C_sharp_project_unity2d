@@ -14,7 +14,7 @@ public class bossAim : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerTrans = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     public float getAngle()

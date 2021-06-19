@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &48467767
 RectTransform:
   m_ObjectHideFlags: 0
@@ -689,13 +689,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1339107106548413593}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1943621634}
+        m_TargetAssemblyTypeName: InventoryManager, Assembly-CSharp
+        m_MethodName: OnUseButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -857,6 +857,7 @@ MonoBehaviour:
   slot_Grid: {fileID: 69340795}
   slot_Prefab: {fileID: -41113478887252378, guid: 5b9f3c3370287054c9d8052d4b6e1fe2, type: 3}
   item_Info: {fileID: 1061786005}
+  player: {fileID: 0}
 --- !u!1 &1339107106742566755
 GameObject:
   m_ObjectHideFlags: 0
