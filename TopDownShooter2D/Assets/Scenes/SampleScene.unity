@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 35230155}
   - component: {fileID: 35230154}
   - component: {fileID: 35230152}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Possesed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ RectTransform:
   - {fileID: 1061786004}
   - {fileID: 1646659239}
   m_Father: {fileID: 1943621633}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -598,7 +598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176554837}
   - component: {fileID: 176554838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: healthBarBack(Pos)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4682,7 +4682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 968491810}
   - component: {fileID: 968491811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BulletParent(Gob)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5097,7 +5097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1481714472}
   - component: {fileID: 1481714473}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: health(Gob)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5184,7 +5184,7 @@ GameObject:
   - component: {fileID: 1552429852}
   - component: {fileID: 1552429857}
   - component: {fileID: 1552429858}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GoblinSlinger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5244,7 +5244,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.007562328, y: 0}
+  m_Offset: {x: 0.012192007, y: -0.023148172}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5255,7 +5255,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16194049, y: 0.3}
+  m_Size: {x: 0.066261165, y: 0.25370365}
   m_EdgeRadius: 0
 --- !u!212 &1552429855
 SpriteRenderer:
@@ -5691,7 +5691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2010237695}
   - component: {fileID: 2010237696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: health(Pos)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5778,7 +5778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2030711712}
   - component: {fileID: 2030711713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: healthBarBack(Gob)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6055,6 +6055,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 177692131021030336, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 65a3ff1af2384ad40b4b936600b05c0e, type: 3}
+    - target: {fileID: 1230258849762831302, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339107106548413593, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1339107106742566752, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6115,6 +6127,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4089799903475522633, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1073.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089799903475522633, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 942.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089799903475522633, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089799903475522633, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 11.19
+      objectReference: {fileID: 0}
     - target: {fileID: 6888112511662741654, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
       propertyPath: player
       value: 
@@ -6127,6 +6155,10 @@ PrefabInstance:
       propertyPath: playerTrans
       value: 
       objectReference: {fileID: 9025643996265110238}
+    - target: {fileID: 8310388462824982230, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8634138628534250467, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
       propertyPath: m_IsActive
       value: 0

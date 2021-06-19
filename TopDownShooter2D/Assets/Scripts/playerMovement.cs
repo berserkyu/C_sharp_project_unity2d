@@ -52,6 +52,7 @@ public class playerMovement : MonoBehaviour
     {
         isDodging = false;
     }
+
     public void startDodge()
     {
         horiMove = Input.GetAxis("Horizontal");
