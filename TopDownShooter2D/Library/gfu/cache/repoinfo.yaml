@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-06-20T01:27:11.633+08:00
-  initializedAtString: 2021-06-20T01:27:11.633+08:00
+  lastUpdatedAtString: 2021-06-20T02:17:08.914+08:00
+  initializedAtString: 2021-06-20T02:17:08.914+08:00
   currentGitRemote:
     name: origin
     url: https://github.com/berserkyu/C_sharp_project_unity2d.git

@@ -12,9 +12,10 @@ public class InventoryManager : MonoBehaviour
     public Slot slot_Prefab;
     public Text item_Info;
     [SerializeField] private PlayerBehaviour player;
+    [SerializeField] private KeyDoor keyDoor;
     void Awake()
     {
-        if (instance != null) 
+        if (instance != null)
         {
             Destroy(this);
         }
@@ -35,7 +36,7 @@ public class InventoryManager : MonoBehaviour
     public static void CreateNewItem(Item item)
     {
         Slot newItem = Instantiate(instance.slot_Prefab,
-            instance.slot_Grid.transform.position,Quaternion.identity);
+            instance.slot_Grid.transform.position, Quaternion.identity);
         newItem.gameObject.transform.SetParent(instance.slot_Grid.transform);
         newItem.gameObject.transform.localScale = new Vector3(1, 1, 1);
 
@@ -46,13 +47,13 @@ public class InventoryManager : MonoBehaviour
 
     public static void RefreshItem()
     {
-        for (int i = 0; i < instance.slot_Grid.transform.childCount; i++) 
+        for (int i = 0; i < instance.slot_Grid.transform.childCount; i++)
         {
             if (instance.slot_Grid.transform.childCount == 0) break;
             Destroy(instance.slot_Grid.transform.GetChild(i).gameObject);
         }
 
-        for (int i = 0; i < instance.my_Inventory.itemList.Count; i++) 
+        for (int i = 0; i < instance.my_Inventory.itemList.Count; i++)
         {
             CreateNewItem(instance.my_Inventory.itemList[i]);
         }
@@ -84,16 +85,17 @@ public class InventoryManager : MonoBehaviour
             return;
         }
 
-        string item_Use =  ItemUse.ItemUsed();
+        string item_Use = ItemUse.ItemUsed();
 
-        if (item_Use != null) 
+        if (item_Use != null)
         {
-            switch(item_Use)
+            switch (item_Use)
             {
                 case "Medkit":
                     player.heal(30);
                     break;
                 case "Key":
+                    keyDoor.OpenDoor();
                     break;
                 default: break;
             }

@@ -5374,6 +5374,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2008645858}
+    - target: {fileID: 1943621634, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
+      propertyPath: keyDoor
+      value: 
+      objectReference: {fileID: 823279128}
     - target: {fileID: 1339107106742566755, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
       propertyPath: m_Name
       value: Main Camera
