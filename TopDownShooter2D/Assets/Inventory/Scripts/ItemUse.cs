@@ -8,6 +8,7 @@ public class ItemUse : MonoBehaviour
 
     public static void ItemClicked(string itemName)
     {
+        Debug.Log("added to stack : " + itemName);
         item_stack.Push(itemName);
     }
 

@@ -7,7 +7,6 @@ public class playerMovement : MonoBehaviour
     //移动参数
     private float walkingSpeed = 3, runningSpeed = 6, dodgingSpeed = 10, dodgeFrameCounter = 0;
     //当前Hp,耐力值
-    private static float hp;
     private float stamina;
     //最大hp,耐力值
     private static float maxStamina = 20, maxHp = 100;
@@ -71,7 +70,6 @@ public class playerMovement : MonoBehaviour
     {
         playerAnim = transform.GetChild(0).gameObject.GetComponent<Animator>();
         stamina = maxStamina;
-        hp = maxHp;
     }
     private void manageMovement()
     {
@@ -119,10 +117,6 @@ public class playerMovement : MonoBehaviour
             myInventory.SetActive(isInventoryOpen);
         }
     }
-    //加血
-    public static void hpAdded()
-    {
-        hp += 40;
-    }
+
 
 }

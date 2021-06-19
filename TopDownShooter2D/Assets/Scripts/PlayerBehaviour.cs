@@ -14,7 +14,8 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private SpriteRenderer playerSprite;
     [SerializeField] private GameObject deadScene;
     [SerializeField] private Transform spawnPt;
-    [SerializeField] private AudioSource damageSound;
+    [SerializeField] private AudioSource soundEmitter;
+    [SerializeField] private AudioClip damageSound, healSound;
     private Vector3 initStaminaScale;
     //public playerMovement player;
     private float dodgeCnt = 0f;
@@ -35,6 +36,7 @@ public class PlayerBehaviour : MonoBehaviour
         maxHp = 100;
         hpSys = new HealthSystem(maxHp);
         dead = false;
+        damage(40);
     }
 
     private void manageAnimation()
@@ -165,11 +167,24 @@ public class PlayerBehaviour : MonoBehaviour
     //variables of player's attribute/status
     public void heal(int val)
     {
+        soundEmitter.PlayOneShot(healSound);
+        playerSprite.color = new Color(0.411f, 1f, 0.411f, 1f);
+        float dmgTimer = 0.3f;
+        FunctionUpdater.Create(() =>
+        {
+            dmgTimer -= Time.deltaTime;
+            if (dmgTimer <= 0)
+            {
+                playerSprite.color = new Color(1f, 1f, 1f, 1f);
+                return true;
+            }
+            return false;
+        });
         hpSys.Heal(val);
     }
     public void damage(int val)
     {
-        damageSound.Play();
+        soundEmitter.PlayOneShot(damageSound);
         playerSprite.color = new Color(1f, 0.411f, 0.411f, 1f);
         float dmgTimer = 0.3f;
         FunctionUpdater.Create(() =>

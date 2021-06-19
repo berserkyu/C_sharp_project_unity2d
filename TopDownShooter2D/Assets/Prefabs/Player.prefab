@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 85496137}
   - component: {fileID: 85496136}
   - component: {fileID: 85496138}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: deadSceneSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 310316955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SFirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 418169142}
   - component: {fileID: 277274650}
   - component: {fileID: 1899636377}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShotGunComponent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   - component: {fileID: 776770109}
   - component: {fileID: 776770111}
   - component: {fileID: 776770110}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShotGunSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1013597226}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RFirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 1555852801}
   - component: {fileID: 1555852803}
   - component: {fileID: 1555852802}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RifleSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1776187606}
   - component: {fileID: 1776187607}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: staminaBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 1923353897}
   - component: {fileID: 1935107093}
   - component: {fileID: 1402484518}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RifleComponent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -951,7 +951,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9021075625512468296}
   - component: {fileID: 3926037360841346111}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: healthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1033,7 +1033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4879938477115972242}
   - component: {fileID: 401384458022831064}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1115,7 +1115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8409341153280766528}
   - component: {fileID: 1572232014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WeaponComponent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1163,7 +1163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9025643996741394295}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HFirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 7509239145815714836}
   - component: {fileID: 8731004773881123894}
   - component: {fileID: 9025643996763708668}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GunSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1300,7 +1300,7 @@ GameObject:
   - component: {fileID: 9025643997049860551}
   - component: {fileID: 797845719}
   - component: {fileID: 1341814455}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BodyComponent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1534,7 +1534,7 @@ GameObject:
   - component: {fileID: 1512239487}
   - component: {fileID: 1045007922}
   - component: {fileID: 919774139}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HandGunComponent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1785,7 +1785,7 @@ GameObject:
   - component: {fileID: 9025643998089537395}
   - component: {fileID: 921001516}
   - component: {fileID: 921001520}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1822,6 +1822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08b525241131bc4488c239863bea7bb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myGun: {fileID: 5645951722147916103}
   myInventory: {fileID: 0}
   rb: {fileID: 9025643998089537395}
 --- !u!50 &9025643998089537395

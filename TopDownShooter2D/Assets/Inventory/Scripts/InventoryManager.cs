@@ -11,7 +11,7 @@ public class InventoryManager : MonoBehaviour
     public GameObject slot_Grid;
     public Slot slot_Prefab;
     public Text item_Info;
-
+    [SerializeField] private PlayerBehaviour player;
     void Awake()
     {
         if (instance != null) 
@@ -75,9 +75,14 @@ public class InventoryManager : MonoBehaviour
         RefreshItem();
     }
     //使用道具button
-    public static void OnUseButtonClicked()
+    public void OnUseButtonClicked()
     {
-        if (ItemUse.isStackEmpty()) return;
+        Debug.Log("use button clicked");
+        if (ItemUse.isStackEmpty())
+        {
+            Debug.Log("item stack is empty");
+            return;
+        }
 
         string item_Use =  ItemUse.ItemUsed();
 
@@ -86,7 +91,7 @@ public class InventoryManager : MonoBehaviour
             switch(item_Use)
             {
                 case "Medkit":
-                    playerMovement.hpAdded();
+                    player.heal(30);
                     break;
                 case "Key":
                     break;
