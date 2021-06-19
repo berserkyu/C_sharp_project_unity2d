@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: 8e5ae68a4a4645d4abf389cf26684773
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3537981448513727374
+    second: GoblinSlingerDownDeath_0
+  - first:
+      213: -3110551116175440296
+    second: GoblinSlingerDownDeath_1
+  - first:
+      213: 2348797546424183616
+    second: GoblinSlingerDownDeath_2
+  - first:
+      213: 8246980080175744106
+    second: GoblinSlingerDownDeath_3
+  - first:
+      213: 3737215503972515071
+    second: GoblinSlingerDownDeath_4
+  - first:
+      213: -7819336498701001563
+    second: GoblinSlingerDownDeath_5
+  - first:
+      213: 5976838242938906409
+    second: GoblinSlingerDownDeath_6
+  - first:
+      213: 1746744449027525252
+    second: GoblinSlingerDownDeath_7
+  - first:
+      213: -3357885916996589832
+    second: GoblinSlingerDownDeath_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +128,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GoblinSlingerDownDeath_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b2594e16f691130800000000000000
+      internalID: 3537981448513727374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinSlingerDownDeath_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 7
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8560ba08d3a15d4d0800000000000000
+      internalID: -3110551116175440296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinSlingerDownDeath_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 4
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b2ceb8cea989020800000000000000
+      internalID: 2348797546424183616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinSlingerDownDeath_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64099440b8237270800000000000000
+      internalID: 8246980080175744106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinSlingerDownDeath_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 4
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc3d5343b14dd330800000000000000
+      internalID: 3737215503972515071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinSlingerDownDeath_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 4
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac1eaf02e22c7390800000000000000
+      internalID: -7819336498701001563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinSlingerDownDeath_6
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 4
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927e75e17bef1f250800000000000000
+      internalID: 5976838242938906409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinSlingerDownDeath_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 4
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48acbad52dead3810800000000000000
+      internalID: 1746744449027525252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinSlingerDownDeath_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 6
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6a121ac846661d0800000000000000
+      internalID: -3357885916996589832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

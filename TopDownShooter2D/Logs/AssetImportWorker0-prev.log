@@ -1,0 +1,640 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1052; Version 2009; 64bit' Language: 'zh' Physical Memory: 8111 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mengh/Desktop/github/C_sharp_project_unity2d/TopDownShooter2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53254
+Successfully changed project path to: C:/Users/mengh/Desktop/github/C_sharp_project_unity2d/TopDownShooter2D
+C:/Users/mengh/Desktop/github/C_sharp_project_unity2d/TopDownShooter2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mengh/Desktop/github/C_sharp_project_unity2d/TopDownShooter2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   24.21.13.9901
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002727 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1880 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2375.
+Total: 2.210600 ms (FindLiveObjects: 0.356700 ms CreateObjectMapping: 0.095800 ms MarkObjects: 1.713000 ms  DeleteObjects: 0.044200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightDeath.png
+  artifactKey: Guid(5c77a3840ec81dc4c9496887921a05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightDeath.png using Guid(5c77a3840ec81dc4c9496887921a05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe88e85680b84740edf676c05fc6868') in 0.161807 seconds
+  Import took 0.165391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png
+  artifactKey: Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png using Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be17c8f745078e2066c066ad7aa5f7') in 0.028868 seconds
+  Import took 0.032845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000792 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpAttack01.png
+  artifactKey: Guid(457b6f6a91557e74db828a8849e62dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpAttack01.png using Guid(457b6f6a91557e74db828a8849e62dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5f788e2f9e03cb7f311fcb329c2bc2') in 0.049102 seconds
+  Import took 0.053988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightIdle.png
+  artifactKey: Guid(1e46de03b60bafa469c1894929c7165e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightIdle.png using Guid(1e46de03b60bafa469c1894929c7165e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770cc5f140ebb64ec1bd1c62e645a06b') in 0.028775 seconds
+  Import took 0.033046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpDeath.png
+  artifactKey: Guid(bf6cd052374393241b6004b648fedf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpDeath.png using Guid(bf6cd052374393241b6004b648fedf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21430805d8ffcf48c963fe4a7ecc5cbf') in 0.023501 seconds
+  Import took 0.030747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttIdle.png
+  artifactKey: Guid(4ba0200c681bf91499900018e7f111b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttIdle.png using Guid(4ba0200c681bf91499900018e7f111b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2b5fd54ffd48023c25a60682ace0f4') in 0.030454 seconds
+  Import took 0.035106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpWalk.png
+  artifactKey: Guid(70b0a1c4bb9329e48985bdd77a712879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpWalk.png using Guid(70b0a1c4bb9329e48985bdd77a712879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd519aee00f5aa734325b8efb47596ac') in 0.041036 seconds
+  Import took 0.047157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownIdle.png
+  artifactKey: Guid(bbbbec83595fe394781e7a46720ff9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownIdle.png using Guid(bbbbec83595fe394781e7a46720ff9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b797ad8cd084d451e85f863a41d684f2') in 0.026098 seconds
+  Import took 0.032207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightHurt.png
+  artifactKey: Guid(185214d4ed3bda14196b20087b9de0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightHurt.png using Guid(185214d4ed3bda14196b20087b9de0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fe8d6bed01999a79c41f4f302129ad') in 0.025333 seconds
+  Import took 0.030353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightAttack01.png
+  artifactKey: Guid(3af134ebf2ca39d489ee4f9c85e942ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightAttack01.png using Guid(3af134ebf2ca39d489ee4f9c85e942ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebd0964c4e94182a39cecd4b64e0c2a') in 0.050169 seconds
+  Import took 0.054238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightWalk.png
+  artifactKey: Guid(8afa4829c9d3fff4398d1b6d58ddab12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightWalk.png using Guid(8afa4829c9d3fff4398d1b6d58ddab12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d50fd371c36a2b1e87cc0d7c481fdb5') in 0.034304 seconds
+  Import took 0.039728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpIdle.png
+  artifactKey: Guid(163d915589b58814fb3342765d00513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpIdle.png using Guid(163d915589b58814fb3342765d00513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94ff318510960ab12a5afa441886133') in 0.028133 seconds
+  Import took 0.031846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownDeath.png
+  artifactKey: Guid(ba383da06fe905b499c11419905a061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownDeath.png using Guid(ba383da06fe905b499c11419905a061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2d61da29358b3edc8f7d8ff4c75bb4') in 0.025557 seconds
+  Import took 0.029212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftAttack01.png
+  artifactKey: Guid(d1f8c60002efcdd419e6a159f46de12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftAttack01.png using Guid(d1f8c60002efcdd419e6a159f46de12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0e63bca9b069ab8581a8a1d317333a') in 0.049674 seconds
+  Import took 0.054133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftDeath.png
+  artifactKey: Guid(06ed7e3e1f9260c46b9f407c7c48ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftDeath.png using Guid(06ed7e3e1f9260c46b9f407c7c48ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69605382e9011f77446edba15ba55d4') in 0.023959 seconds
+  Import took 0.027473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownAttack01.png
+  artifactKey: Guid(8050ccd76c3ac884aac061d4ccee9acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownAttack01.png using Guid(8050ccd76c3ac884aac061d4ccee9acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb1cba0911e2ff6b6d4586b456845cf') in 0.046669 seconds
+  Import took 0.050830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpHurt.png
+  artifactKey: Guid(45091bd14df080048af6c783d6770a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpHurt.png using Guid(45091bd14df080048af6c783d6770a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15d5e6776929ca61a53e764c5be4bff') in 0.024648 seconds
+  Import took 0.029059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownWalk.png
+  artifactKey: Guid(5aa0ed3b120859b4e974149784a26aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownWalk.png using Guid(5aa0ed3b120859b4e974149784a26aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1806e0bf15769f709ee52aebd21d8148') in 0.046500 seconds
+  Import took 0.051215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftWalk.png
+  artifactKey: Guid(aabf68c8d9e0f5e46b905c8477105b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftWalk.png using Guid(aabf68c8d9e0f5e46b905c8477105b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6723f7518161ca4cd01a7cb24283c0') in 0.036100 seconds
+  Import took 0.040245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttHurt.png
+  artifactKey: Guid(2863c33eabfc7184fb1df9de51cfaa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttHurt.png using Guid(2863c33eabfc7184fb1df9de51cfaa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b587a89d6ac87ac427fbbbd0f9ff9d9') in 0.026794 seconds
+  Import took 0.031282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.451239 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyIdle.anim
+  artifactKey: Guid(ee7b4393c807aef42820ca9b355105f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyIdle.anim using Guid(ee7b4393c807aef42820ca9b355105f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55009c4aaae9880214d1a5d5148f7bb7') in 0.016307 seconds
+  Import took 0.022288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001049 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyIdle.anim
+  artifactKey: Guid(ee7b4393c807aef42820ca9b355105f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyIdle.anim using Guid(ee7b4393c807aef42820ca9b355105f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55009c4aaae9880214d1a5d5148f7bb7') in 0.005581 seconds
+  Import took 0.011333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.006804 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyWalkDown.anim
+  artifactKey: Guid(308719136c2fa41409f6167af7cdd15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyWalkDown.anim using Guid(308719136c2fa41409f6167af7cdd15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda61f2f9264a4bd39363b8b89e23f98') in 0.010526 seconds
+  Import took 0.015439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.046114 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyWalkLeft.anim
+  artifactKey: Guid(0e45d79214ec2094aa747e1f0459c913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyWalkLeft.anim using Guid(0e45d79214ec2094aa747e1f0459c913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08aba0d2d4615d63c705d97de857d3d0') in 0.013024 seconds
+  Import took 0.018118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.301198 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyWalkRight.anim
+  artifactKey: Guid(5265079702428984db15de60e1905a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyWalkRight.anim using Guid(5265079702428984db15de60e1905a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7097061be1482c806da9299863ca1e9') in 0.009127 seconds
+  Import took 0.014904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361423 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyWalkUp.anim
+  artifactKey: Guid(919597fb6d84b544bb08864baf80b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/ShootEnemyWalkUp.anim using Guid(919597fb6d84b544bb08864baf80b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bc2076631a402aac8f0e0c52d864a2') in 0.011330 seconds
+  Import took 0.014997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.157943 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/Dodging (1).png
+  artifactKey: Guid(49fbe2ef4e32145459869b12711b2ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/Dodging (1).png using Guid(49fbe2ef4e32145459869b12711b2ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d020b0eb2be0882e586ba88c09516b1') in 0.123831 seconds
+  Import took 0.127893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/runningDown.png
+  artifactKey: Guid(0edc0d262d7b7eb45a7ce588f0e8b3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/runningDown.png using Guid(0edc0d262d7b7eb45a7ce588f0e8b3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e354795022b208b332dc587337e61d') in 0.045462 seconds
+  Import took 0.053223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/rifleHolding.png
+  artifactKey: Guid(e19579d86a930e74095880956afe55c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/rifleHolding.png using Guid(e19579d86a930e74095880956afe55c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b0167aa9ac046fee0f7267ed8d0084') in 0.026888 seconds
+  Import took 0.031773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/dodgingDown.png
+  artifactKey: Guid(7e812f223d667ec47946e156e93ce343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/dodgingDown.png using Guid(7e812f223d667ec47946e156e93ce343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7852cc12ede7d44525d3d2202d5e9ae') in 0.057209 seconds
+  Import took 0.061891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/HandGunFiring1.png
+  artifactKey: Guid(08234eda036a91642a758cd04b8aaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/HandGunFiring1.png using Guid(08234eda036a91642a758cd04b8aaa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c878ba82a501f89061dfb23cb730f3c8') in 0.036266 seconds
+  Import took 0.041803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/PlayerDead.png
+  artifactKey: Guid(e99cfc6491c84864aa7aab51a0084c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/PlayerDead.png using Guid(e99cfc6491c84864aa7aab51a0084c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bf18747f6d6af35f25f413ae2f2656') in 0.072017 seconds
+  Import took 0.075950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/PlayerDodging.png
+  artifactKey: Guid(60763663b4beb864898a09d7d2a5e56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/PlayerDodging.png using Guid(60763663b4beb864898a09d7d2a5e56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d0578eb4a668a572f4ed996a852ce7') in 0.059332 seconds
+  Import took 0.063243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/IdleHori.png
+  artifactKey: Guid(d4c89d7b6211bed489d32b6b15b01098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/IdleHori.png using Guid(d4c89d7b6211bed489d32b6b15b01098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53912cdaef23b795f54ffaaa2a46ff3') in 0.043308 seconds
+  Import took 0.046874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/runningUp.png
+  artifactKey: Guid(f33d536e350b03941a6515251d5192d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/runningUp.png using Guid(f33d536e350b03941a6515251d5192d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd543ef312245ecb3fbe6d324a1fe38b7') in 0.050778 seconds
+  Import took 0.054361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/HandGunFiring.png
+  artifactKey: Guid(754fd19532bffee458399664f55e6d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/HandGunFiring.png using Guid(754fd19532bffee458399664f55e6d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e1486224ce5c67ae0d0041a91854a7') in 0.041723 seconds
+  Import took 0.046882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/dodgingUp.png
+  artifactKey: Guid(e58bec6eb9df801498a92301f77185a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/dodgingUp.png using Guid(e58bec6eb9df801498a92301f77185a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34054b87a68000da04803aa4849d1d54') in 0.051536 seconds
+  Import took 0.055637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/Idle.png
+  artifactKey: Guid(7803e4ec1d35939468060c425a2ab12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/Idle.png using Guid(7803e4ec1d35939468060c425a2ab12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aac535952a8d17e15bd99a2aab2b083') in 0.024371 seconds
+  Import took 0.029076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/shotGunFiring.png
+  artifactKey: Guid(118b7ea4c1662d74aa7a350774eedbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/shotGunFiring.png using Guid(118b7ea4c1662d74aa7a350774eedbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33f7b0edc2965e855ffa37dd2c9bda6') in 0.036447 seconds
+  Import took 0.040365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/IdleUp (1).png
+  artifactKey: Guid(b7d3deb4f24228743bff66f9765eeda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/IdleUp (1).png using Guid(b7d3deb4f24228743bff66f9765eeda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37445717de6a71c53c236ad1b0e766cf') in 0.040081 seconds
+  Import took 0.044176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/dodgingDown (1).png
+  artifactKey: Guid(2016c7b992a9dd140b86397f94eb9ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/dodgingDown (1).png using Guid(2016c7b992a9dd140b86397f94eb9ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d48b48b3276aa484ea7c465bdcc5d2') in 0.050234 seconds
+  Import took 0.055666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/rifleFiring.png
+  artifactKey: Guid(5f8ccc9733e31344bb913d84abc959be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/rifleFiring.png using Guid(5f8ccc9733e31344bb913d84abc959be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792b7ef6612c85e99a9b9e980db574f9') in 0.044863 seconds
+  Import took 0.048591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/DownRunning.png
+  artifactKey: Guid(9c3d41889831d6146955c117adf5fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/DownRunning.png using Guid(9c3d41889831d6146955c117adf5fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec4931a2ac21b69f959d45d1c8aaba7') in 0.162502 seconds
+  Import took 0.166280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/runningHorizontal.png
+  artifactKey: Guid(20775d84f69979b429819239cb55daf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/runningHorizontal.png using Guid(20775d84f69979b429819239cb55daf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1529540cace9211768d2f914690f6af5') in 0.044261 seconds
+  Import took 0.049079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/dodgingUp (1).png
+  artifactKey: Guid(e764102016f9fd84d8c0d111667f3587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/PlayerMoveAnimationSprites/dodgingUp (1).png using Guid(e764102016f9fd84d8c0d111667f3587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5f96050b7d13e0a8d10c98fc3fa120') in 0.065363 seconds
+  Import took 0.068823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.286428 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/Possesed.controller
+  artifactKey: Guid(bdbf6bb6dba0403439c4d6c4a47deaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/Possesed.controller using Guid(bdbf6bb6dba0403439c4d6c4a47deaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41aea2a4cd3a2fd61596c634945ccf2f') in 0.018122 seconds
+  Import took 0.023578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.535782 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownDeath.png
+  artifactKey: Guid(ba383da06fe905b499c11419905a061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownDeath.png using Guid(ba383da06fe905b499c11419905a061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b511b15b77f66df1aeb8473a04eb93') in 0.013573 seconds
+  Import took 0.017775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020263 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownDeath.png
+  artifactKey: Guid(ba383da06fe905b499c11419905a061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownDeath.png using Guid(ba383da06fe905b499c11419905a061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b511b15b77f66df1aeb8473a04eb93') in 0.010971 seconds
+  Import took 0.017242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.565890 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownDeath.png
+  artifactKey: Guid(ba383da06fe905b499c11419905a061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownDeath.png using Guid(ba383da06fe905b499c11419905a061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93707661f0d6e911d4b748aaae3c78d6') in 0.055092 seconds
+  Import took 0.060040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.313559 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png
+  artifactKey: Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png using Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50bff7d781065a64f4df26662c0f8a4') in 0.012870 seconds
+  Import took 0.017276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017723 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png
+  artifactKey: Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png using Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50bff7d781065a64f4df26662c0f8a4') in 0.009264 seconds
+  Import took 0.013392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.219695 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png
+  artifactKey: Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png using Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b206d27a6195ced5bce3162433edaa') in 0.022234 seconds
+  Import took 0.027593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006557 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png
+  artifactKey: Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedDownHurt.png using Guid(d18f91b3bc9cd8145bdc424bc5c02507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b206d27a6195ced5bce3162433edaa') in 0.017762 seconds
+  Import took 0.024632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.373031 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftDeath.png
+  artifactKey: Guid(06ed7e3e1f9260c46b9f407c7c48ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftDeath.png using Guid(06ed7e3e1f9260c46b9f407c7c48ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aea91de20e36c16acb4986f1a35f9d') in 0.013055 seconds
+  Import took 0.017162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012559 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftDeath.png
+  artifactKey: Guid(06ed7e3e1f9260c46b9f407c7c48ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftDeath.png using Guid(06ed7e3e1f9260c46b9f407c7c48ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aea91de20e36c16acb4986f1a35f9d') in 0.009456 seconds
+  Import took 0.014689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.704190 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftDeath.png
+  artifactKey: Guid(06ed7e3e1f9260c46b9f407c7c48ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLeftDeath.png using Guid(06ed7e3e1f9260c46b9f407c7c48ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280a0490b3fc17ed47b229ff0f53ca66') in 0.044325 seconds
+  Import took 0.048556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.357490 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpDeath.png
+  artifactKey: Guid(bf6cd052374393241b6004b648fedf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpDeath.png using Guid(bf6cd052374393241b6004b648fedf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37160eda429b64d4b7fa67b4503d48b3') in 0.016633 seconds
+  Import took 0.023659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032003 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpDeath.png
+  artifactKey: Guid(bf6cd052374393241b6004b648fedf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpDeath.png using Guid(bf6cd052374393241b6004b648fedf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37160eda429b64d4b7fa67b4503d48b3') in 0.163144 seconds
+  Import took 0.172270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.914901 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpDeath.png
+  artifactKey: Guid(bf6cd052374393241b6004b648fedf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpDeath.png using Guid(bf6cd052374393241b6004b648fedf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec22756c26c7ef86f16d54481edb457') in 0.090712 seconds
+  Import took 0.095438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.106975 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightDeath.png
+  artifactKey: Guid(5c77a3840ec81dc4c9496887921a05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightDeath.png using Guid(5c77a3840ec81dc4c9496887921a05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac7eb8e79dd8c08322d261e4ad00aa9') in 0.014605 seconds
+  Import took 0.019618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015584 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightDeath.png
+  artifactKey: Guid(5c77a3840ec81dc4c9496887921a05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightDeath.png using Guid(5c77a3840ec81dc4c9496887921a05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac7eb8e79dd8c08322d261e4ad00aa9') in 0.009958 seconds
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.695351 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightDeath.png
+  artifactKey: Guid(5c77a3840ec81dc4c9496887921a05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightDeath.png using Guid(5c77a3840ec81dc4c9496887921a05d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ab047776373473fa2cbe737800eadf') in 0.041488 seconds
+  Import took 0.045807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.512050 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightHurt.png
+  artifactKey: Guid(185214d4ed3bda14196b20087b9de0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightHurt.png using Guid(185214d4ed3bda14196b20087b9de0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c52638ca07f933d063c58b166212b14') in 0.012209 seconds
+  Import took 0.015748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016822 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightHurt.png
+  artifactKey: Guid(185214d4ed3bda14196b20087b9de0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightHurt.png using Guid(185214d4ed3bda14196b20087b9de0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c52638ca07f933d063c58b166212b14') in 0.009495 seconds
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.435010 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightHurt.png
+  artifactKey: Guid(185214d4ed3bda14196b20087b9de0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedRightHurt.png using Guid(185214d4ed3bda14196b20087b9de0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef029a98aa562a675ae5e3ddca07bc3f') in 0.028594 seconds
+  Import took 0.032754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.078172 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttHurt.png
+  artifactKey: Guid(2863c33eabfc7184fb1df9de51cfaa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttHurt.png using Guid(2863c33eabfc7184fb1df9de51cfaa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0155404d9410ad560e5a7fdd1462a13') in 0.015099 seconds
+  Import took 0.020029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015328 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttHurt.png
+  artifactKey: Guid(2863c33eabfc7184fb1df9de51cfaa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttHurt.png using Guid(2863c33eabfc7184fb1df9de51cfaa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0155404d9410ad560e5a7fdd1462a13') in 0.007977 seconds
+  Import took 0.013525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.669346 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttHurt.png
+  artifactKey: Guid(2863c33eabfc7184fb1df9de51cfaa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedLefttHurt.png using Guid(2863c33eabfc7184fb1df9de51cfaa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf9377d6729f17e17258fe5eba5a782') in 0.033682 seconds
+  Import took 0.039064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.235935 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpHurt.png
+  artifactKey: Guid(45091bd14df080048af6c783d6770a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpHurt.png using Guid(45091bd14df080048af6c783d6770a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dda6a2fd171056f95af5def71a76e13') in 0.013547 seconds
+  Import took 0.020442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016995 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpHurt.png
+  artifactKey: Guid(45091bd14df080048af6c783d6770a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpHurt.png using Guid(45091bd14df080048af6c783d6770a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dda6a2fd171056f95af5def71a76e13') in 0.008397 seconds
+  Import took 0.013432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.401495 seconds.
+  path: Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpHurt.png
+  artifactKey: Guid(45091bd14df080048af6c783d6770a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteResource/EnemyMoveAnimation/Possesed/PossesedUpHurt.png using Guid(45091bd14df080048af6c783d6770a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93552c623d71c64e5e9a14d32b7a1a37') in 0.028353 seconds
+  Import took 0.033170 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
