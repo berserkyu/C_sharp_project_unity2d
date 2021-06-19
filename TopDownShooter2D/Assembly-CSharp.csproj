@@ -90,6 +90,7 @@
     <Compile Include="Assets\bulletInstanceManager.cs" />
     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_Bar.cs" />
     <Compile Include="Assets\Scripts\bossBattle.cs" />
+    <Compile Include="Assets\Inventory\Scripts\ItemUse.cs" />
     <Compile Include="Assets\EnemyFollowPlayer.cs" />
     <Compile Include="Assets\Inventory\Scripts\ItemWorld.cs" />
     <Compile Include="Assets\Scripts\bulletBehaviour.cs" />
@@ -109,7 +110,6 @@
     <Compile Include="Assets\EnemyPathfindingMovement.cs" />
     <Compile Include="Assets\getPlayerSpawn.cs" />
     <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\FunctionPeriodic.cs" />
-    <Compile Include="Assets\Inventory\Scripts\ItemUse.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
