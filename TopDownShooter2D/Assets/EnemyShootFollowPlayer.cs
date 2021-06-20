@@ -15,7 +15,8 @@ public class EnemyShootFollowPlayer : MonoBehaviour
     public HealthBar healthBar;
     public HealthSystem healthSystem;
     private int damageVal;
-
+    [SerializeField] private AudioSource sound;
+    [SerializeField] private AudioClip attackSound;
 
     void Start()
     {
@@ -35,6 +36,7 @@ public class EnemyShootFollowPlayer : MonoBehaviour
         else if (distanceFromPlayer <= shoootingRange && nextFireTime < Time.time) 
         {
             Instantiate(bullet,bulletParent.transform.position, Quaternion.identity);
+            sound.PlayOneShot(attackSound);
             nextFireTime = Time.time + fireRate;
         }
     }

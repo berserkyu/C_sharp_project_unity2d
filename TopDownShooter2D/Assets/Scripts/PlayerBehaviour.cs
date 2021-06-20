@@ -15,7 +15,7 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private GameObject deadScene;
     [SerializeField] private Transform spawnPt;
     [SerializeField] private AudioSource soundEmitter;
-    [SerializeField] private AudioClip damageSound, healSound;
+    [SerializeField] private AudioClip damageSound, healSound,deadSound;
     private Vector3 initStaminaScale;
     //public playerMovement player;
     private float dodgeCnt = 0f;
@@ -43,6 +43,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if (hpSys.GetHealth() <= 0)
         {
+            soundEmitter.PlayOneShot(deadSound);
             Debug.Log("dies");
             gun.die();
             playerAnim.Play("playerDead");

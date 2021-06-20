@@ -9,6 +9,7 @@ public class BulletScript : MonoBehaviour
     int dmg = 10;
     Rigidbody2D bulletRB;
 
+
     void Start()
     {
         bulletRB = GetComponent<Rigidbody2D>();
