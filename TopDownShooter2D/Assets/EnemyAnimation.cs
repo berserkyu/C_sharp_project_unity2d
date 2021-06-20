@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyAnimation : MonoBehaviour
 {
+    
     public float speed;
     public float checkRadius;
     public float attackRadius;
@@ -26,12 +27,13 @@ public class EnemyAnimation : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
+
     }
+   
 
     private void Update()
     {
         anim.SetBool("isRunning", isInChaseRange);
-
         isInChaseRange = Physics2D.OverlapCircle(transform.position, checkRadius, whatisplayer);
         isInAttackRange = Physics2D.OverlapCircle(transform.position, attackRadius, whatisplayer);
 

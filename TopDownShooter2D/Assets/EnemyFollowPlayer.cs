@@ -53,8 +53,8 @@ public class EnemyFollowPlayer : MonoBehaviour
         {
             GameObject gb = collision.gameObject.transform.GetChild(0).gameObject;
             if (gb == null) return;
-            PlayerBehaviour pb = gb.GetComponent<PlayerBehaviour>();
-            if (pb != null) pb.damage(damageVal);
+            //PlayerBehaviour pb = gb.GetComponent<PlayerBehaviour>();
+            //if (pb != null) pb.damage(damageVal);
         }
         else
         {

@@ -25,7 +25,14 @@ public class EnemyShootFollowPlayer : MonoBehaviour
         HealthSystem healthSystem = new HealthSystem(100);
         healthBar.Setup(healthSystem);
     }
-
+    public float getLineOfSight()
+    {
+        return lineOfSite;
+    }
+    public float getShootingRange()
+    {
+        return shoootingRange;
+    }
     void Update()
     {
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);

@@ -10,6 +10,7 @@ public class enemyBattle : MonoBehaviour
     [SerializeField] private AudioClip damageSound;
     [SerializeField] private Animator anim;
     [SerializeField] private int enemyType;
+    [SerializeField] private GameObject damageZone;
     private Vector3 initScale;
     private HealthSystem hpSys;
    
@@ -18,11 +19,19 @@ public class enemyBattle : MonoBehaviour
     {
         hpSys = new HealthSystem(maxHp);
         initScale = health.localScale;
-        
     }
     void die()
     {
-
+        if (enemyType == 0)
+        {
+            anim.Play("ShootEnemyDieDown");
+        }
+        else
+        {
+            anim.Play("EnemyDieDown");
+        }
+        if (gameObject.GetComponent<EnemyFollowPlayer>() != null) gameObject.GetComponent<EnemyFollowPlayer>().enabled = false;
+        if (gameObject.GetComponent<EnemyShootFollowPlayer>() != null) gameObject.GetComponent<EnemyShootFollowPlayer>().enabled = false;
     }
     public void damage(int val)
     {
@@ -31,21 +40,22 @@ public class enemyBattle : MonoBehaviour
         health.localScale = new Vector3(hpSys.GetHealthPercent()*initScale.x,initScale.y ,initScale.z);
         if (hpSys.GetHealth() == 0)
         {
-            if (enemyType == 0)
-            {
-                anim.Play("ShootEnemyDieDown");
-            }
-            else
-            {
-                anim.Play("EnemyDieDown");
-            }
-           if(gameObject.GetComponent<EnemyFollowPlayer>()!=null) gameObject.GetComponent<EnemyFollowPlayer>().enabled = false;
-            if (gameObject.GetComponent<EnemyShootFollowPlayer>() != null) gameObject.GetComponent<EnemyShootFollowPlayer>().enabled = false;
+            die();
         }
     }
     public void doneDying()
     {
         Destroy(gameObject);
+    }
+    public void spawnDamageZone(int i)
+    {
+        damageZone.transform.position = transform.position;
+        damageZone.SetActive(true);
+        damageZone.GetComponent<damageZone>().rotate(i);
+    }
+    public void disableDamageZone()
+    {
+        damageZone.SetActive(false);
     }
     // Update is called once per frame
     void Update()
