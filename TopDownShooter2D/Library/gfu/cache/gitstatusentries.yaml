@@ -13,1494 +13,1752 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-06-20T13:23:40.466+08:00
-  initializedAtString: 2021-06-20T12:50:27.515+08:00
+  lastUpdatedAtString: 2021-06-20T14:39:41.259+08:00
+  initializedAtString: 2021-06-20T14:38:00.818+08:00
   entries:
+  - path: .gitignore
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\.gitignore"
+    projectPath: ..\.gitignore
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: TopDownShooter2D\Assembly-CSharp.csproj
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Assembly-CSharp.csproj
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Assembly-CSharp.csproj"
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Assembly-CSharp-Editor-firstpass.csproj"
     projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TopDownShooter2D\Assets\Inventory\Scripts\InventoryManager.cs
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Assets\Inventory\Scripts\InventoryManager.cs
-    projectPath: Assets\Inventory\Scripts\InventoryManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TopDownShooter2D\Assets\Scenes\Scene2.unity
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Assets\Scenes\Scene2.unity
-    projectPath: Assets\Scenes\Scene2.unity
+  - path: TopDownShooter2D\Assets\Scripts\bulletBehaviour.cs
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Assets\\Scripts\\bulletBehaviour.cs"
+    projectPath: Assets\Scripts\bulletBehaviour.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ArtifactDB
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ArtifactDB
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ArtifactDB"
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TopDownShooter2D\Library\Artifacts\04\046c4a4b1efc409a17bf033e5910ce8a
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\04\046c4a4b1efc409a17bf033e5910ce8a
-    projectPath: Library\Artifacts\04\046c4a4b1efc409a17bf033e5910ce8a
+  - path: TopDownShooter2D\Library\Artifacts\02\0271a11e36bcdf95c9397577ee5ef1ac
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\02\\0271a11e36bcdf95c9397577ee5ef1ac"
+    projectPath: Library\Artifacts\02\0271a11e36bcdf95c9397577ee5ef1ac
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\05\05eb0682bdf2633e9a60a533f1965c31
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\05\05eb0682bdf2633e9a60a533f1965c31
-    projectPath: Library\Artifacts\05\05eb0682bdf2633e9a60a533f1965c31
+  - path: TopDownShooter2D\Library\Artifacts\04\04ab858314582b435cd6902f9fcadebf
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\04\\04ab858314582b435cd6902f9fcadebf"
+    projectPath: Library\Artifacts\04\04ab858314582b435cd6902f9fcadebf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\07\07dd6324d3ccc7700c76ee7952c760e3
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\07\07dd6324d3ccc7700c76ee7952c760e3
-    projectPath: Library\Artifacts\07\07dd6324d3ccc7700c76ee7952c760e3
+  - path: TopDownShooter2D\Library\Artifacts\05\05af969cd6a141462c1f55584b0ff695
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\05\\05af969cd6a141462c1f55584b0ff695"
+    projectPath: Library\Artifacts\05\05af969cd6a141462c1f55584b0ff695
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\09\093bb57e524597c4ad376666f11f81dd
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\09\093bb57e524597c4ad376666f11f81dd
-    projectPath: Library\Artifacts\09\093bb57e524597c4ad376666f11f81dd
+  - path: TopDownShooter2D\Library\Artifacts\07\074ce164c0381e06067b177747f44544
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\07\\074ce164c0381e06067b177747f44544"
+    projectPath: Library\Artifacts\07\074ce164c0381e06067b177747f44544
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\0c\0ca049378ad0c9c3b428e93cf8d82d77
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\0c\0ca049378ad0c9c3b428e93cf8d82d77
-    projectPath: Library\Artifacts\0c\0ca049378ad0c9c3b428e93cf8d82d77
+  - path: TopDownShooter2D\Library\Artifacts\08\0811cd8ac253e158513dfea6d0323986
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\08\\0811cd8ac253e158513dfea6d0323986"
+    projectPath: Library\Artifacts\08\0811cd8ac253e158513dfea6d0323986
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\10\10a43ac9744a18cd4e7ce625edc539c0
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\10\10a43ac9744a18cd4e7ce625edc539c0
-    projectPath: Library\Artifacts\10\10a43ac9744a18cd4e7ce625edc539c0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\10\10b4b6e7dfc4d502670515202f33c86e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\10\10b4b6e7dfc4d502670515202f33c86e
-    projectPath: Library\Artifacts\10\10b4b6e7dfc4d502670515202f33c86e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\13\13485dc567603a5c3dd2f7d16b3a0cdf
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\13\13485dc567603a5c3dd2f7d16b3a0cdf
-    projectPath: Library\Artifacts\13\13485dc567603a5c3dd2f7d16b3a0cdf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\13\13d7558c9c5ce3515bbf5a45a4173f38
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\13\13d7558c9c5ce3515bbf5a45a4173f38
-    projectPath: Library\Artifacts\13\13d7558c9c5ce3515bbf5a45a4173f38
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\14\14019402a22bf6118d26493cb293d56a
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\14\14019402a22bf6118d26493cb293d56a
-    projectPath: Library\Artifacts\14\14019402a22bf6118d26493cb293d56a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\15\15d92cbe2fffd5b4907db70734052c82
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\15\15d92cbe2fffd5b4907db70734052c82
-    projectPath: Library\Artifacts\15\15d92cbe2fffd5b4907db70734052c82
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\17\17ce5b70c1c0b4102581a0989d7e9e70
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\17\17ce5b70c1c0b4102581a0989d7e9e70
-    projectPath: Library\Artifacts\17\17ce5b70c1c0b4102581a0989d7e9e70
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\18\18d26c040b3d7887dfa0bc1afa4a8746
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\18\18d26c040b3d7887dfa0bc1afa4a8746
-    projectPath: Library\Artifacts\18\18d26c040b3d7887dfa0bc1afa4a8746
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\19\1977c3935d0e5995500fe2e936c10fc4
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\19\1977c3935d0e5995500fe2e936c10fc4
-    projectPath: Library\Artifacts\19\1977c3935d0e5995500fe2e936c10fc4
+  - path: TopDownShooter2D\Library\Artifacts\08\081bcfbe0b01301b0ecebb45d47170cb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\08\\081bcfbe0b01301b0ecebb45d47170cb"
+    projectPath: Library\Artifacts\08\081bcfbe0b01301b0ecebb45d47170cb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\1a\1a309a25b860d016cb3e2b4e3d9d99e5
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\1a\1a309a25b860d016cb3e2b4e3d9d99e5
-    projectPath: Library\Artifacts\1a\1a309a25b860d016cb3e2b4e3d9d99e5
+  - path: TopDownShooter2D\Library\Artifacts\09\096cf2c1d228d855bae1e6903c126c29
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\09\\096cf2c1d228d855bae1e6903c126c29"
+    projectPath: Library\Artifacts\09\096cf2c1d228d855bae1e6903c126c29
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\09\09f84224cbfcd13ca1b9122b75f668b7
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\09\\09f84224cbfcd13ca1b9122b75f668b7"
+    projectPath: Library\Artifacts\09\09f84224cbfcd13ca1b9122b75f668b7
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\21\216c864c2c9c5eb332f7d41268fc1acf
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\21\216c864c2c9c5eb332f7d41268fc1acf
-    projectPath: Library\Artifacts\21\216c864c2c9c5eb332f7d41268fc1acf
+  - path: TopDownShooter2D\Library\Artifacts\11\112cc091e300230c165d8242ebba4d8f
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\11\\112cc091e300230c165d8242ebba4d8f"
+    projectPath: Library\Artifacts\11\112cc091e300230c165d8242ebba4d8f
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\24\24124375045ca7b2ef4ed2db45b3bbd4
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\24\24124375045ca7b2ef4ed2db45b3bbd4
-    projectPath: Library\Artifacts\24\24124375045ca7b2ef4ed2db45b3bbd4
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\14\14352148ba8e603b0c8bf0a281fcd65c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\14\\14352148ba8e603b0c8bf0a281fcd65c"
+    projectPath: Library\Artifacts\14\14352148ba8e603b0c8bf0a281fcd65c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\16\161ee042cbf38789fd13a527c8584c92
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\16\\161ee042cbf38789fd13a527c8584c92"
+    projectPath: Library\Artifacts\16\161ee042cbf38789fd13a527c8584c92
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\22\22522699a89fb20e0eacbdd6a3bf7652
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\22\\22522699a89fb20e0eacbdd6a3bf7652"
+    projectPath: Library\Artifacts\22\22522699a89fb20e0eacbdd6a3bf7652
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\29\294fc79c8c6ea9b0457e8a80f354298a
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\29\\294fc79c8c6ea9b0457e8a80f354298a"
+    projectPath: Library\Artifacts\29\294fc79c8c6ea9b0457e8a80f354298a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\29\29f0cd3addabcb5f064dafab0398d31c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\29\\29f0cd3addabcb5f064dafab0398d31c"
+    projectPath: Library\Artifacts\29\29f0cd3addabcb5f064dafab0398d31c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Library\Artifacts\2a\2ad738d2a5a6899432dd25be92f9b44e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\2a\2ad738d2a5a6899432dd25be92f9b44e
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\2a\\2ad738d2a5a6899432dd25be92f9b44e"
     projectPath: Library\Artifacts\2a\2ad738d2a5a6899432dd25be92f9b44e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\2b\2bfc3cac5150252f5725ea775d52a929
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\2b\2bfc3cac5150252f5725ea775d52a929
-    projectPath: Library\Artifacts\2b\2bfc3cac5150252f5725ea775d52a929
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TopDownShooter2D\Library\Artifacts\2a\2aeaa7367bbce5ecb6d27ed311dd46b2
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\2a\\2aeaa7367bbce5ecb6d27ed311dd46b2"
+    projectPath: Library\Artifacts\2a\2aeaa7367bbce5ecb6d27ed311dd46b2
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\39\39270a1995042d5230ef9cc0258172b8
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\39\39270a1995042d5230ef9cc0258172b8
-    projectPath: Library\Artifacts\39\39270a1995042d5230ef9cc0258172b8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\3a\3a1cef5295c0385899d46683ce4c5afc
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\3a\3a1cef5295c0385899d46683ce4c5afc
-    projectPath: Library\Artifacts\3a\3a1cef5295c0385899d46683ce4c5afc
+  - path: TopDownShooter2D\Library\Artifacts\2c\2c27e65dc09cd7fd85d9943687e4d717
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\2c\\2c27e65dc09cd7fd85d9943687e4d717"
+    projectPath: Library\Artifacts\2c\2c27e65dc09cd7fd85d9943687e4d717
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\3d\3d6ae7e6f753395031ee084828deebe1
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\3d\3d6ae7e6f753395031ee084828deebe1
-    projectPath: Library\Artifacts\3d\3d6ae7e6f753395031ee084828deebe1
+  - path: TopDownShooter2D\Library\Artifacts\2c\2cb57149341563b0db225dc6e2dc54ad
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\2c\\2cb57149341563b0db225dc6e2dc54ad"
+    projectPath: Library\Artifacts\2c\2cb57149341563b0db225dc6e2dc54ad
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\3e\3ebab47f83629d31cdf4f7c8cad7d228
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\3e\3ebab47f83629d31cdf4f7c8cad7d228
-    projectPath: Library\Artifacts\3e\3ebab47f83629d31cdf4f7c8cad7d228
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\42\42a46ccf7b95159d354f3be5cc144ff6
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\42\42a46ccf7b95159d354f3be5cc144ff6
-    projectPath: Library\Artifacts\42\42a46ccf7b95159d354f3be5cc144ff6
+  - path: TopDownShooter2D\Library\Artifacts\2e\2e42156d7774fbce3c0fee0f3b54bd37
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\2e\\2e42156d7774fbce3c0fee0f3b54bd37"
+    projectPath: Library\Artifacts\2e\2e42156d7774fbce3c0fee0f3b54bd37
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\44\442776e92a0f0ff9b311738fa3ccdc27
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\44\442776e92a0f0ff9b311738fa3ccdc27
-    projectPath: Library\Artifacts\44\442776e92a0f0ff9b311738fa3ccdc27
+  - path: TopDownShooter2D\Library\Artifacts\2e\2e9f74c67091e4c4285a92a05165bf5f
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\2e\\2e9f74c67091e4c4285a92a05165bf5f"
+    projectPath: Library\Artifacts\2e\2e9f74c67091e4c4285a92a05165bf5f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\48\4805db4f3893746e080bb0aadef79f6e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\48\4805db4f3893746e080bb0aadef79f6e
-    projectPath: Library\Artifacts\48\4805db4f3893746e080bb0aadef79f6e
+  - path: TopDownShooter2D\Library\Artifacts\2e\2efe3f745fe6e3cc0530971617c8af63
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\2e\\2efe3f745fe6e3cc0530971617c8af63"
+    projectPath: Library\Artifacts\2e\2efe3f745fe6e3cc0530971617c8af63
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\48\489e5b07d20119bb7330ffb0b4f52a77
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\48\489e5b07d20119bb7330ffb0b4f52a77
-    projectPath: Library\Artifacts\48\489e5b07d20119bb7330ffb0b4f52a77
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\4d\4dfabc0b7f299139e2e03517f788f657
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\4d\4dfabc0b7f299139e2e03517f788f657
-    projectPath: Library\Artifacts\4d\4dfabc0b7f299139e2e03517f788f657
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\4e\4e8274581e7d8d3767437a0596732cfa
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\4e\4e8274581e7d8d3767437a0596732cfa
-    projectPath: Library\Artifacts\4e\4e8274581e7d8d3767437a0596732cfa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\52\523db8895c3994eff7e7c0609b6e33e1
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\52\523db8895c3994eff7e7c0609b6e33e1
-    projectPath: Library\Artifacts\52\523db8895c3994eff7e7c0609b6e33e1
+  - path: TopDownShooter2D\Library\Artifacts\2f\2fe780763389bb2eb50547db8decc97c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\2f\\2fe780763389bb2eb50547db8decc97c"
+    projectPath: Library\Artifacts\2f\2fe780763389bb2eb50547db8decc97c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\52\52df9fcf02f42ed1e0835c8739656c58
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\52\52df9fcf02f42ed1e0835c8739656c58
-    projectPath: Library\Artifacts\52\52df9fcf02f42ed1e0835c8739656c58
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\5d\5d123535cc3b0f6aa57621b448868fc8
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\5d\5d123535cc3b0f6aa57621b448868fc8
-    projectPath: Library\Artifacts\5d\5d123535cc3b0f6aa57621b448868fc8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\5e\5e97a483d27a9fdd3569578fd397082e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\5e\5e97a483d27a9fdd3569578fd397082e
-    projectPath: Library\Artifacts\5e\5e97a483d27a9fdd3569578fd397082e
+  - path: TopDownShooter2D\Library\Artifacts\30\30c6a2f7f51acc0d91a788640ee52992
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\30\\30c6a2f7f51acc0d91a788640ee52992"
+    projectPath: Library\Artifacts\30\30c6a2f7f51acc0d91a788640ee52992
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\67\6768bd189a42a23c9d578b85b8815ed0
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\67\6768bd189a42a23c9d578b85b8815ed0
-    projectPath: Library\Artifacts\67\6768bd189a42a23c9d578b85b8815ed0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\6a\6a20e0520a2713ea5d83f6d2ebb5d42e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\6a\6a20e0520a2713ea5d83f6d2ebb5d42e
-    projectPath: Library\Artifacts\6a\6a20e0520a2713ea5d83f6d2ebb5d42e
+  - path: TopDownShooter2D\Library\Artifacts\33\334e1ef26fe920d233dcefe1be9c9fdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\33\\334e1ef26fe920d233dcefe1be9c9fdb"
+    projectPath: Library\Artifacts\33\334e1ef26fe920d233dcefe1be9c9fdb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\6f\6f5830f10e06adf8ed731e1f18c61c6a
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\6f\6f5830f10e06adf8ed731e1f18c61c6a
-    projectPath: Library\Artifacts\6f\6f5830f10e06adf8ed731e1f18c61c6a
+  - path: TopDownShooter2D\Library\Artifacts\34\34ff29e0b23c3dcf2b7254e637323a98
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\34\\34ff29e0b23c3dcf2b7254e637323a98"
+    projectPath: Library\Artifacts\34\34ff29e0b23c3dcf2b7254e637323a98
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\38\3873086f8f8df86879484cda48896030
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\38\\3873086f8f8df86879484cda48896030"
+    projectPath: Library\Artifacts\38\3873086f8f8df86879484cda48896030
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\38\38dafe1fce5fd8fcca33900d706624f6
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\38\\38dafe1fce5fd8fcca33900d706624f6"
+    projectPath: Library\Artifacts\38\38dafe1fce5fd8fcca33900d706624f6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\39\397c933f7ac134a25a1dc180be578108
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\39\\397c933f7ac134a25a1dc180be578108"
+    projectPath: Library\Artifacts\39\397c933f7ac134a25a1dc180be578108
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\39\39805ffe12ca4f9c353f549845521363
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\39\\39805ffe12ca4f9c353f549845521363"
+    projectPath: Library\Artifacts\39\39805ffe12ca4f9c353f549845521363
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\72\727627757955d2c518cc7362533b9b25
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\72\727627757955d2c518cc7362533b9b25
-    projectPath: Library\Artifacts\72\727627757955d2c518cc7362533b9b25
+  - path: TopDownShooter2D\Library\Artifacts\3a\3a8139178ca481e58c31a512dc134169
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\3a\\3a8139178ca481e58c31a512dc134169"
+    projectPath: Library\Artifacts\3a\3a8139178ca481e58c31a512dc134169
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\3b\3b0afad190c22455d65d3d7c4a0f11eb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\3b\\3b0afad190c22455d65d3d7c4a0f11eb"
+    projectPath: Library\Artifacts\3b\3b0afad190c22455d65d3d7c4a0f11eb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\40\407df9ba8611452edeaf09e9d50a58a9
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\40\\407df9ba8611452edeaf09e9d50a58a9"
+    projectPath: Library\Artifacts\40\407df9ba8611452edeaf09e9d50a58a9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\43\43caa5f407bf03fb3a57218aad36d1d5
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\43\\43caa5f407bf03fb3a57218aad36d1d5"
+    projectPath: Library\Artifacts\43\43caa5f407bf03fb3a57218aad36d1d5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\45\45f3644e9fbd1e071318d25df7ba33d4
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\45\\45f3644e9fbd1e071318d25df7ba33d4"
+    projectPath: Library\Artifacts\45\45f3644e9fbd1e071318d25df7ba33d4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\47\47d296fe3f4817602e89f30d91d1b6af
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\47\\47d296fe3f4817602e89f30d91d1b6af"
+    projectPath: Library\Artifacts\47\47d296fe3f4817602e89f30d91d1b6af
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\48\4818fbf7c546bbdade9e2a3d79f9d258
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\48\\4818fbf7c546bbdade9e2a3d79f9d258"
+    projectPath: Library\Artifacts\48\4818fbf7c546bbdade9e2a3d79f9d258
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\4a\4a3d5490f0562d3e2ff8cfccfedbcc93
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\4a\\4a3d5490f0562d3e2ff8cfccfedbcc93"
+    projectPath: Library\Artifacts\4a\4a3d5490f0562d3e2ff8cfccfedbcc93
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\4a\4a616acfc4d0c5d81d79d5725de5b465
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\4a\\4a616acfc4d0c5d81d79d5725de5b465"
+    projectPath: Library\Artifacts\4a\4a616acfc4d0c5d81d79d5725de5b465
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\52\52529d2fd696d39971fffe1b40316ec6
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\52\\52529d2fd696d39971fffe1b40316ec6"
+    projectPath: Library\Artifacts\52\52529d2fd696d39971fffe1b40316ec6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\55\5574d839e14154c4d15158ad24896d8a
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\55\\5574d839e14154c4d15158ad24896d8a"
+    projectPath: Library\Artifacts\55\5574d839e14154c4d15158ad24896d8a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\57\5788fdd77048fc589f71aa4025481d4d
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\57\\5788fdd77048fc589f71aa4025481d4d"
+    projectPath: Library\Artifacts\57\5788fdd77048fc589f71aa4025481d4d
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: TopDownShooter2D\Library\Artifacts\5c\5c4aec6410298d47ffdd64a2229942c8
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\5c\\5c4aec6410298d47ffdd64a2229942c8"
+    projectPath: Library\Artifacts\5c\5c4aec6410298d47ffdd64a2229942c8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TopDownShooter2D\Library\Artifacts\5c\5c5a28a4c779a863a24710db604dfb03
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\5c\\5c5a28a4c779a863a24710db604dfb03"
+    projectPath: Library\Artifacts\5c\5c5a28a4c779a863a24710db604dfb03
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\61\610b7064d4ce9825ce87261d54de5451
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\61\\610b7064d4ce9825ce87261d54de5451"
+    projectPath: Library\Artifacts\61\610b7064d4ce9825ce87261d54de5451
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\61\6116e91390bdd5aae9cb558415b4f54c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\61\\6116e91390bdd5aae9cb558415b4f54c"
+    projectPath: Library\Artifacts\61\6116e91390bdd5aae9cb558415b4f54c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TopDownShooter2D\Library\Artifacts\64\64f9f740825292c54b01d450c2f45d40
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\64\\64f9f740825292c54b01d450c2f45d40"
+    projectPath: Library\Artifacts\64\64f9f740825292c54b01d450c2f45d40
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TopDownShooter2D\Library\Artifacts\65\6503dc655517821bebc0f54f74bf5368
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\65\\6503dc655517821bebc0f54f74bf5368"
+    projectPath: Library\Artifacts\65\6503dc655517821bebc0f54f74bf5368
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\65\65db52b7eb6848a5faa914d5dca6ca55
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\65\\65db52b7eb6848a5faa914d5dca6ca55"
+    projectPath: Library\Artifacts\65\65db52b7eb6848a5faa914d5dca6ca55
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TopDownShooter2D\Library\Artifacts\68\68d161b1d2d933d2d35f1fc0e54ab381
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\68\\68d161b1d2d933d2d35f1fc0e54ab381"
+    projectPath: Library\Artifacts\68\68d161b1d2d933d2d35f1fc0e54ab381
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\69\69888bf244f39d3e3d6fa3389e044aab
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\69\\69888bf244f39d3e3d6fa3389e044aab"
+    projectPath: Library\Artifacts\69\69888bf244f39d3e3d6fa3389e044aab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\6a\6a0aea49d58450f1fe3669c3f8275e5b
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\6a\\6a0aea49d58450f1fe3669c3f8275e5b"
+    projectPath: Library\Artifacts\6a\6a0aea49d58450f1fe3669c3f8275e5b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\6a\6af4dea17c5ec480db4fcdfc1c026021
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\6a\\6af4dea17c5ec480db4fcdfc1c026021"
+    projectPath: Library\Artifacts\6a\6af4dea17c5ec480db4fcdfc1c026021
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\6d\6dfd21501b130e949d86eec2c8878169
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\6d\\6dfd21501b130e949d86eec2c8878169"
+    projectPath: Library\Artifacts\6d\6dfd21501b130e949d86eec2c8878169
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\71\715a86675556fa43981b80da40b3f190
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\71\\715a86675556fa43981b80da40b3f190"
+    projectPath: Library\Artifacts\71\715a86675556fa43981b80da40b3f190
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\72\729b54bf34f8bb68745f2c2eafb9a2f7
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\72\\729b54bf34f8bb68745f2c2eafb9a2f7"
+    projectPath: Library\Artifacts\72\729b54bf34f8bb68745f2c2eafb9a2f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\73\7314cb443310d290b5fcc03ad14401ac
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\73\\7314cb443310d290b5fcc03ad14401ac"
+    projectPath: Library\Artifacts\73\7314cb443310d290b5fcc03ad14401ac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: TopDownShooter2D\Library\Artifacts\74\743ec5f45c4a94404b7a6193d6dec8ba
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\74\743ec5f45c4a94404b7a6193d6dec8ba
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\74\\743ec5f45c4a94404b7a6193d6dec8ba"
     projectPath: Library\Artifacts\74\743ec5f45c4a94404b7a6193d6dec8ba
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\74\74b343fba1e833f1c4a1480b977fe1a7
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\74\74b343fba1e833f1c4a1480b977fe1a7
-    projectPath: Library\Artifacts\74\74b343fba1e833f1c4a1480b977fe1a7
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TopDownShooter2D\Library\Artifacts\78\78d2683fca4a477ea62c2edb621539a0
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\78\\78d2683fca4a477ea62c2edb621539a0"
+    projectPath: Library\Artifacts\78\78d2683fca4a477ea62c2edb621539a0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\74\74d821caa5885abb2e5ae85f9cf65416
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\74\74d821caa5885abb2e5ae85f9cf65416
-    projectPath: Library\Artifacts\74\74d821caa5885abb2e5ae85f9cf65416
+  - path: TopDownShooter2D\Library\Artifacts\79\799676352d407d0d46d6c7cd158344af
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\79\\799676352d407d0d46d6c7cd158344af"
+    projectPath: Library\Artifacts\79\799676352d407d0d46d6c7cd158344af
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\7c\7ce10369a4e8eaef2311d88bf64f626e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\7c\7ce10369a4e8eaef2311d88bf64f626e
-    projectPath: Library\Artifacts\7c\7ce10369a4e8eaef2311d88bf64f626e
+  - path: TopDownShooter2D\Library\Artifacts\7c\7c31ad2987b2e1da5382e00c916749ba
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\7c\\7c31ad2987b2e1da5382e00c916749ba"
+    projectPath: Library\Artifacts\7c\7c31ad2987b2e1da5382e00c916749ba
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\7d\7d823d21252b9aba41423358d0fc6bd5
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\7d\\7d823d21252b9aba41423358d0fc6bd5"
+    projectPath: Library\Artifacts\7d\7d823d21252b9aba41423358d0fc6bd5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\7f\7fa820bf96ead07e8ce88b4aebf91e24
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\7f\\7fa820bf96ead07e8ce88b4aebf91e24"
+    projectPath: Library\Artifacts\7f\7fa820bf96ead07e8ce88b4aebf91e24
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\80\801b082809d8a0db5a81b1704def2b42
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\80\\801b082809d8a0db5a81b1704def2b42"
+    projectPath: Library\Artifacts\80\801b082809d8a0db5a81b1704def2b42
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\82\820fab6a432f3db339f994ca504f70dc
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\82\\820fab6a432f3db339f994ca504f70dc"
+    projectPath: Library\Artifacts\82\820fab6a432f3db339f994ca504f70dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\82\82cce6bdc208365065b3080c6e2c0367
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\82\\82cce6bdc208365065b3080c6e2c0367"
+    projectPath: Library\Artifacts\82\82cce6bdc208365065b3080c6e2c0367
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\7d\7dbab0c908f98e7b1bf062586cce6bff
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\7d\7dbab0c908f98e7b1bf062586cce6bff
-    projectPath: Library\Artifacts\7d\7dbab0c908f98e7b1bf062586cce6bff
+  - path: TopDownShooter2D\Library\Artifacts\84\84693d6a977bf7775798e8656152a547
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\84\\84693d6a977bf7775798e8656152a547"
+    projectPath: Library\Artifacts\84\84693d6a977bf7775798e8656152a547
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\7f\7f5299fc32935065cebb10b8e5968698
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\7f\7f5299fc32935065cebb10b8e5968698
-    projectPath: Library\Artifacts\7f\7f5299fc32935065cebb10b8e5968698
+  - path: TopDownShooter2D\Library\Artifacts\87\87766b365ab038a2dcef198e57e01081
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\87\\87766b365ab038a2dcef198e57e01081"
+    projectPath: Library\Artifacts\87\87766b365ab038a2dcef198e57e01081
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\84\8440e1c0fa92aed6dda894160cef8b49
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\84\8440e1c0fa92aed6dda894160cef8b49
-    projectPath: Library\Artifacts\84\8440e1c0fa92aed6dda894160cef8b49
+  - path: TopDownShooter2D\Library\Artifacts\88\886d90c6a687fab094bb58b743001520
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\88\\886d90c6a687fab094bb58b743001520"
+    projectPath: Library\Artifacts\88\886d90c6a687fab094bb58b743001520
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\90\90e3c6aa1501a156c2f7de107199ab56
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\90\\90e3c6aa1501a156c2f7de107199ab56"
+    projectPath: Library\Artifacts\90\90e3c6aa1501a156c2f7de107199ab56
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\93\93f7e19149289176ef32e51f74db03ad
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\93\\93f7e19149289176ef32e51f74db03ad"
+    projectPath: Library\Artifacts\93\93f7e19149289176ef32e51f74db03ad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\9a\9a10e540c4ce75b3d2410812c48fba23
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\9a\\9a10e540c4ce75b3d2410812c48fba23"
+    projectPath: Library\Artifacts\9a\9a10e540c4ce75b3d2410812c48fba23
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\9a\9aa157da13d922faae5946635e223df3
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\9a\\9aa157da13d922faae5946635e223df3"
+    projectPath: Library\Artifacts\9a\9aa157da13d922faae5946635e223df3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\9a\9aa1a0d7431c35e111ac3b65af358d64
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\9a\\9aa1a0d7431c35e111ac3b65af358d64"
+    projectPath: Library\Artifacts\9a\9aa1a0d7431c35e111ac3b65af358d64
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\9b\9b5b43d4a08fa552a3e0322f60f44d04
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\9b\\9b5b43d4a08fa552a3e0322f60f44d04"
+    projectPath: Library\Artifacts\9b\9b5b43d4a08fa552a3e0322f60f44d04
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\87\871eb1d47b97c97dcc802471af821a31
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\87\871eb1d47b97c97dcc802471af821a31
-    projectPath: Library\Artifacts\87\871eb1d47b97c97dcc802471af821a31
+  - path: TopDownShooter2D\Library\Artifacts\a0\a0488a6b362053a9723ae1a8e0c9082b
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a0\\a0488a6b362053a9723ae1a8e0c9082b"
+    projectPath: Library\Artifacts\a0\a0488a6b362053a9723ae1a8e0c9082b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\a1\a10ef118df5f68701c5f082cab4b83cd
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a1\\a10ef118df5f68701c5f082cab4b83cd"
+    projectPath: Library\Artifacts\a1\a10ef118df5f68701c5f082cab4b83cd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\a1\a1565bc5c276542d5a918c582f1f5702
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a1\\a1565bc5c276542d5a918c582f1f5702"
+    projectPath: Library\Artifacts\a1\a1565bc5c276542d5a918c582f1f5702
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\a1\a165ca46d02fa20bcf8d4393ca3dbade
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a1\\a165ca46d02fa20bcf8d4393ca3dbade"
+    projectPath: Library\Artifacts\a1\a165ca46d02fa20bcf8d4393ca3dbade
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\a1\a1ff9f768b1acb3ea72bc7a155b7eaf9
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a1\\a1ff9f768b1acb3ea72bc7a155b7eaf9"
+    projectPath: Library\Artifacts\a1\a1ff9f768b1acb3ea72bc7a155b7eaf9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\8a\8a5e3c7b05c1b062b5cf5ab3066c6f00
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\8a\8a5e3c7b05c1b062b5cf5ab3066c6f00
-    projectPath: Library\Artifacts\8a\8a5e3c7b05c1b062b5cf5ab3066c6f00
+  - path: TopDownShooter2D\Library\Artifacts\a2\a202cdb5e25cad01c37dbcfd35e4eea4
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a2\\a202cdb5e25cad01c37dbcfd35e4eea4"
+    projectPath: Library\Artifacts\a2\a202cdb5e25cad01c37dbcfd35e4eea4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\8e\8eb983f3c6f07cd896c776a86dab035d
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\8e\8eb983f3c6f07cd896c776a86dab035d
-    projectPath: Library\Artifacts\8e\8eb983f3c6f07cd896c776a86dab035d
+  - path: TopDownShooter2D\Library\Artifacts\a3\a329c38f0eaf107776b0d66df89b9a72
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a3\\a329c38f0eaf107776b0d66df89b9a72"
+    projectPath: Library\Artifacts\a3\a329c38f0eaf107776b0d66df89b9a72
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\8f\8f1a4d5a19d9c65ff7f40f4209432820
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\8f\8f1a4d5a19d9c65ff7f40f4209432820
-    projectPath: Library\Artifacts\8f\8f1a4d5a19d9c65ff7f40f4209432820
+  - path: TopDownShooter2D\Library\Artifacts\a5\a591c2c09cabb2d9044dd1c95ad0d90c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a5\\a591c2c09cabb2d9044dd1c95ad0d90c"
+    projectPath: Library\Artifacts\a5\a591c2c09cabb2d9044dd1c95ad0d90c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\98\984797ecf0fc43cce4b787d507b93d1e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\98\984797ecf0fc43cce4b787d507b93d1e
-    projectPath: Library\Artifacts\98\984797ecf0fc43cce4b787d507b93d1e
+  - path: TopDownShooter2D\Library\Artifacts\a6\a647ab27d916ee4892e969ebbf049ecc
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a6\\a647ab27d916ee4892e969ebbf049ecc"
+    projectPath: Library\Artifacts\a6\a647ab27d916ee4892e969ebbf049ecc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\99\99d0d667183d6a50ca54383c1ef7d340
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\99\99d0d667183d6a50ca54383c1ef7d340
-    projectPath: Library\Artifacts\99\99d0d667183d6a50ca54383c1ef7d340
+  - path: TopDownShooter2D\Library\Artifacts\a6\a6560c9e9bbdd7f6e5d455023399daa3
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a6\\a6560c9e9bbdd7f6e5d455023399daa3"
+    projectPath: Library\Artifacts\a6\a6560c9e9bbdd7f6e5d455023399daa3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\9e\9ed73338f8025ad842b4198b63d38ff5
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\9e\9ed73338f8025ad842b4198b63d38ff5
-    projectPath: Library\Artifacts\9e\9ed73338f8025ad842b4198b63d38ff5
+  - path: TopDownShooter2D\Library\Artifacts\a6\a6b10e902e691476589564617d450c9b
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\a6\\a6b10e902e691476589564617d450c9b"
+    projectPath: Library\Artifacts\a6\a6b10e902e691476589564617d450c9b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\9f\9f5a92f9fbc81692e8a4e6de2ea791f2
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\9f\9f5a92f9fbc81692e8a4e6de2ea791f2
-    projectPath: Library\Artifacts\9f\9f5a92f9fbc81692e8a4e6de2ea791f2
+  - path: TopDownShooter2D\Library\Artifacts\ac\acf394325557bf790557cd07d8b5254f
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\ac\\acf394325557bf790557cd07d8b5254f"
+    projectPath: Library\Artifacts\ac\acf394325557bf790557cd07d8b5254f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\ac\acf80824cdb9b955e49b991418805e7e
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\ac\\acf80824cdb9b955e49b991418805e7e"
+    projectPath: Library\Artifacts\ac\acf80824cdb9b955e49b991418805e7e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\af\af982f4524bdce9bb4c4d2813252fcef
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\af\\af982f4524bdce9bb4c4d2813252fcef"
+    projectPath: Library\Artifacts\af\af982f4524bdce9bb4c4d2813252fcef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\b0\b02511acbfc317e383dda8c4f6f72d85
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\b0\\b02511acbfc317e383dda8c4f6f72d85"
+    projectPath: Library\Artifacts\b0\b02511acbfc317e383dda8c4f6f72d85
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\b4\b4f1c3129d3fcf36b65ed5d3e7d82ca2
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\b4\\b4f1c3129d3fcf36b65ed5d3e7d82ca2"
+    projectPath: Library\Artifacts\b4\b4f1c3129d3fcf36b65ed5d3e7d82ca2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\b9\b93a644aba6a85d5c55d6f7a77eea458
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\b9\\b93a644aba6a85d5c55d6f7a77eea458"
+    projectPath: Library\Artifacts\b9\b93a644aba6a85d5c55d6f7a77eea458
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\bc\bc1210397e38728753ffccf6b8de968a
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\bc\\bc1210397e38728753ffccf6b8de968a"
+    projectPath: Library\Artifacts\bc\bc1210397e38728753ffccf6b8de968a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\be\be41a0aebed632e8de232f64b55818ab
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\be\\be41a0aebed632e8de232f64b55818ab"
+    projectPath: Library\Artifacts\be\be41a0aebed632e8de232f64b55818ab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\bf\bf08d36789d6846754f75b3c83cb3ade
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\bf\\bf08d36789d6846754f75b3c83cb3ade"
+    projectPath: Library\Artifacts\bf\bf08d36789d6846754f75b3c83cb3ade
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\a0\a0ea036e79ea19433ff48f69df5f2043
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\a0\a0ea036e79ea19433ff48f69df5f2043
-    projectPath: Library\Artifacts\a0\a0ea036e79ea19433ff48f69df5f2043
+  - path: TopDownShooter2D\Library\Artifacts\c0\c0442eaecdb11a654a663d32f065f7c1
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\c0\\c0442eaecdb11a654a663d32f065f7c1"
+    projectPath: Library\Artifacts\c0\c0442eaecdb11a654a663d32f065f7c1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\c3\c3f3f6b96aa63e713a4339b701cba97e
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\c3\\c3f3f6b96aa63e713a4339b701cba97e"
+    projectPath: Library\Artifacts\c3\c3f3f6b96aa63e713a4339b701cba97e
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\a4\a45bdd4dc71e3a2d92e84378ab41551a
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\a4\a45bdd4dc71e3a2d92e84378ab41551a
-    projectPath: Library\Artifacts\a4\a45bdd4dc71e3a2d92e84378ab41551a
+  - path: TopDownShooter2D\Library\Artifacts\ca\ca4c965ef9837ea4d7556a416d71d298
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\ca\\ca4c965ef9837ea4d7556a416d71d298"
+    projectPath: Library\Artifacts\ca\ca4c965ef9837ea4d7556a416d71d298
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\af\af2d17c8a5fac2c771d054c694de2183
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\af\af2d17c8a5fac2c771d054c694de2183
-    projectPath: Library\Artifacts\af\af2d17c8a5fac2c771d054c694de2183
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\b8\b89335a5006c46e1a8d5d6f8e422211a
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\b8\b89335a5006c46e1a8d5d6f8e422211a
-    projectPath: Library\Artifacts\b8\b89335a5006c46e1a8d5d6f8e422211a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\c5\c500539077c6543f0b18d0e07f502bd0
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\c5\c500539077c6543f0b18d0e07f502bd0
-    projectPath: Library\Artifacts\c5\c500539077c6543f0b18d0e07f502bd0
+  - path: TopDownShooter2D\Library\Artifacts\cb\cb10d00bf129833135a6ef346ed3fb0a
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\cb\\cb10d00bf129833135a6ef346ed3fb0a"
+    projectPath: Library\Artifacts\cb\cb10d00bf129833135a6ef346ed3fb0a
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\ce\ce1b0d6823c29eb299cc6e7f70394621
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\ce\ce1b0d6823c29eb299cc6e7f70394621
-    projectPath: Library\Artifacts\ce\ce1b0d6823c29eb299cc6e7f70394621
+  - path: TopDownShooter2D\Library\Artifacts\cb\cbae43f58066f63bf95d460040592a65
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\cb\\cbae43f58066f63bf95d460040592a65"
+    projectPath: Library\Artifacts\cb\cbae43f58066f63bf95d460040592a65
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\d1\d11ad3fb57359f9a1e9de77c25212de6
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\d1\d11ad3fb57359f9a1e9de77c25212de6
-    projectPath: Library\Artifacts\d1\d11ad3fb57359f9a1e9de77c25212de6
+  - path: TopDownShooter2D\Library\Artifacts\cb\cbdaf451cdeb24ec9f7bf9c73dd34b81
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\cb\\cbdaf451cdeb24ec9f7bf9c73dd34b81"
+    projectPath: Library\Artifacts\cb\cbdaf451cdeb24ec9f7bf9c73dd34b81
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\db\dbd33f85fd08aa738916030057047ab3
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\db\dbd33f85fd08aa738916030057047ab3
-    projectPath: Library\Artifacts\db\dbd33f85fd08aa738916030057047ab3
+  - path: TopDownShooter2D\Library\Artifacts\cc\ccb9bdc85f62883a3e034203e9391b40
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\cc\\ccb9bdc85f62883a3e034203e9391b40"
+    projectPath: Library\Artifacts\cc\ccb9bdc85f62883a3e034203e9391b40
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\dc\dc76b6f804879600b0bae90527fb88d5
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\dc\dc76b6f804879600b0bae90527fb88d5
-    projectPath: Library\Artifacts\dc\dc76b6f804879600b0bae90527fb88d5
+  - path: TopDownShooter2D\Library\Artifacts\cd\cd9eadbd079b8c033da823ab00d3b52c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\cd\\cd9eadbd079b8c033da823ab00d3b52c"
+    projectPath: Library\Artifacts\cd\cd9eadbd079b8c033da823ab00d3b52c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\de\deb8f7ca296cd745ff0ab600da5c22b9
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\de\deb8f7ca296cd745ff0ab600da5c22b9
-    projectPath: Library\Artifacts\de\deb8f7ca296cd745ff0ab600da5c22b9
+  - path: TopDownShooter2D\Library\Artifacts\d0\d0a4a11bc4f7f6eef773bb0b36759f0b
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\d0\\d0a4a11bc4f7f6eef773bb0b36759f0b"
+    projectPath: Library\Artifacts\d0\d0a4a11bc4f7f6eef773bb0b36759f0b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\d2\d2cdfdf8f11d7599258ef67654d00046
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\d2\\d2cdfdf8f11d7599258ef67654d00046"
+    projectPath: Library\Artifacts\d2\d2cdfdf8f11d7599258ef67654d00046
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\d3\d34e57862a69dcf1630b321c4c352533
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\d3\\d34e57862a69dcf1630b321c4c352533"
+    projectPath: Library\Artifacts\d3\d34e57862a69dcf1630b321c4c352533
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\d4\d46d9a2e059465c6ef7e19801d52fdff
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\d4\\d46d9a2e059465c6ef7e19801d52fdff"
+    projectPath: Library\Artifacts\d4\d46d9a2e059465c6ef7e19801d52fdff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\d7\d727700653b2a0b758bef00a34587656
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\d7\\d727700653b2a0b758bef00a34587656"
+    projectPath: Library\Artifacts\d7\d727700653b2a0b758bef00a34587656
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\d7\d784e0ef66727c4b355b2c71c0459d52
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\d7\\d784e0ef66727c4b355b2c71c0459d52"
+    projectPath: Library\Artifacts\d7\d784e0ef66727c4b355b2c71c0459d52
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\db\dbdd8aa83431c58b4a93578e043ee7ce
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\db\\dbdd8aa83431c58b4a93578e043ee7ce"
+    projectPath: Library\Artifacts\db\dbdd8aa83431c58b4a93578e043ee7ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\de\debc25ac73227cfadfce1ea44049783e
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\de\\debc25ac73227cfadfce1ea44049783e"
+    projectPath: Library\Artifacts\de\debc25ac73227cfadfce1ea44049783e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\e2\e229b40845f054577010cf09786d990b
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\e2\\e229b40845f054577010cf09786d990b"
+    projectPath: Library\Artifacts\e2\e229b40845f054577010cf09786d990b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\eb\eb7ee0827720f7ecc0fbefe4f015e16c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\eb\\eb7ee0827720f7ecc0fbefe4f015e16c"
+    projectPath: Library\Artifacts\eb\eb7ee0827720f7ecc0fbefe4f015e16c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\eb\eb9a1bb3be8ac0584657591fcd6e99aa
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\eb\\eb9a1bb3be8ac0584657591fcd6e99aa"
+    projectPath: Library\Artifacts\eb\eb9a1bb3be8ac0584657591fcd6e99aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\f3\f39596dd88eafc2a5bfa7f21f146a94b
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\f3\\f39596dd88eafc2a5bfa7f21f146a94b"
+    projectPath: Library\Artifacts\f3\f39596dd88eafc2a5bfa7f21f146a94b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: TopDownShooter2D\Library\Artifacts\f6\f6c2ced179a13426d190c55df566caf6
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\f6\\f6c2ced179a13426d190c55df566caf6"
+    projectPath: Library\Artifacts\f6\f6c2ced179a13426d190c55df566caf6
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\e0\e0a9eb408db940545c40b171ffc27076
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\e0\e0a9eb408db940545c40b171ffc27076
-    projectPath: Library\Artifacts\e0\e0a9eb408db940545c40b171ffc27076
+  - path: TopDownShooter2D\Library\Artifacts\f9\f9fdf56a6daca3237b160b3c29fae98f
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\f9\\f9fdf56a6daca3237b160b3c29fae98f"
+    projectPath: Library\Artifacts\f9\f9fdf56a6daca3237b160b3c29fae98f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\e1\e106bf3a4ccb1c7e773a0c84341e9121
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\e1\e106bf3a4ccb1c7e773a0c84341e9121
-    projectPath: Library\Artifacts\e1\e106bf3a4ccb1c7e773a0c84341e9121
+  - path: TopDownShooter2D\Library\Artifacts\fc\fc7953b705cac8bd2b1c63d2edb5b7a7
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\fc\\fc7953b705cac8bd2b1c63d2edb5b7a7"
+    projectPath: Library\Artifacts\fc\fc7953b705cac8bd2b1c63d2edb5b7a7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\e3\e3a6d2a2f6913af8aace6374872c27f3
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\e3\e3a6d2a2f6913af8aace6374872c27f3
-    projectPath: Library\Artifacts\e3\e3a6d2a2f6913af8aace6374872c27f3
+  - path: TopDownShooter2D\Library\Artifacts\fe\feff02b29ff19f40bde06ddf0c830069
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\fe\\feff02b29ff19f40bde06ddf0c830069"
+    projectPath: Library\Artifacts\fe\feff02b29ff19f40bde06ddf0c830069
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\e8\e81d357456539f672eb867e391f5c428
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\e8\e81d357456539f672eb867e391f5c428
-    projectPath: Library\Artifacts\e8\e81d357456539f672eb867e391f5c428
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\e8\e827d385cb8304b8bc49673807d9009a
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\e8\e827d385cb8304b8bc49673807d9009a
-    projectPath: Library\Artifacts\e8\e827d385cb8304b8bc49673807d9009a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\ea\ea25a9ad5c5c99132bdfee1d51182d80
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\ea\ea25a9ad5c5c99132bdfee1d51182d80
-    projectPath: Library\Artifacts\ea\ea25a9ad5c5c99132bdfee1d51182d80
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\ea\ea68ef4e0a25fa0e2221d51c2f0b90a0
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\ea\ea68ef4e0a25fa0e2221d51c2f0b90a0
-    projectPath: Library\Artifacts\ea\ea68ef4e0a25fa0e2221d51c2f0b90a0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Library\Artifacts\fe\fe45e78209fa39cdc5b90a74045c2fcf
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\fe\fe45e78209fa39cdc5b90a74045c2fcf
-    projectPath: Library\Artifacts\fe\fe45e78209fa39cdc5b90a74045c2fcf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: TopDownShooter2D\Library\Artifacts\ff\ff338121411a4a036a486de8e42d419f
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Artifacts\ff\ff338121411a4a036a486de8e42d419f
-    projectPath: Library\Artifacts\ff\ff338121411a4a036a486de8e42d419f
+  - path: TopDownShooter2D\Library\Artifacts\ff\ff9f1dd03fcafdcd60a8005360136491
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Artifacts\\ff\\ff9f1dd03fcafdcd60a8005360136491"
+    projectPath: Library\Artifacts\ff\ff9f1dd03fcafdcd60a8005360136491
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: TopDownShooter2D\Library\EditorInstance.json
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\EditorInstance.json
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\EditorInstance.json"
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\gfu\cache\gitlocks.yaml
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\gfu\\cache\\gitlocks.yaml"
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\gfu\\cache\\gitstatusentries.yaml"
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\gfu\\cache\\gittrackingstatus.yaml"
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\gfu\cache\repoinfo.yaml
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\gfu\\cache\\repoinfo.yaml"
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: TopDownShooter2D\Library\InspectorExpandedItems.asset
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\InspectorExpandedItems.asset"
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TopDownShooter2D\Library\PackageManager\ProjectCache
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\PackageManager\ProjectCache
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\PackageManager\\ProjectCache"
     projectPath: Library\PackageManager\ProjectCache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\PackageManager\ProjectCache.md5
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\PackageManager\ProjectCache.md5
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\PackageManager\\ProjectCache.md5"
     projectPath: Library\PackageManager\ProjectCache.md5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\SceneVisibilityState.asset
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\SceneVisibilityState.asset"
     projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Assembly-CSharp.pdb"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor-firstpass.dll"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor-firstpass.pdb"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\BuiltinAssemblies.stamp"
     projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\PsdPlugin.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\PsdPlugin.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\PsdPlugin.dll"
     projectPath: Library\ScriptAssemblies\PsdPlugin.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\PsdPlugin.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\PsdPlugin.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\PsdPlugin.pdb"
     projectPath: Library\ScriptAssemblies\PsdPlugin.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Animation.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Animation.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Animation.Runtime.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Animation.Runtime.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Runtime.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Animation.Triangle.Runtime.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Animation.Triangle.Runtime.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Common.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Common.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Common.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Common.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.Common.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Common.Runtime.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Common.Runtime.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Common.Runtime.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Common.Runtime.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.Common.Runtime.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.IK.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.IK.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.IK.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.IK.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.IK.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.IK.Runtime.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.IK.Runtime.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.IK.Runtime.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.IK.Runtime.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.IK.Runtime.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Path.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Path.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Path.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Path.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.Path.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.PixelPerfect.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.PixelPerfect.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.PixelPerfect.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.PixelPerfect.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.PixelPerfect.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.PixelPerfect.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.PixelPerfect.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Psdimporter.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Psdimporter.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Sprite.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Sprite.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.SpriteShape.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.SpriteShape.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.SpriteShape.Runtime.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Tilemap.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.2D.Tilemap.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.CollabProxy.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.CollabProxy.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.InternalAPIEditorBridge.001.dll"
     projectPath: Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.InternalAPIEditorBridge.001.pdb"
     projectPath: Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll"
     projectPath: Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.InternalAPIEngineBridge.001.pdb"
     projectPath: Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Mathematics.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Mathematics.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Mathematics.dll"
     projectPath: Library\ScriptAssemblies\Unity.Mathematics.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Mathematics.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Mathematics.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Mathematics.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Mathematics.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.Mathematics.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Mathematics.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Mathematics.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Mathematics.pdb"
     projectPath: Library\ScriptAssemblies\Unity.Mathematics.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Rider.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Rider.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll"
     projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.TextMeshPro.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.TextMeshPro.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.TextMeshPro.pdb"
     projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Timeline.dll"
     projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Timeline.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Timeline.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.Timeline.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.Timeline.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.Timeline.pdb"
     projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.VisualStudio.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.VisualStudio.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.VSCode.Editor.dll"
     projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\Unity.VSCode.Editor.pdb"
     projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\UnityEditor.TestRunner.dll"
     projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\UnityEditor.TestRunner.pdb"
     projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\UnityEditor.UI.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\UnityEditor.UI.dll"
     projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\UnityEditor.UI.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\UnityEditor.UI.pdb"
     projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll"
     projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.pdb"
     projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\UnityEngine.UI.dll
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\UnityEngine.UI.dll"
     projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptAssemblies\UnityEngine.UI.pdb
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptAssemblies\\UnityEngine.UI.pdb"
     projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ScriptMapper
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ScriptMapper
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ScriptMapper"
     projectPath: Library\ScriptMapper
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ShaderCache.db
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ShaderCache.db
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ShaderCache.db"
     projectPath: Library\ShaderCache.db
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\ShaderCache\\EditorEncounteredVariants"
     projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: TopDownShooter2D\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TopDownShooter2D\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\shadercompiler-UnityShaderCompiler.exe5.log"
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TopDownShooter2D\Library\SourceAssetDB
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\SourceAssetDB
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\SourceAssetDB"
     projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: TopDownShooter2D\Library\SpriteAtlasDatabase.asset
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\SpriteAtlasDatabase.asset"
+    projectPath: Library\SpriteAtlasDatabase.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TopDownShooter2D\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\StateCache\\MainStageHierarchy\\4d\\4d2a36d9faf65734f0bbefb3ee623532.json"
     projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TopDownShooter2D\Library\StateCache\PrefabStageHierarchy\b8\b898185ed1bc54eff83441cf557bd766.json
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\StateCache\PrefabStageHierarchy\b8\b898185ed1bc54eff83441cf557bd766.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\b8\b898185ed1bc54eff83441cf557bd766.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: TopDownShooter2D\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\StateCache\\SceneView\\8c\\8cd7c613bf844de3b80696e27a479d5e.json"
     projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Library\Style.catalog
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Library\Style.catalog
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Library\\Style.catalog"
     projectPath: Library\Style.catalog
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Logs\AssetImportWorker0.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\AssetImportWorker0.log
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Logs\\AssetImportWorker0.log"
     projectPath: Logs\AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Logs\AssetImportWorker0-prev.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\AssetImportWorker0-prev.log
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Logs\\AssetImportWorker0-prev.log"
     projectPath: Logs\AssetImportWorker0-prev.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Logs\shadercompiler-AssetImportWorker0.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\shadercompiler-AssetImportWorker0.log
-    projectPath: Logs\shadercompiler-AssetImportWorker0.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+  - path: TopDownShooter2D\Logs\shadercompiler-AssetImportWorker0.log
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Logs\\shadercompiler-AssetImportWorker0.log"
+    projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe7.log
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Logs\shadercompiler-UnityShaderCompiler.exe7.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TopDownShooter2D\Logs\shadercompiler-AssetImportWorker0-prev.log
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Logs\\shadercompiler-AssetImportWorker0-prev.log"
+    projectPath: Logs\shadercompiler-AssetImportWorker0-prev.log
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\ProjectSettings\ProjectVersion.txt
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\ProjectSettings\ProjectVersion.txt
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\ProjectSettings\\ProjectVersion.txt"
     projectPath: ProjectSettings\ProjectVersion.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: TopDownShooter2D\Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\__Backupscenes\0.backup
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\__Backupscenes\\0.backup"
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Assembly-CSharp.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Assembly-CSharp.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Assembly-CSharp.dll.hash"
     projectPath: Temp\Assembly-CSharp.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Assembly-CSharp-Editor-firstpass.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Assembly-CSharp-Editor-firstpass.dll.hash"
     projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\CompilationLog.txt
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\CompilationLog.txt
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\CompilationLog.txt"
     projectPath: Temp\CompilationLog.txt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\PsdPlugin.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\PsdPlugin.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\PsdPlugin.dll.hash"
     projectPath: Temp\PsdPlugin.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.Animation.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.Animation.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.Animation.Editor.dll.hash"
     projectPath: Temp\Unity.2D.Animation.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.Animation.Runtime.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.Animation.Runtime.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.Animation.Runtime.dll.hash"
     projectPath: Temp\Unity.2D.Animation.Runtime.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.Animation.Triangle.Runtime.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.Animation.Triangle.Runtime.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.Animation.Triangle.Runtime.dll.hash"
     projectPath: Temp\Unity.2D.Animation.Triangle.Runtime.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.Common.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.Common.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.Common.Editor.dll.hash"
     projectPath: Temp\Unity.2D.Common.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.Common.Runtime.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.Common.Runtime.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.Common.Runtime.dll.hash"
     projectPath: Temp\Unity.2D.Common.Runtime.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.IK.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.IK.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.IK.Editor.dll.hash"
     projectPath: Temp\Unity.2D.IK.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.IK.Runtime.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.IK.Runtime.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.IK.Runtime.dll.hash"
     projectPath: Temp\Unity.2D.IK.Runtime.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.Path.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.Path.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.Path.Editor.dll.hash"
     projectPath: Temp\Unity.2D.Path.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.PixelPerfect.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.PixelPerfect.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.PixelPerfect.dll.hash"
     projectPath: Temp\Unity.2D.PixelPerfect.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.PixelPerfect.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.PixelPerfect.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.PixelPerfect.Editor.dll.hash"
     projectPath: Temp\Unity.2D.PixelPerfect.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.Psdimporter.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.Psdimporter.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.Psdimporter.Editor.dll.hash"
     projectPath: Temp\Unity.2D.Psdimporter.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.Sprite.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.Sprite.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.Sprite.Editor.dll.hash"
     projectPath: Temp\Unity.2D.Sprite.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.SpriteShape.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.SpriteShape.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.SpriteShape.Editor.dll.hash"
     projectPath: Temp\Unity.2D.SpriteShape.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.SpriteShape.Runtime.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.SpriteShape.Runtime.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.SpriteShape.Runtime.dll.hash"
     projectPath: Temp\Unity.2D.SpriteShape.Runtime.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.2D.Tilemap.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.2D.Tilemap.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.2D.Tilemap.Editor.dll.hash"
     projectPath: Temp\Unity.2D.Tilemap.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.CollabProxy.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.CollabProxy.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.CollabProxy.Editor.dll.hash"
     projectPath: Temp\Unity.CollabProxy.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.InternalAPIEditorBridge.001.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.InternalAPIEditorBridge.001.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.InternalAPIEditorBridge.001.dll.hash"
     projectPath: Temp\Unity.InternalAPIEditorBridge.001.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.InternalAPIEngineBridge.001.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.InternalAPIEngineBridge.001.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.InternalAPIEngineBridge.001.dll.hash"
     projectPath: Temp\Unity.InternalAPIEngineBridge.001.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.Mathematics.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.Mathematics.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.Mathematics.dll.hash"
     projectPath: Temp\Unity.Mathematics.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.Mathematics.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.Mathematics.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.Mathematics.Editor.dll.hash"
     projectPath: Temp\Unity.Mathematics.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.Rider.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.Rider.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.Rider.Editor.dll.hash"
     projectPath: Temp\Unity.Rider.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.TextMeshPro.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.TextMeshPro.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.TextMeshPro.dll.hash"
     projectPath: Temp\Unity.TextMeshPro.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.TextMeshPro.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.TextMeshPro.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.TextMeshPro.Editor.dll.hash"
     projectPath: Temp\Unity.TextMeshPro.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.Timeline.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.Timeline.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.Timeline.dll.hash"
     projectPath: Temp\Unity.Timeline.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.Timeline.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.Timeline.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.Timeline.Editor.dll.hash"
     projectPath: Temp\Unity.Timeline.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.VisualStudio.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.VisualStudio.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.VisualStudio.Editor.dll.hash"
     projectPath: Temp\Unity.VisualStudio.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\Unity.VSCode.Editor.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\Unity.VSCode.Editor.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\Unity.VSCode.Editor.dll.hash"
     projectPath: Temp\Unity.VSCode.Editor.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\UnityEditor.TestRunner.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityEditor.TestRunner.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityEditor.TestRunner.dll.hash"
     projectPath: Temp\UnityEditor.TestRunner.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\UnityEditor.UI.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityEditor.UI.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityEditor.UI.dll.hash"
     projectPath: Temp\UnityEditor.UI.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\UnityEngine.TestRunner.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityEngine.TestRunner.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityEngine.TestRunner.dll.hash"
     projectPath: Temp\UnityEngine.TestRunner.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\UnityEngine.UI.dll.hash
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityEngine.UI.dll.hash
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityEngine.UI.dll.hash"
     projectPath: Temp\UnityEngine.UI.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\UnityLockfile
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityLockfile
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityLockfile"
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-013c33e320d72164ba9c6c61f8197769
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-013c33e320d72164ba9c6c61f8197769
-    projectPath: Temp\UnityTempFile-013c33e320d72164ba9c6c61f8197769
+  - path: TopDownShooter2D\Temp\UnityTempFile-0b5f34999b279364488360c32d95dd6e
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-0b5f34999b279364488360c32d95dd6e"
+    projectPath: Temp\UnityTempFile-0b5f34999b279364488360c32d95dd6e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-2133667244b1a0446ab6fd011c1de843
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-2133667244b1a0446ab6fd011c1de843
-    projectPath: Temp\UnityTempFile-2133667244b1a0446ab6fd011c1de843
+  - path: TopDownShooter2D\Temp\UnityTempFile-0b7c04eabf23dee468f1fe64b0367263
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-0b7c04eabf23dee468f1fe64b0367263"
+    projectPath: Temp\UnityTempFile-0b7c04eabf23dee468f1fe64b0367263
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-297396bfb747a394582578de1b1743ff
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-297396bfb747a394582578de1b1743ff
-    projectPath: Temp\UnityTempFile-297396bfb747a394582578de1b1743ff
+  - path: TopDownShooter2D\Temp\UnityTempFile-0b7ef3ecc3789eb4aac628e5e46bf949
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-0b7ef3ecc3789eb4aac628e5e46bf949"
+    projectPath: Temp\UnityTempFile-0b7ef3ecc3789eb4aac628e5e46bf949
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-3c6c5d79dc348fc488ea3e807a3f78fe
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-3c6c5d79dc348fc488ea3e807a3f78fe
-    projectPath: Temp\UnityTempFile-3c6c5d79dc348fc488ea3e807a3f78fe
+  - path: TopDownShooter2D\Temp\UnityTempFile-16a4ab9f742d30f499f49b9a99c9d333
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-16a4ab9f742d30f499f49b9a99c9d333"
+    projectPath: Temp\UnityTempFile-16a4ab9f742d30f499f49b9a99c9d333
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-469720482c12fc643961aeea54db3f61
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-469720482c12fc643961aeea54db3f61
-    projectPath: Temp\UnityTempFile-469720482c12fc643961aeea54db3f61
+  - path: TopDownShooter2D\Temp\UnityTempFile-2f733df5c4dceca4d8717877ece61c07
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-2f733df5c4dceca4d8717877ece61c07"
+    projectPath: Temp\UnityTempFile-2f733df5c4dceca4d8717877ece61c07
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-46fa08686bed97b4495f17fa715ff717
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-46fa08686bed97b4495f17fa715ff717
-    projectPath: Temp\UnityTempFile-46fa08686bed97b4495f17fa715ff717
+  - path: TopDownShooter2D\Temp\UnityTempFile-31cee361a571858458777cea49dd72a5
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-31cee361a571858458777cea49dd72a5"
+    projectPath: Temp\UnityTempFile-31cee361a571858458777cea49dd72a5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-4d5b6f91516a33546a3e7ee6e1ece76e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-4d5b6f91516a33546a3e7ee6e1ece76e
-    projectPath: Temp\UnityTempFile-4d5b6f91516a33546a3e7ee6e1ece76e
+  - path: TopDownShooter2D\Temp\UnityTempFile-39958bf9197367848a89b8bb08cbf7a0
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-39958bf9197367848a89b8bb08cbf7a0"
+    projectPath: Temp\UnityTempFile-39958bf9197367848a89b8bb08cbf7a0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-509b6b067c654a04ab28f938d622138e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-509b6b067c654a04ab28f938d622138e
-    projectPath: Temp\UnityTempFile-509b6b067c654a04ab28f938d622138e
+  - path: TopDownShooter2D\Temp\UnityTempFile-3cdfdbb429e10a14f8106456a2ecf890
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-3cdfdbb429e10a14f8106456a2ecf890"
+    projectPath: Temp\UnityTempFile-3cdfdbb429e10a14f8106456a2ecf890
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-5ba84448b4aa01f428f9ae45ab957f47
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-5ba84448b4aa01f428f9ae45ab957f47
-    projectPath: Temp\UnityTempFile-5ba84448b4aa01f428f9ae45ab957f47
+  - path: TopDownShooter2D\Temp\UnityTempFile-4056b540cfe969348acf30c10b075913
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-4056b540cfe969348acf30c10b075913"
+    projectPath: Temp\UnityTempFile-4056b540cfe969348acf30c10b075913
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-6ef7491333552bf49b135e05733f707c
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-6ef7491333552bf49b135e05733f707c
-    projectPath: Temp\UnityTempFile-6ef7491333552bf49b135e05733f707c
+  - path: TopDownShooter2D\Temp\UnityTempFile-44ef872b5486ddb4f8458ecce7dca5c4
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-44ef872b5486ddb4f8458ecce7dca5c4"
+    projectPath: Temp\UnityTempFile-44ef872b5486ddb4f8458ecce7dca5c4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-77794d2ab6a1efd49bb0f003d53a36dc
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-77794d2ab6a1efd49bb0f003d53a36dc
-    projectPath: Temp\UnityTempFile-77794d2ab6a1efd49bb0f003d53a36dc
+  - path: TopDownShooter2D\Temp\UnityTempFile-4fe260549101ffb49b0d284e24ecdc79
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-4fe260549101ffb49b0d284e24ecdc79"
+    projectPath: Temp\UnityTempFile-4fe260549101ffb49b0d284e24ecdc79
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-862232adb11522845b389431ce9c8dc3
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-862232adb11522845b389431ce9c8dc3
-    projectPath: Temp\UnityTempFile-862232adb11522845b389431ce9c8dc3
+  - path: TopDownShooter2D\Temp\UnityTempFile-559c6d480ad982d41bf6a5ea5008544f
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-559c6d480ad982d41bf6a5ea5008544f"
+    projectPath: Temp\UnityTempFile-559c6d480ad982d41bf6a5ea5008544f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-8bc0da4f16268fa41abbafe07d3ec2e3
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-8bc0da4f16268fa41abbafe07d3ec2e3
-    projectPath: Temp\UnityTempFile-8bc0da4f16268fa41abbafe07d3ec2e3
+  - path: TopDownShooter2D\Temp\UnityTempFile-565695380a3aa3841a32d8f08a4bbb96
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-565695380a3aa3841a32d8f08a4bbb96"
+    projectPath: Temp\UnityTempFile-565695380a3aa3841a32d8f08a4bbb96
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-903d4aad88eca5b4a9e9219d00dfbb86
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-903d4aad88eca5b4a9e9219d00dfbb86
-    projectPath: Temp\UnityTempFile-903d4aad88eca5b4a9e9219d00dfbb86
+  - path: TopDownShooter2D\Temp\UnityTempFile-638aacbd95ab4e44a96eed4c11c745bb
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-638aacbd95ab4e44a96eed4c11c745bb"
+    projectPath: Temp\UnityTempFile-638aacbd95ab4e44a96eed4c11c745bb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-90a1d3dacc8e78348acf56ab25b6e52a
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-90a1d3dacc8e78348acf56ab25b6e52a
-    projectPath: Temp\UnityTempFile-90a1d3dacc8e78348acf56ab25b6e52a
+  - path: TopDownShooter2D\Temp\UnityTempFile-65c8709f93fb944418036bf4e5b3c33c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-65c8709f93fb944418036bf4e5b3c33c"
+    projectPath: Temp\UnityTempFile-65c8709f93fb944418036bf4e5b3c33c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-9a0fee0d8591c9b44880d30124e60689
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-9a0fee0d8591c9b44880d30124e60689
-    projectPath: Temp\UnityTempFile-9a0fee0d8591c9b44880d30124e60689
+  - path: TopDownShooter2D\Temp\UnityTempFile-6ff803601dc9000458ed190be9a78a57
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-6ff803601dc9000458ed190be9a78a57"
+    projectPath: Temp\UnityTempFile-6ff803601dc9000458ed190be9a78a57
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-9e9b7b6140c60f441be6e6191ff104a8
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-9e9b7b6140c60f441be6e6191ff104a8
-    projectPath: Temp\UnityTempFile-9e9b7b6140c60f441be6e6191ff104a8
+  - path: TopDownShooter2D\Temp\UnityTempFile-72491a4161facf940bd56fc0255f006f
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-72491a4161facf940bd56fc0255f006f"
+    projectPath: Temp\UnityTempFile-72491a4161facf940bd56fc0255f006f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-9ffa4796dd1ebed49b510795ff231ec1
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-9ffa4796dd1ebed49b510795ff231ec1
-    projectPath: Temp\UnityTempFile-9ffa4796dd1ebed49b510795ff231ec1
+  - path: TopDownShooter2D\Temp\UnityTempFile-7756275320c34ab46a8e01568869b41a
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-7756275320c34ab46a8e01568869b41a"
+    projectPath: Temp\UnityTempFile-7756275320c34ab46a8e01568869b41a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-a1b0ab6d2d8f31a45b395910331e93a6
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-a1b0ab6d2d8f31a45b395910331e93a6
-    projectPath: Temp\UnityTempFile-a1b0ab6d2d8f31a45b395910331e93a6
+  - path: TopDownShooter2D\Temp\UnityTempFile-7b65d3583c494d1489b2f6597649da34
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-7b65d3583c494d1489b2f6597649da34"
+    projectPath: Temp\UnityTempFile-7b65d3583c494d1489b2f6597649da34
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-a2e09c2339314ae4f8ff7d3610aa56f6
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-a2e09c2339314ae4f8ff7d3610aa56f6
-    projectPath: Temp\UnityTempFile-a2e09c2339314ae4f8ff7d3610aa56f6
+  - path: TopDownShooter2D\Temp\UnityTempFile-7c378592ad4934f459c11c4ecd1095a4
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-7c378592ad4934f459c11c4ecd1095a4"
+    projectPath: Temp\UnityTempFile-7c378592ad4934f459c11c4ecd1095a4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-ab5f988f597fa8943acd99dff8dc3f5a
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-ab5f988f597fa8943acd99dff8dc3f5a
-    projectPath: Temp\UnityTempFile-ab5f988f597fa8943acd99dff8dc3f5a
+  - path: TopDownShooter2D\Temp\UnityTempFile-8367bf677d03f5d479cdb36df3c9c359
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-8367bf677d03f5d479cdb36df3c9c359"
+    projectPath: Temp\UnityTempFile-8367bf677d03f5d479cdb36df3c9c359
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-aded0fc284cd95744990ceee800926f4
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-aded0fc284cd95744990ceee800926f4
-    projectPath: Temp\UnityTempFile-aded0fc284cd95744990ceee800926f4
+  - path: TopDownShooter2D\Temp\UnityTempFile-86adf4dc9bc87f14b8e89faca7fcbd3a
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-86adf4dc9bc87f14b8e89faca7fcbd3a"
+    projectPath: Temp\UnityTempFile-86adf4dc9bc87f14b8e89faca7fcbd3a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-b31ad69e9c99956459b06c491a114106
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-b31ad69e9c99956459b06c491a114106
-    projectPath: Temp\UnityTempFile-b31ad69e9c99956459b06c491a114106
+  - path: TopDownShooter2D\Temp\UnityTempFile-8c662e18dbdbe414a8838c5f464417d7
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-8c662e18dbdbe414a8838c5f464417d7"
+    projectPath: Temp\UnityTempFile-8c662e18dbdbe414a8838c5f464417d7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-bdc24dbda91dc844e9ccacbc0982f08c
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-bdc24dbda91dc844e9ccacbc0982f08c
-    projectPath: Temp\UnityTempFile-bdc24dbda91dc844e9ccacbc0982f08c
+  - path: TopDownShooter2D\Temp\UnityTempFile-a3bea02ee0099684d8761d7c35b5fc4a
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-a3bea02ee0099684d8761d7c35b5fc4a"
+    projectPath: Temp\UnityTempFile-a3bea02ee0099684d8761d7c35b5fc4a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-c4720f9cc3350fd44a77378e317acb23
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-c4720f9cc3350fd44a77378e317acb23
-    projectPath: Temp\UnityTempFile-c4720f9cc3350fd44a77378e317acb23
+  - path: TopDownShooter2D\Temp\UnityTempFile-a46da9f8797819a44885b6c83745365c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-a46da9f8797819a44885b6c83745365c"
+    projectPath: Temp\UnityTempFile-a46da9f8797819a44885b6c83745365c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-c6a986e716ae4934cbc70ef008450754
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-c6a986e716ae4934cbc70ef008450754
-    projectPath: Temp\UnityTempFile-c6a986e716ae4934cbc70ef008450754
+  - path: TopDownShooter2D\Temp\UnityTempFile-ae4480ddc87de0446913a9bb12675ef2
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-ae4480ddc87de0446913a9bb12675ef2"
+    projectPath: Temp\UnityTempFile-ae4480ddc87de0446913a9bb12675ef2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-ca33ea9ae14bbab4980b6c58a6e38add
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-ca33ea9ae14bbab4980b6c58a6e38add
-    projectPath: Temp\UnityTempFile-ca33ea9ae14bbab4980b6c58a6e38add
+  - path: TopDownShooter2D\Temp\UnityTempFile-ba9e77d0854b9914782111696adf2a19
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-ba9e77d0854b9914782111696adf2a19"
+    projectPath: Temp\UnityTempFile-ba9e77d0854b9914782111696adf2a19
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-d654cf260fa5d46448702c79030ef294
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-d654cf260fa5d46448702c79030ef294
-    projectPath: Temp\UnityTempFile-d654cf260fa5d46448702c79030ef294
+  - path: TopDownShooter2D\Temp\UnityTempFile-bd04b78279ec5fc49ba16e0c9bad3d1b
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-bd04b78279ec5fc49ba16e0c9bad3d1b"
+    projectPath: Temp\UnityTempFile-bd04b78279ec5fc49ba16e0c9bad3d1b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-d764993d46dfa934dacb8396c51f056b
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-d764993d46dfa934dacb8396c51f056b
-    projectPath: Temp\UnityTempFile-d764993d46dfa934dacb8396c51f056b
+  - path: TopDownShooter2D\Temp\UnityTempFile-c9a483bb31ac05942a4745019ca6267b
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-c9a483bb31ac05942a4745019ca6267b"
+    projectPath: Temp\UnityTempFile-c9a483bb31ac05942a4745019ca6267b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-da014653c77f2f24a89f28b36f2e586a
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-da014653c77f2f24a89f28b36f2e586a
-    projectPath: Temp\UnityTempFile-da014653c77f2f24a89f28b36f2e586a
+  - path: TopDownShooter2D\Temp\UnityTempFile-dbcd9b466c957d048a9ee83790152c53
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-dbcd9b466c957d048a9ee83790152c53"
+    projectPath: Temp\UnityTempFile-dbcd9b466c957d048a9ee83790152c53
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-e13dcd1245d4ac044a388ab72214d330
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-e13dcd1245d4ac044a388ab72214d330
-    projectPath: Temp\UnityTempFile-e13dcd1245d4ac044a388ab72214d330
+  - path: TopDownShooter2D\Temp\UnityTempFile-df17be31c7d226d40bbade089f8bfde5
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-df17be31c7d226d40bbade089f8bfde5"
+    projectPath: Temp\UnityTempFile-df17be31c7d226d40bbade089f8bfde5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-e4272d53055545f4ea7980d80e875c9e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-e4272d53055545f4ea7980d80e875c9e
-    projectPath: Temp\UnityTempFile-e4272d53055545f4ea7980d80e875c9e
+  - path: TopDownShooter2D\Temp\UnityTempFile-e65178b6487c97d44ad55aba31e6c25c
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-e65178b6487c97d44ad55aba31e6c25c"
+    projectPath: Temp\UnityTempFile-e65178b6487c97d44ad55aba31e6c25c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-f16536691a324f74785d008055b5627f
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-f16536691a324f74785d008055b5627f
-    projectPath: Temp\UnityTempFile-f16536691a324f74785d008055b5627f
+  - path: TopDownShooter2D\Temp\UnityTempFile-ec96577ac995f29428f7fb741d789550
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-ec96577ac995f29428f7fb741d789550"
+    projectPath: Temp\UnityTempFile-ec96577ac995f29428f7fb741d789550
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-f17909694152fd644b416572f0c1897f
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-f17909694152fd644b416572f0c1897f
-    projectPath: Temp\UnityTempFile-f17909694152fd644b416572f0c1897f
+  - path: TopDownShooter2D\Temp\UnityTempFile-ef2fd0300c3b12f4d99e13f97344fa80
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-ef2fd0300c3b12f4d99e13f97344fa80"
+    projectPath: Temp\UnityTempFile-ef2fd0300c3b12f4d99e13f97344fa80
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-f92dee1f0d76db24a8cc59565efddfc3
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-f92dee1f0d76db24a8cc59565efddfc3
-    projectPath: Temp\UnityTempFile-f92dee1f0d76db24a8cc59565efddfc3
+  - path: TopDownShooter2D\Temp\UnityTempFile-f665771913f5ebe449b54b16dc94790a
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-f665771913f5ebe449b54b16dc94790a"
+    projectPath: Temp\UnityTempFile-f665771913f5ebe449b54b16dc94790a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\Temp\UnityTempFile-f98e2a67af31a294899524112e07600e
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\UnityTempFile-f98e2a67af31a294899524112e07600e
-    projectPath: Temp\UnityTempFile-f98e2a67af31a294899524112e07600e
+  - path: TopDownShooter2D\Temp\UnityTempFile-fd3b9479a88d0a346b90b8dd9f808282
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\UnityTempFile-fd3b9479a88d0a346b90b8dd9f808282"
+    projectPath: Temp\UnityTempFile-fd3b9479a88d0a346b90b8dd9f808282
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: TopDownShooter2D\Temp\workerlic
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\Temp\workerlic
+    fullPath: "D:\\Schooool\\\u5927\u4E8C\u4E0B\\C#\\\u5927\u4F5C\u4E1A\\ActualProject\\TopDownShooter2D\\Temp\\workerlic"
     projectPath: Temp\workerlic
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: TopDownShooter2D\UserSettings\EditorUserSettings.asset
-    fullPath: C:\Users\user\Documents\GitHub\C_sharp_project_unity2d\TopDownShooter2D\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
