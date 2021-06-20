@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f1b33c2103b7b974bb641ae6f0c187c1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - health: {instanceID: 0}
+  - soundEmmiter: {instanceID: 0}
+  - damageSound: {fileID: 8300000, guid: 2b1829f9408c5404f99ab3e674f7f5b5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

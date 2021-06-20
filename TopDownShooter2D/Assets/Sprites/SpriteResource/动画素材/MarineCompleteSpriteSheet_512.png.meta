@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 8399c2967ba5e3246824a39299b6ba14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8864396992118686036
+    second: MarineCompleteSpriteSheet_512_0
+  - first:
+      213: -2738895383343495300
+    second: MarineCompleteSpriteSheet_512_1
+  - first:
+      213: 8458748253617705033
+    second: MarineCompleteSpriteSheet_512_2
+  - first:
+      213: 5472805538661422098
+    second: MarineCompleteSpriteSheet_512_3
+  - first:
+      213: -5600425586784686152
+    second: MarineCompleteSpriteSheet_512_4
+  - first:
+      213: 5050853857427824044
+    second: MarineCompleteSpriteSheet_512_5
+  - first:
+      213: -3992853303104106942
+    second: MarineCompleteSpriteSheet_512_6
+  - first:
+      213: 7798026311810572378
+    second: MarineCompleteSpriteSheet_512_7
+  - first:
+      213: -4067850700715593356
+    second: MarineCompleteSpriteSheet_512_8
+  - first:
+      213: -7115234148705569065
+    second: MarineCompleteSpriteSheet_512_9
+  - first:
+      213: 1107950908375787880
+    second: MarineCompleteSpriteSheet_512_10
+  - first:
+      213: -1250511344850691433
+    second: MarineCompleteSpriteSheet_512_11
+  - first:
+      213: 6436814912502639413
+    second: MarineCompleteSpriteSheet_512_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 406
+        width: 68
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4518647491aa40b70800000000000000
+      internalID: 8864396992118686036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 408
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c778adef82d7df9d0800000000000000
+      internalID: -2738895383343495300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 406
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940d65568b2836570800000000000000
+      internalID: 8458748253617705033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 462
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21454b824af43fb40800000000000000
+      internalID: 5472805538661422098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 457
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfa0b4e99a4742b0800000000000000
+      internalID: -5600425586784686152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_5
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 392
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad9560a2dc381640800000000000000
+      internalID: 5050853857427824044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 272
+        width: 75
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e0c3c63198698c0800000000000000
+      internalID: -3992853303104106942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 273
+        width: 58
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a506e986d97283c60800000000000000
+      internalID: 7798026311810572378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_8
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 272
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471f58017571c87c0800000000000000
+      internalID: -4067850700715593356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 266
+        width: 80
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6fca86d3c914d90800000000000000
+      internalID: -7115234148705569065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_10
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 146
+        width: 240
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8696f422b7b306f00800000000000000
+      internalID: 1107950908375787880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 125
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a149eae8a45aee0800000000000000
+      internalID: -1250511344850691433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarineCompleteSpriteSheet_512_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 10
+        width: 324
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b28a82f09245950800000000000000
+      internalID: 6436814912502639413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
