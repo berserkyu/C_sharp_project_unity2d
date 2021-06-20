@@ -11,6 +11,7 @@ public class Exit : MonoBehaviour
         if(other.tag == "Player")
         {
             sf.FadeTo("Scene2");
+            InventoryManager.getDoors();
         }
     }
 }

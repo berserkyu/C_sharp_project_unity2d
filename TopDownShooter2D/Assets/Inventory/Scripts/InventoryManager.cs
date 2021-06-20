@@ -12,16 +12,25 @@ public class InventoryManager : MonoBehaviour
     public Slot slot_Prefab;
     public Text item_Info;
     [SerializeField] private PlayerBehaviour player;
-    [SerializeField] private KeyDoor keyDoor;
+    [SerializeField] private KeyDoor SilverKeyDoor;
+    [SerializeField] private KeyDoor GoldKeyDoor;
+    [SerializeField] private KeyDoor SpecialKeyDoor;
     void Awake()
     {
-        if (instance != null)
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
         {
             Destroy(this);
         }
-        instance = this;
+        getDoors();
     }
-
+    public static Inventory getMyInventory()
+    {
+        return instance.my_Inventory;
+    }
     private void OnEnable()
     {
         RefreshItem();
@@ -47,6 +56,14 @@ public class InventoryManager : MonoBehaviour
 
     public static void RefreshItem()
     {
+        if (instance == null)
+        {
+            Debug.Log("instance is null");
+        }else if (instance.slot_Grid == null)
+        {
+            Debug.Log("instance slot grid is null");
+        }
+        
         for (int i = 0; i < instance.slot_Grid.transform.childCount; i++)
         {
             if (instance.slot_Grid.transform.childCount == 0) break;
@@ -95,13 +112,13 @@ public class InventoryManager : MonoBehaviour
                     player.heal(30);
                     break;
                 case "SilverKey":
-                    keyDoor.OpenDoor();
+                    SilverKeyDoor?.OpenDoor();
                     break;
                 case "GoldKey":
-                    keyDoor.OpenDoor();
+                    GoldKeyDoor?.OpenDoor();
                     break;
                 case "SpecialKey":
-                    keyDoor.OpenDoor();
+                    SpecialKeyDoor?.OpenDoor();
                     break;
                 default: break;
             }
@@ -111,5 +128,11 @@ public class InventoryManager : MonoBehaviour
             ItemUse.Clear();
             ItemUse.ItemClicked(item_Use);
         }
+    }
+    public static void getDoors()
+    {
+        instance.SilverKeyDoor = GameObject.Find("SilverDoor")?.GetComponent<KeyDoor>();
+        instance.GoldKeyDoor = GameObject.Find("GoldDoor")?.GetComponent<KeyDoor>();
+        instance.SpecialKeyDoor = GameObject.Find("SpecialDoor")?.GetComponent<KeyDoor>();
     }
 }

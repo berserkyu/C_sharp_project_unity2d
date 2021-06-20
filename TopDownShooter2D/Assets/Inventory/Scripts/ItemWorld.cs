@@ -5,8 +5,11 @@ using UnityEngine;
 public class ItemWorld : MonoBehaviour
 {
     public Item this_Item;
-    public Inventory player_Inventory;
-
+    private Inventory player_Inventory;
+    void Start()
+    {
+        player_Inventory = InventoryManager.getMyInventory();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
