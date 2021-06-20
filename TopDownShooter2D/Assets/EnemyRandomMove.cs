@@ -38,6 +38,9 @@ public class EnemyRandomMove : MonoBehaviour
         rb.velocity = dir * (-movingSpeed);
         resetRandomMoveFrameCnt();
     }
+
+
+
     /*
      private void Awake()
     {

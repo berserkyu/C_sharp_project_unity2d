@@ -226,8 +226,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35230148}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.85, y: -14.09, z: 83.76241}
-  m_LocalScale: {x: 6.1933, y: 6.1933, z: 6.1933}
+  m_LocalPosition: {x: -21.63, y: -12.01, z: 83.76241}
+  m_LocalScale: {x: 7.8679686, y: 7.8679686, z: 7.8679686}
   m_Children:
   - {fileID: 176554837}
   - {fileID: 2010237695}
@@ -4738,6 +4738,7 @@ GameObject:
   - component: {fileID: 1552429857}
   - component: {fileID: 1552429858}
   - component: {fileID: 1552429859}
+  - component: {fileID: 1552429860}
   m_Layer: 8
   m_Name: GoblinSlinger
   m_TagString: Untagged
@@ -4870,8 +4871,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552429851}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32.45, y: 0.56, z: 83.76241}
-  m_LocalScale: {x: 5.7853303, y: 5.7853303, z: 5.7853303}
+  m_LocalPosition: {x: -31.63, y: 0.64, z: 83.76241}
+  m_LocalScale: {x: 7.480432, y: 7.480432, z: 7.480432}
   m_Children:
   - {fileID: 968491810}
   - {fileID: 2030711712}
@@ -4892,8 +4893,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  lineOfSite: 17
-  shoootingRange: 13
+  lineOfSite: 10
+  shoootingRange: 3
   fireRate: 1
   bullet: {fileID: 6003915664669750914, guid: b59bcf7a6d68c4a428221d52203f18a2, type: 3}
   bulletParent: {fileID: 968491809}
@@ -5012,6 +5013,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1552429860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552429851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b627840e89616945939ff568b2d7c62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  checkRadius: 10
+  attackRadius: 13
+  shouldRotate: 1
+  whatisplayer:
+    serializedVersion: 2
+    m_Bits: 128
+  dir: {x: 0, y: 0, z: 0}
 --- !u!114 &1633113350 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1633113350, guid: 3d205016f580f15418650fcbabeb18d2, type: 3}
@@ -5285,11 +5306,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9025643998089537394, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.6
+      value: -0.44
       objectReference: {fileID: 0}
     - target: {fileID: 9025643998089537394, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.08
+      value: -3.11
       objectReference: {fileID: 0}
     - target: {fileID: 9025643998089537394, guid: 467dd8cc5b4b40a4abea5a4dc3d8d7fe, type: 3}
       propertyPath: m_LocalPosition.z

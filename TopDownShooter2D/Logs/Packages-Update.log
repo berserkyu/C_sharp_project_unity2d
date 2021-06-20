@@ -10,3 +10,14 @@ The following packages were updated:
   com.unity.ide.visualstudio from version 2.0.5 to 2.0.7
   com.unity.test-framework from version 1.1.19 to 1.1.24
   com.unity.timeline from version 1.4.4 to 1.4.7
+
+=== Sun Jun 20 18:41:21 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ads@3.7.1
+  com.unity.analytics@3.5.3
+  com.unity.purchasing@3.0.2
+  com.unity.xr.legacyinputhelpers@2.1.7
