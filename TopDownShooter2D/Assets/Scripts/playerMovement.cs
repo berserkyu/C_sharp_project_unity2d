@@ -5,7 +5,8 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     //移动参数
-    private float walkingSpeed = 3, runningSpeed = 6, dodgingSpeed = 10, dodgeFrameCounter = 0;
+    [SerializeField] private float walkingSpeed, runningSpeed, dodgingSpeed;
+    private float dodgeFrameCounter;
     //当前Hp,耐力值
     private float stamina;
     //最大hp,耐力值
