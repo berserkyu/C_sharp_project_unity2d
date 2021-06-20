@@ -23,7 +23,7 @@ public class bulletInstanceManager : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        //?
+        //
         DontDestroyOnLoad(gameObject);
     }
     void Start()

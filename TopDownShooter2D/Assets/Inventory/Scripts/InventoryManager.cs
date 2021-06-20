@@ -105,10 +105,9 @@ public class InventoryManager : MonoBehaviour
     //使用道具button
     public void OnUseButtonClicked()
     {
-        Debug.Log("use button clicked");
+
         if (ItemUse.isStackEmpty())
         {
-            Debug.Log("item stack is empty");
             return;
         }
 

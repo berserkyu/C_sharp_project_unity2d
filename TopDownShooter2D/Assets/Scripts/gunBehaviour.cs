@@ -12,10 +12,10 @@ public class gunBehaviour : MonoBehaviour
     [SerializeField] private AudioSource gunFireSound,reloadSound;
     [SerializeField] private AudioClip gunFire;
     [SerializeField] private CameraShake cameraShake;
-    
+    [SerializeField] private Animator gunAnim;
+
     public UnityEngine.UI.Text ammoCount; 
     private bool canShootThisFrame = true;
-    private Animator gunAnim;
     private Vector3 fromPos;
     private int curBullet;
     private float bulletSpeed = 600;
@@ -35,14 +35,25 @@ public class gunBehaviour : MonoBehaviour
     {
         canShootThisFrame = val;
     }
+    public void switchIn()
+    {
+        gunAnim.Play("gunHolding");
+    }
     // Update is called once per frame
+    void Awake()
+    {
+        gunAnim = transform.GetChild(0).gameObject.GetComponent<Animator>();
+    }
     private void Start()
     {
        
-        gunAnim = transform.GetChild(0).GetComponent<Animator>();
         gunAnim.Play("gunHolding");
         curBullet = singleMegazineBullet;
 
+    }
+    void OnEnable()
+    {
+        gunAnim.Play("gunHolding");
     }
     private void handGunFiring(Vector3 aimDir)
     {

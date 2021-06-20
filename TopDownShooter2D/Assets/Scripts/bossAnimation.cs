@@ -9,7 +9,7 @@ public class bossAnimation : MonoBehaviour
     [SerializeField] private GameObject bossObject;
     [SerializeField] private soundManager sm;
     [SerializeField] private AudioClip deadSound;
-
+    [SerializeField] private GameObject endingScene;
 
     public void die()
     {
@@ -33,6 +33,7 @@ public class bossAnimation : MonoBehaviour
             yield return null;
         }
         bossObject.SetActive(false);
+        endingScene.SetActive(true);
     }   
 
     // Update is called once per frame

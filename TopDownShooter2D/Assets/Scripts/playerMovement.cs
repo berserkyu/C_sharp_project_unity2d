@@ -107,10 +107,12 @@ public class playerMovement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.I))
         {
+            
             //每次打开或关闭都重制栈
             ItemUse.Clear();
             //disable掉枪
             isGunEnabled = !isGunEnabled;
+            
             myGun.SetActive(isGunEnabled);
 
             //点击I键使Inventory可以反复打开或关闭

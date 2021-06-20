@@ -19,7 +19,6 @@ public class bulletBehaviour : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D obj)
     {
-        Debug.Log("player bullet collides with " + obj.gameObject.name);
         Vector2 pt = obj.GetContact(0).point;
         obj.gameObject.GetComponent<enemyBattle>()?.damage(dmg);
         obj.gameObject.GetComponent<bossBattle>()?.damage(dmg);

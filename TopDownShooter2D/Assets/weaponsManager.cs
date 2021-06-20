@@ -34,6 +34,7 @@ public class weaponsManager : MonoBehaviour
         {
             handGun.SetActive(true);
             handGun.GetComponent<gunBehaviour>()?.canShoot(false);
+            handGun.GetComponent<gunBehaviour>()?.switchIn();
             shotGun.SetActive(false);
             rifle.SetActive(false);
         }
@@ -41,6 +42,7 @@ public class weaponsManager : MonoBehaviour
         {
             shotGun.SetActive(true);
             shotGun.GetComponent<gunBehaviour>()?.canShoot(false);
+            shotGun.GetComponent<gunBehaviour>()?.switchIn();
             handGun.SetActive(false);
             rifle.SetActive(false);
         }
@@ -48,6 +50,7 @@ public class weaponsManager : MonoBehaviour
         {
             rifle.SetActive(true);
             rifle.GetComponent<gunBehaviour>()?.canShoot(false);
+            rifle.GetComponent<gunBehaviour>()?.switchIn();
             shotGun.SetActive(false);
             handGun.SetActive(false);
 

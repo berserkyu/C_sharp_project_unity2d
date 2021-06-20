@@ -35,6 +35,7 @@ public class EnemyPathfindingMovement : MonoBehaviour
             temp.Add(t[i, 1]);
             directions.Add(temp);
         }
+        playerTrans = GameObject.FindGameObjectWithTag("Player").transform;
     }
     public void hitNonPlayer(Collision2D collision)
     {

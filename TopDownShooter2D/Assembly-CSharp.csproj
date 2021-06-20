@@ -103,6 +103,7 @@
      <Compile Include="Assets\soundManager.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_BarMultiple.cs" />
      <Compile Include="Assets\Scripts\Exit2.cs" />
+     <Compile Include="Assets\endScene.cs" />
      <Compile Include="Assets\Inventory\Scripts\InventoryManager.cs" />
      <Compile Include="Assets\enemyBattle.cs" />
      <Compile Include="Assets\spawnBoss.cs" />

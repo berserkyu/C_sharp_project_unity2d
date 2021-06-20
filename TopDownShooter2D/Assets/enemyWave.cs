@@ -19,6 +19,7 @@ public class enemyWave : MonoBehaviour
         {
             door.OpenDoor();
             key.SetActive(true);
+            Destroy(gameObject);
         }
     }
 }
