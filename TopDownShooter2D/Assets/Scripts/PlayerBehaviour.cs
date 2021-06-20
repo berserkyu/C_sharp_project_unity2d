@@ -36,7 +36,6 @@ public class PlayerBehaviour : MonoBehaviour
         maxHp = 100;
         hpSys = new HealthSystem(maxHp);
         dead = false;
-        damage(40);
     }
 
     private void manageAnimation()
@@ -44,7 +43,6 @@ public class PlayerBehaviour : MonoBehaviour
         if (hpSys.GetHealth() <= 0)
         {
             soundEmitter.PlayOneShot(deadSound);
-            Debug.Log("dies");
             gun.die();
             playerAnim.Play("playerDead");
             movement.enabled = false;
@@ -203,7 +201,6 @@ public class PlayerBehaviour : MonoBehaviour
     }
     public void doneDying()
     {
-        Debug.Log("done dying");
         deadScene.SetActive(true);
     }
 
@@ -215,7 +212,10 @@ public class PlayerBehaviour : MonoBehaviour
         gun.enabled = true;
         movement.enabled = true;
         movement.transform.position = spawnPt.position;
-       
-        
+    }
+
+    public Transform getTrans()
+    {
+        return transform;
     }
 }

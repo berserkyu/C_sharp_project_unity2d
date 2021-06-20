@@ -11,6 +11,7 @@ public class enemyBattle : MonoBehaviour
     [SerializeField] private Animator anim;
     [SerializeField] private int enemyType;
     [SerializeField] private GameObject damageZone;
+    public GameObject bloodEffect;
     private Vector3 initScale;
     private HealthSystem hpSys;
    
@@ -37,6 +38,7 @@ public class enemyBattle : MonoBehaviour
     {
         sound.PlayOneShot(damageSound);
         hpSys.Damage(val);
+        object p = Instantiate(bloodEffect, transform.position, Quaternion.identity);//ÅçÑª
         health.localScale = new Vector3(hpSys.GetHealthPercent()*initScale.x,initScale.y ,initScale.z);
         if (hpSys.GetHealth() == 0)
         {

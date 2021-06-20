@@ -12,11 +12,7 @@ public class weaponsManager : MonoBehaviour
     private int curBulletLeft, curMegazineIndex;
     private static bool[] canUseWeapon;
 
-    public void setWeaponAvailability(int type,bool val)
-    {
-        if (type < 0 || type > 2) return;
-        canUseWeapon[type] = val;
-    }
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +22,12 @@ public class weaponsManager : MonoBehaviour
         shotGun.SetActive(false);
         rifle.SetActive(false);
     }
-    /*private void onWeapoonsGet(Item.ItemType type)
+    // Update is called once per frame
+    void Update()
     {
-        canUseWeapon[(type == Item.ItemType.Shotgun?0:1)] = true;
-    }*/
+        manageWeaponSwitch();
+    }
+
     private void manageWeaponSwitch()
     {
         if (Input.GetButtonDown("handGunSwitch"))
@@ -55,9 +53,15 @@ public class weaponsManager : MonoBehaviour
 
         }
     }
-    // Update is called once per frame
-    void Update()
+    public void setWeaponAvailability(int type, bool val)
     {
-        manageWeaponSwitch();
+        if (type < 0 || type > 2) return;
+        canUseWeapon[type] = val;
+    }
+    public void addAmmo()
+    {
+        if(canUseWeapon[0]) handGun.GetComponent<gunBehaviour>()?.addAmmo();
+        if(canUseWeapon[1]) shotGun.GetComponent<gunBehaviour>()?.addAmmo();
+        if(canUseWeapon[2]) rifle.GetComponent<gunBehaviour>()?.addAmmo();
     }
 }

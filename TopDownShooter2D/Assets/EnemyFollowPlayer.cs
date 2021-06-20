@@ -8,7 +8,7 @@ public class EnemyFollowPlayer : MonoBehaviour
     public float lineOfSite;
     private Rigidbody2D rb;
     private Transform player;
-    public HealthBar healthBar;
+   // public HealthBar healthBar;
     public HealthSystem healthSystem;
     private int damageVal;
     private EnemyPathfindingMovement pathfinding;
@@ -22,7 +22,7 @@ public class EnemyFollowPlayer : MonoBehaviour
         damageVal = 10;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         HealthSystem healthSystem = new HealthSystem(100);
-        healthBar.Setup(healthSystem);
+       // healthBar.Setup(healthSystem);
         rb = this.GetComponent<Rigidbody2D>();
     }
 

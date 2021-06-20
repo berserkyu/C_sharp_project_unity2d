@@ -61,7 +61,9 @@
      <Compile Include="Assets\spawnThings.cs" />
      <Compile Include="Assets\EnemyShootIdle.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\Button_Sprite.cs" />
+     <Compile Include="Assets\enemyWave.cs" />
      <Compile Include="Assets\Scripts\bossAim.cs" />
+     <Compile Include="Assets\spwanWaves.cs" />
      <Compile Include="Assets\Scripts\DequeVector3.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UtilsClass.cs" />
      <Compile Include="Assets\EnemyShootFacePlayer.cs" />
@@ -82,14 +84,17 @@
      <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
      <Compile Include="Assets\bulletInstanceManager.cs" />
      <Compile Include="Assets\_\Stuff\CodeMonkey\Utils\UI_Bar.cs" />
+     <Compile Include="Assets\WaveSpawner.cs" />
      <Compile Include="Assets\Scripts\bossBattle.cs" />
      <Compile Include="Assets\Inventory\Scripts\ItemUse.cs" />
      <Compile Include="Assets\EnemyFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\BloodEffect.cs" />
      <Compile Include="Assets\Inventory\Scripts\ItemWorld.cs" />
      <Compile Include="Assets\Scripts\bulletBehaviour.cs" />
      <Compile Include="Assets\EnemyRandomMove.cs" />
      <Compile Include="Assets\Scripts\magicBallScript.cs" />
      <Compile Include="Assets\Scripts\gunBehavoiur.cs" />
+     <Compile Include="Assets\damageZone.cs" />
      <Compile Include="Assets\Scripts\bossAnimation.cs" />
      <Compile Include="Assets\Scripts\bossBulletScript.cs" />
      <Compile Include="Assets\weaponsManager.cs" />

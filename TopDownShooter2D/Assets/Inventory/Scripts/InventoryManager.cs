@@ -11,6 +11,7 @@ public class InventoryManager : MonoBehaviour
     public GameObject slot_Grid;
     public Slot slot_Prefab;
     public Text item_Info;
+   
     [SerializeField] private PlayerBehaviour player;
     [SerializeField] private KeyDoor SilverKeyDoor;
     [SerializeField] private KeyDoor GoldKeyDoor;
@@ -92,6 +93,15 @@ public class InventoryManager : MonoBehaviour
         }
         RefreshItem();
     }
+    bool validDist(KeyDoor k,float dist)
+    {
+        if (k == null) return false;
+        Transform playerTrans = player.getTrans();
+        Transform doorTrans = k.getTrans();
+        Vector2 pv = new Vector2(playerTrans.position.x, playerTrans.position.y);
+        Vector2 kv = new Vector2(doorTrans.position.x, doorTrans.position.y);
+        return Vector2.Distance(pv, kv) < dist;
+    }
     //使用道具button
     public void OnUseButtonClicked()
     {
@@ -112,12 +122,15 @@ public class InventoryManager : MonoBehaviour
                     player.heal(30);
                     break;
                 case "SilverKey":
+
                     SilverKeyDoor?.OpenDoor();
                     break;
                 case "GoldKey":
+
                     GoldKeyDoor?.OpenDoor();
                     break;
                 case "SpecialKey":
+   
                     SpecialKeyDoor?.OpenDoor();
                     break;
                 default: break;

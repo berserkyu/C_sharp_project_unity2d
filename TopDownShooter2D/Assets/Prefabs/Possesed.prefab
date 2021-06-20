@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 776782055083314481}
   - component: {fileID: 8556009737361877940}
   - component: {fileID: 8445861448243932079}
-  - component: {fileID: 3094256081387732514}
+  - component: {fileID: 565109287}
   m_Layer: 8
   m_Name: DamageZone
   m_TagString: Untagged
@@ -48,7 +48,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -80,7 +80,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.15479642, y: 0.2935608}
   m_EdgeRadius: 0
---- !u!114 &3094256081387732514
+--- !u!114 &565109287
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,10 +89,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2954439137150148024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fb94a2d079c721458914848cae1b52c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d477d1fb3c9ba54585bdcb789e79a4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  dmg: 5
 --- !u!1 &6573854167826916065
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +478,8 @@ MonoBehaviour:
   damageSound: {fileID: 8300000, guid: 2e62022f1da199b4daef278f7eec090d, type: 3}
   anim: {fileID: 6573854168577161690}
   enemyType: 0
-  damageZone: {fileID: 0}
+  damageZone: {fileID: 2954439137150148024}
+  bloodEffect: {fileID: 4480265961539164354, guid: 01d3fb5c4f11a614094e1a1954011d66, type: 3}
 --- !u!82 &6573854168577161681
 AudioSource:
   m_ObjectHideFlags: 0
@@ -587,7 +588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b627840e89616945939ff568b2d7c62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageZone: {fileID: 0}
   speed: 3
   checkRadius: 10
   attackRadius: 3

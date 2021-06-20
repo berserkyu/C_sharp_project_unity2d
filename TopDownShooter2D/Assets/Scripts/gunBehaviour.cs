@@ -21,10 +21,15 @@ public class gunBehaviour : MonoBehaviour
     private float bulletSpeed = 600;
     private float autoWeaponCounter = 0f, reloadingCounter = 1f;
     private float angle;
+
     public void die()
     {
         transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
         aimTrans.eulerAngles = new Vector3(0, 0, -90);
+    }
+    public void addAmmo()
+    {
+        megazinesNo++;
     }
     public void canShoot(bool val)
     {

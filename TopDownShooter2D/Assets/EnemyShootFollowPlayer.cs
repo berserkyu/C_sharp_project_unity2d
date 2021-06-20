@@ -12,7 +12,7 @@ public class EnemyShootFollowPlayer : MonoBehaviour
     public GameObject bullet;
     public GameObject bulletParent;
     private Transform player;
-    public HealthBar healthBar;
+    //public HealthBar healthBar;
     public HealthSystem healthSystem;
     private int damageVal;
     [SerializeField] private AudioSource sound;
@@ -23,7 +23,7 @@ public class EnemyShootFollowPlayer : MonoBehaviour
         damageVal = 10;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         HealthSystem healthSystem = new HealthSystem(100);
-        healthBar.Setup(healthSystem);
+        //healthBar.Setup(healthSystem);
     }
     public float getLineOfSight()
     {

@@ -19,4 +19,8 @@ public class KeyDoor : MonoBehaviour
     {
         gameObject.SetActive(true);
     }
+    public Transform getTrans()
+    {
+        return transform;
+    }
 }

@@ -195,7 +195,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3349737137415172362}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -31.63, y: 0.64, z: 83.76241}
   m_LocalScale: {x: 7.480432, y: 7.480432, z: 7.480432}
   m_Children:
@@ -269,7 +269,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012192007, y: -0.023148172}
+  m_Offset: {x: -0.00025440753, y: -0.015134662}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -280,7 +280,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.066261165, y: 0.25370365}
+  m_Size: {x: 0.12695909, y: 0.2697307}
   m_EdgeRadius: 0
 --- !u!50 &3349737137415172364
 Rigidbody2D:
@@ -335,12 +335,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  lineOfSite: 10
-  shoootingRange: 3
-  fireRate: 1
+  lineOfSite: 15
+  shoootingRange: 9
+  fireRate: 2
   bullet: {fileID: 6003915664669750914, guid: b59bcf7a6d68c4a428221d52203f18a2, type: 3}
   bulletParent: {fileID: 3349737136829137200}
-  healthBar: {fileID: 0}
   sound: {fileID: 3349737137415172402}
   attackSound: {fileID: 8300000, guid: 4dffc53c86f10054c89d0f671a1006cb, type: 3}
 --- !u!114 &3349737137415172403
@@ -361,6 +360,8 @@ MonoBehaviour:
   damageSound: {fileID: 8300000, guid: 2e62022f1da199b4daef278f7eec090d, type: 3}
   anim: {fileID: 3349737137415172365}
   enemyType: 1
+  damageZone: {fileID: 0}
+  bloodEffect: {fileID: 4480265961539164354, guid: 01d3fb5c4f11a614094e1a1954011d66, type: 3}
 --- !u!82 &3349737137415172402
 AudioSource:
   m_ObjectHideFlags: 0
@@ -470,8 +471,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  checkRadius: 10
-  attackRadius: 13
+  checkRadius: 16
+  attackRadius: 9
   shouldRotate: 1
   whatisplayer:
     serializedVersion: 2
