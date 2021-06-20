@@ -94,7 +94,13 @@ public class InventoryManager : MonoBehaviour
                 case "Medkit":
                     player.heal(30);
                     break;
-                case "Key":
+                case "SilverKey":
+                    keyDoor.OpenDoor();
+                    break;
+                case "GoldKey":
+                    keyDoor.OpenDoor();
+                    break;
+                case "SpecialKey":
                     keyDoor.OpenDoor();
                     break;
                 default: break;
