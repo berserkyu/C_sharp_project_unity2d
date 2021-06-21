@@ -34,27 +34,34 @@ public class enemyBattle : MonoBehaviour
         if (gameObject.GetComponent<EnemyFollowPlayer>() != null) gameObject.GetComponent<EnemyFollowPlayer>().enabled = false;
         if (gameObject.GetComponent<EnemyShootFollowPlayer>() != null) gameObject.GetComponent<EnemyShootFollowPlayer>().enabled = false;
     }
+    //getting damaged
     public void damage(int val)
     {
+        //damage sound
         sound.PlayOneShot(damageSound);
+        //renew health
         hpSys.Damage(val);
-        object p = Instantiate(bloodEffect, transform.position, Quaternion.identity);//ÅçÑª
         health.localScale = new Vector3(hpSys.GetHealthPercent()*initScale.x,initScale.y ,initScale.z);
+        //ÅçÑª
+        object p = Instantiate(bloodEffect, transform.position, Quaternion.identity);
         if (hpSys.GetHealth() == 0)
         {
             die();
         }
     }
+    //done playing die animation
     public void doneDying()
     {
         Destroy(gameObject);
     }
+    //when attacking
     public void spawnDamageZone(int i)
     {
         damageZone.transform.position = transform.position;
         damageZone.SetActive(true);
         damageZone.GetComponent<damageZone>().rotate(i);
     }
+    //done attacking
     public void disableDamageZone()
     {
         damageZone.SetActive(false);

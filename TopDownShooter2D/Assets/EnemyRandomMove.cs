@@ -17,7 +17,9 @@ public class EnemyRandomMove : MonoBehaviour
         if (randomMovementFrameCounter >= 1.5)
         {
             Vector3 curPosition = rb.position;
+            //random angle
             float turningAngle = Random.Range(0, 359);
+            //convert to radians
             turningAngle = (turningAngle/180)*Mathf.PI;
             Vector3 targetPosition = new Vector3(curPosition.x + distance *Mathf.Cos(turningAngle), curPosition.y +distance* Mathf.Sin(turningAngle), curPosition.z);
             Vector3 dir = (targetPosition - curPosition).normalized;
@@ -35,6 +37,7 @@ public class EnemyRandomMove : MonoBehaviour
         Vector2 contactPt = collision.GetContact(0).point;
         Vector3 t = new Vector3(contactPt.x,contactPt.y, 0);
         Vector3 dir = (contactPt - rb.position).normalized;
+        //go the opposite direction of collision point
         rb.velocity = dir * (-movingSpeed);
         resetRandomMoveFrameCnt();
     }

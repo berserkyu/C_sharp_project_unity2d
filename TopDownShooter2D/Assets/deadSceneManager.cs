@@ -10,6 +10,7 @@ public class deadSceneManager : MonoBehaviour
         if (Input.GetButtonDown("Dodge"))
         {
             transform.parent.GetChild(0).gameObject.GetComponent<PlayerBehaviour>()?.respawn();
+
         }
     }
 }

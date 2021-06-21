@@ -15,7 +15,6 @@ public class magicBallScript : MonoBehaviour
     void spawnDamageDealer()
     {
         new_damageDealer = Instantiate(damageDealer, transform.position, transform.rotation);
-        //new_damageDealer.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<Animator>()?.Play("dissolves");
     }
     void dissolved()
@@ -23,9 +22,5 @@ public class magicBallScript : MonoBehaviour
         Destroy(new_damageDealer);
         Destroy(gameObject);
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

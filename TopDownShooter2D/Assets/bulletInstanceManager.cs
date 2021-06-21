@@ -38,10 +38,15 @@ public class bulletInstanceManager : MonoBehaviour
     }
     public static void fireABullet(Vector3 initPos,Vector2 v,gunBehaviour fireFrom)
     {
+        //activate the bullet
         bullets[bulletIndex].SetActive(true);
+        //put it at gun fire point
         bullets[bulletIndex].transform.position = initPos;
+        //set gun behaviour to be used to create weapon tracer
         bullets[bulletIndex].GetComponent<bulletBehaviour>()?.setGunBehaviour(fireFrom);
+        //fire
         bullets[bulletIndex].GetComponent<Rigidbody2D>().velocity = v;
+        //move the index/pointer to next bullet
         bulletIndex = (bulletIndex + 1) % bulletInstanceCnt;
     }
 }

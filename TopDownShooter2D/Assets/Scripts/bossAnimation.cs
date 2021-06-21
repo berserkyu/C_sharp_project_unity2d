@@ -20,6 +20,7 @@ public class bossAnimation : MonoBehaviour
         ba.enabled = false;
         StartCoroutine(fadesOut());
     }
+
     IEnumerator fadesOut()
     {
         SpriteRenderer spriteBody = GetComponent<SpriteRenderer>();

@@ -19,10 +19,14 @@ public class bulletBehaviour : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D obj)
     {
-        Vector2 pt = obj.GetContact(0).point;
+        
+        //do damage
         obj.gameObject.GetComponent<enemyBattle>()?.damage(dmg);
         obj.gameObject.GetComponent<bossBattle>()?.damage(dmg);
+        //tell gun to create weapon tracer from fire point to conctact point
+        Vector2 pt = obj.GetContact(0).point;
         gun.createWeaponTracer(new Vector3(pt.x,pt.y,0));
+        //disable the bullet instance
         gameObject.SetActive(false);
 
     }

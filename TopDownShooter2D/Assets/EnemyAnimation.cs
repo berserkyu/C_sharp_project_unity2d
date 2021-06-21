@@ -8,11 +8,8 @@ public class EnemyAnimation : MonoBehaviour
     public float speed;
     public float checkRadius;
     public float attackRadius;
-
     public bool shouldRotate;
-
     public LayerMask whatisplayer;
-
     private Transform target;
     private Rigidbody2D rb;
     private Animator anim;

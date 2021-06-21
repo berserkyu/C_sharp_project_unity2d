@@ -6,11 +6,6 @@ public class enemyWave : MonoBehaviour
 {
     [SerializeField] GameObject key;
     [SerializeField] private KeyDoor door;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

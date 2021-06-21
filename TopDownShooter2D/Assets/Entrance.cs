@@ -9,6 +9,4 @@ public class Entrance : MonoBehaviour
     {
           playerMovement.instance.transform.position = transform.position;   
     }
-
-    
 }

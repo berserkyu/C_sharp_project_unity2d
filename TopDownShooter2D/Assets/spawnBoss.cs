@@ -11,6 +11,7 @@ public class spawnBoss : MonoBehaviour
         Debug.Log("player in collides");
         if (other.gameObject.CompareTag("Player"))
         {
+            //πÿ√≈∑≈π∑
             door.CloseDoor();
             boss.SetActive(true);
             Destroy(this);

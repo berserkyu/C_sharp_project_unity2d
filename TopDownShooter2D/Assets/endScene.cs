@@ -8,8 +8,10 @@ public class endScene : MonoBehaviour
     [SerializeField] AudioSource sound;
     void OnEnable()
     {
+        //play sound
         sound.Play();
         transform.position = GameObject.FindGameObjectWithTag("Player").transform.position;
+        //cant move player anymore
         GameObject.FindGameObjectWithTag("Player")?.SetActive(false);
         StartCoroutine(fadesIn());
     }

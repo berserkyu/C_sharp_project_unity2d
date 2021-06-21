@@ -7,7 +7,6 @@ public class weaponsManager : MonoBehaviour
 
 
     [SerializeField] private GameObject handGun, shotGun, rifle, weaponPics;
-    
     private int[] noOfMegazines;
     private int[] bulletsOfSingleMegazine;
     private int curBulletLeft, curMegazineIndex;
@@ -27,7 +26,6 @@ public class weaponsManager : MonoBehaviour
     void Update()
     {
         manageWeaponSwitch();
-
     }
 
     private void manageWeaponSwitch()

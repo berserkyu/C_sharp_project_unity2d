@@ -27,14 +27,17 @@ public class gunBehaviour : MonoBehaviour
         transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
         aimTrans.eulerAngles = new Vector3(0, 0, -90);
     }
+
     public void addAmmo()
     {
         megazinesNo+=3;
     }
+
     public void canShoot(bool val)
     {
         canShootThisFrame = val;
     }
+
     public void switchIn()
     {
         gunAnim.Play("gunHolding");
@@ -44,25 +47,28 @@ public class gunBehaviour : MonoBehaviour
     {
         gunAnim = transform.GetChild(0).gameObject.GetComponent<Animator>();
     }
+
     private void Start()
-    {
-       
+    {  
         gunAnim.Play("gunHolding");
         curBullet = singleMegazineBullet;
-
     }
+
     public int getCurBullet()
     {
         return curBullet;
     }
+
     public int getMegazineNo()
     {
         return megazinesNo;
     }
+
     void OnEnable()
     {
         gunAnim.Play("gunHolding");
     }
+
     private void handGunFiring(Vector3 aimDir)
     {
         float shootingAngle = Mathf.Atan2(aimDir.y, aimDir.x);
@@ -70,6 +76,7 @@ public class gunBehaviour : MonoBehaviour
         bulletInstanceManager.fireABullet(FirePointTrans.position, v, this);
 
     }
+
     private void shotGunFiring(Vector3 aimDir)
     {
         float diviationAngle = (10f/180f)*Mathf.PI;
@@ -80,10 +87,12 @@ public class gunBehaviour : MonoBehaviour
             bulletInstanceManager.fireABullet(FirePointTrans.position, v, this);
         }
     }
+
     public float getAngle()
     {
         return angle;
     }
+
     public void createWeaponTracer(Vector3 toPos)
     {
        
@@ -143,15 +152,6 @@ public class gunBehaviour : MonoBehaviour
         autoWeaponCounter += Time.deltaTime;
         manageGunAimingPosition(ref aimDir);
         if (reloadSound.isPlaying) return;
-        /*
-         * if (!canShootThisFrame || reloadingCounter<0.5)
-        {
-            reloadingCounter += Time.deltaTime;
-            canShootThisFrame = true;
-            gunAnim.Play("gunHolding");
-            return;
-        }
-         */
 
         //reload
         if (Input.GetKeyDown(KeyCode.R) && megazinesNo > 0)
@@ -193,9 +193,6 @@ public class gunBehaviour : MonoBehaviour
             }
             curBullet--;
         }
-        
-        
-        
     }
     void Update()
     {

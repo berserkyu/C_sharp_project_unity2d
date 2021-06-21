@@ -10,6 +10,7 @@ public class WaveSpawner : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            //πÿ√≈∑≈π∑
             door.CloseDoor();
             enemyWave.SetActive(true);
             Destroy(gameObject);

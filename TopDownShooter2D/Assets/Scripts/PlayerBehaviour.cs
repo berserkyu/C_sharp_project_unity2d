@@ -8,26 +8,28 @@ public class PlayerBehaviour : MonoBehaviour
 {
     //objects for behaviours
     [SerializeField] private Animator playerAnim;
+    //health and stamina bar
     [SerializeField] private Transform healthTrans, staminaTrans;
+    //interact with player motion
     [SerializeField] private playerMovement movement;
+    //interact with gun
     [SerializeField] private gunBehaviour gun;
     [SerializeField] private SpriteRenderer playerSprite;
+    //scene to show when dead
     [SerializeField] private GameObject deadScene;
+    //the position to respawn
     [SerializeField] private Transform spawnPt;
     [SerializeField] private AudioSource soundEmitter;
     [SerializeField] private AudioClip damageSound, healSound,deadSound;
+
     private Vector3 initStaminaScale;
-    //public playerMovement player;
     private float dodgeCnt = 0f;
     private int maxHp;
-    // private Animation curAnim;
     private float horiMove, vertiMove, faceDirection, angle;
     private float dodgeCoolDownCnt = 0f;
     private HealthSystem hpSys;
-    // private float maxHp, curHp;
     private static bool isDodging;
     private bool dead;
-    float dmgFrameCnt = 0;
 
     void Start()
     {
@@ -40,21 +42,26 @@ public class PlayerBehaviour : MonoBehaviour
 
     private void manageAnimation()
     {
+        //if die
         if (hpSys.GetHealth() <= 0)
         {
             soundEmitter.PlayOneShot(deadSound);
+            //put gun into a resonable position
             gun.die();
             playerAnim.Play("playerDead");
+            //cant move or use gun anymore
             movement.enabled = false;
             gun.enabled = false;
             dead = true;
         }
-        //dodging animation
+        //dodging animation has the highest priority
         if (isDodging)
         {
+            //if is first frame of dodging
             if (!isPlaying(playerAnim, "dodgingHorizontal") && !isPlaying(playerAnim, "dodgingHorizontalReverse")
                 && !isPlaying(playerAnim, "dodgingDown") && !isPlaying(playerAnim, "dodgingUp"))
             {
+                //to check if moving direction and facing direction is the same
                 float face = Input.GetAxisRaw("Horizontal");
                 float ang = gun.getAngle();
                 if (face == -1)
@@ -87,7 +94,8 @@ public class PlayerBehaviour : MonoBehaviour
             }
             return;
         }
-        // idle animation
+        // idle or run animation
+        //determine horizontal or vertical using angle
         if (angle > 45 && angle < 135)
         {
             if (vertiMove == 0 && horiMove == 0) playerAnim.Play("IdleUp");
@@ -118,11 +126,11 @@ public class PlayerBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //do nothing if already dead
         if (dead) return;
-        //check if is dodging
+        //check if gonna dodge
         if (!isDodging && movement.getStamina() >= 5)
         {
-
             isDodging = Input.GetButtonDown("Dodge");
         }
         //manage gun position
@@ -135,13 +143,7 @@ public class PlayerBehaviour : MonoBehaviour
         faceDirection = ((angle > 90 || angle < -90) ? -1 : 1);
         manageAnimation();
 
-        //manage health bar
-        dmgFrameCnt += Time.deltaTime;
-        if (dmgFrameCnt > 1)
-        {
-            dmgFrameCnt = 0;
-        }
-       
+        //manage health bar and stamina bar
         healthTrans.localScale = new Vector3(hpSys.GetHealthPercent(), 1, 1);
         staminaTrans.localScale = new Vector3(initStaminaScale.x * movement.getStaminaPercent(), initStaminaScale.y, initStaminaScale.z);
 
@@ -199,6 +201,7 @@ public class PlayerBehaviour : MonoBehaviour
         });
         hpSys.Damage(val);
     }
+    //after dying animation plays
     public void doneDying()
     {
         deadScene.SetActive(true);
@@ -211,6 +214,7 @@ public class PlayerBehaviour : MonoBehaviour
         hpSys.Heal(maxHp);
         gun.enabled = true;
         movement.enabled = true;
+        spawnPt = GameObject.Find("SpawnPoint").transform;
         movement.transform.position = spawnPt.position;
     }
 

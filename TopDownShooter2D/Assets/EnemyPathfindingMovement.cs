@@ -26,8 +26,9 @@ public class EnemyPathfindingMovement : MonoBehaviour
         int r = 5;
         rand = new System.Random();
         directions = new List<List<int>>();
-              //{deltaX,deltaY}:��        ��         ��         ��         ����       ����      ����          ����
+              //{deltaX,deltaY}: up , down ,left ,right,up right,up left,down right,down left
         int[,] t = new int[,]{ { 0, r }, { 0, -r }, { -r, 0 }, { r, 0 }, { r, r }, { -r, r }, { r, -r }, { -r, -r } };
+        //initialize the directions
         for(int i = 0; i < 8; i++)
         {
             List<int> temp = new List<int>();
@@ -43,15 +44,18 @@ public class EnemyPathfindingMovement : MonoBehaviour
     }
     public void greedyPathFindingUpdate()
     {
+        
         Vector3 dirVecToGo;
+        //check if can see player
         RaycastHit2D hitPlayer = Physics2D.Linecast(rb.position, playerTrans.position);
-        if (hitPlayer.collider.gameObject.name=="Player")
+        if(hitPlayer!=null && hitPlayer.collider != null && hitPlayer.collider.gameObject.name == "Player")
         {
-            dirVecToGo = (hitPlayer.collider.transform.position-transform.position).normalized;
+            //if can see player just go straight line to player
+            dirVecToGo = (hitPlayer.collider.transform.position - transform.position).normalized;
             rb.velocity = dirVecToGo * movingSpeed;
             return;
         }
-            
+        //else check 8 directions and look for the one that is closest to player and not hitting the wall
         Vector3 curPos = rb.position;
         int t = rand.Next(7);
         List<int> dirToGo = directions[7];

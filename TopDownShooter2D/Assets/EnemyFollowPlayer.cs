@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//the main script for melee enemy
 public class EnemyFollowPlayer : MonoBehaviour
 {
     public float speed;
@@ -28,7 +28,9 @@ public class EnemyFollowPlayer : MonoBehaviour
 
     void Update()
     {
+        //check if player is in certain distance
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
+        //if so go and attack player
         if (distanceFromPlayer < lineOfSite)
         {
             foundPlayer = true;
@@ -36,12 +38,11 @@ public class EnemyFollowPlayer : MonoBehaviour
         }
         else
         {
+            //else do random movement
             if (foundPlayer) randMove.resetRandomMoveFrameCnt();
             foundPlayer = false;
             randMove.randomMoveUpdate();
         }
-
-
         Vector3 direction = player.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
@@ -51,15 +52,12 @@ public class EnemyFollowPlayer : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            GameObject gb = collision.gameObject.transform.GetChild(0).gameObject;
-            if (gb == null) return;
-            //PlayerBehaviour pb = gb.GetComponent<PlayerBehaviour>();
-            //if (pb != null) pb.damage(damageVal);
+            return;
         }
         else
         {
             float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-            if (distanceFromPlayer < 10 || foundPlayer)
+            if (distanceFromPlayer < 10 )
             {
                 pathfinding.hitNonPlayer(collision);
             }

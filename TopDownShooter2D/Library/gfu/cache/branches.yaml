@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-06-21T14:59:14.185+08:00
-  initializedAtString: 2021-06-21T14:59:12.807+08:00
-  localBranches: []
+  lastUpdatedAtString: 2021-06-21T16:27:48.369+08:00
+  initializedAtString: 2021-06-21T16:27:47.415+08:00
+  localBranches:
+  - name: Dev
+    tracking: origin/Dev
   remoteBranches:
   - name: origin/Dev
     tracking: '[None]'
@@ -28,8 +30,14 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - Dev
+    values:
+    - name: Dev
+      remote:
+        name: origin
+        url: git@github.com:berserkyu/C_sharp_project_unity2d.git
+      trackingBranch: Dev
   remoteConfigBranches:
     keys:
     - origin

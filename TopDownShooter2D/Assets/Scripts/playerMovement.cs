@@ -14,11 +14,10 @@ public class playerMovement : MonoBehaviour
     private Animator playerAnim;
     //当前是否正在躲闪
     public static bool isDodging = false;
-
     public GameObject myGun;
     //Inventory打开时Gun是否能使用
     private bool isGunEnabled = true;
-
+    //inventory to show
     public GameObject myInventory;
     //Inventory是否打开
     private bool isInventoryOpen = false;
@@ -42,29 +41,7 @@ public class playerMovement : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        //?
         DontDestroyOnLoad(gameObject);
-    }
-    public float getStamina()
-    {
-        return stamina;
-    }
-    public float getStaminaPercent()
-    {
-        return stamina / maxStamina;
-    }
-    public void doneDodge()
-    {
-        isDodging = false;
-    }
-
-    public void startDodge()
-    {
-        horiMove = Input.GetAxis("Horizontal");
-        vertiMove = Input.GetAxis("Vertical");
-        stamina -= 5;
-        rb.velocity = new Vector2(dodgingSpeed * horiMove, dodgingSpeed * vertiMove);
-        isDodging = true;
     }
     // Start is called before the first frame update
     void Start()
@@ -112,14 +89,31 @@ public class playerMovement : MonoBehaviour
             ItemUse.Clear();
             //disable掉枪
             isGunEnabled = !isGunEnabled;
-            
             myGun.SetActive(isGunEnabled);
-
             //点击I键使Inventory可以反复打开或关闭
             isInventoryOpen = !isInventoryOpen;
             myInventory.SetActive(isInventoryOpen);
         }
     }
-
+    public void startDodge()
+    {
+        horiMove = Input.GetAxis("Horizontal");
+        vertiMove = Input.GetAxis("Vertical");
+        stamina -= 5;
+        rb.velocity = new Vector2(dodgingSpeed * horiMove, dodgingSpeed * vertiMove);
+        isDodging = true;
+    }
+    public float getStamina()
+    {
+        return stamina;
+    }
+    public float getStaminaPercent()
+    {
+        return stamina / maxStamina;
+    }
+    public void doneDodge()
+    {
+        isDodging = false;
+    }
 
 }
