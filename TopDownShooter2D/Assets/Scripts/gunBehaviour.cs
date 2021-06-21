@@ -13,8 +13,8 @@ public class gunBehaviour : MonoBehaviour
     [SerializeField] private AudioClip gunFire;
     [SerializeField] private CameraShake cameraShake;
     [SerializeField] private Animator gunAnim;
+    [SerializeField] private UnityEngine.UI.Text ammoCount;
 
-    public UnityEngine.UI.Text ammoCount; 
     private bool canShootThisFrame = true;
     private Vector3 fromPos;
     private int curBullet;
@@ -29,7 +29,7 @@ public class gunBehaviour : MonoBehaviour
     }
     public void addAmmo()
     {
-        megazinesNo++;
+        megazinesNo+=3;
     }
     public void canShoot(bool val)
     {
@@ -50,6 +50,14 @@ public class gunBehaviour : MonoBehaviour
         gunAnim.Play("gunHolding");
         curBullet = singleMegazineBullet;
 
+    }
+    public int getCurBullet()
+    {
+        return curBullet;
+    }
+    public int getMegazineNo()
+    {
+        return megazinesNo;
     }
     void OnEnable()
     {
@@ -193,5 +201,6 @@ public class gunBehaviour : MonoBehaviour
     {
         manageGunBehaviour();
         fromPos = FirePointTrans.position;
+        ammoCount.text = curBullet + "/" + megazinesNo;
     }
 }

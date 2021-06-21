@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class weaponsManager : MonoBehaviour
 {
-    
 
-    [SerializeField] private GameObject handGun, shotGun, rifle;
+
+    [SerializeField] private GameObject handGun, shotGun, rifle, weaponPics;
+    
     private int[] noOfMegazines;
     private int[] bulletsOfSingleMegazine;
     private int curBulletLeft, curMegazineIndex;
@@ -26,6 +27,7 @@ public class weaponsManager : MonoBehaviour
     void Update()
     {
         manageWeaponSwitch();
+
     }
 
     private void manageWeaponSwitch()
@@ -33,26 +35,35 @@ public class weaponsManager : MonoBehaviour
         if (Input.GetButtonDown("handGunSwitch"))
         {
             handGun.SetActive(true);
+            weaponPics.transform.GetChild(0).gameObject.SetActive(true);
             handGun.GetComponent<gunBehaviour>()?.canShoot(false);
             handGun.GetComponent<gunBehaviour>()?.switchIn();
             shotGun.SetActive(false);
             rifle.SetActive(false);
+            weaponPics.transform.GetChild(1).gameObject.SetActive(false);
+            weaponPics.transform.GetChild(2).gameObject.SetActive(false);
         }
         else if (Input.GetButtonDown("shotGunSwitch") && canUseWeapon[1])
         {
+            weaponPics.transform.GetChild(1).gameObject.SetActive(true);
             shotGun.SetActive(true);
             shotGun.GetComponent<gunBehaviour>()?.canShoot(false);
             shotGun.GetComponent<gunBehaviour>()?.switchIn();
             handGun.SetActive(false);
             rifle.SetActive(false);
+            weaponPics.transform.GetChild(2).gameObject.SetActive(false);
+            weaponPics.transform.GetChild(0).gameObject.SetActive(false);
         }
         else if (Input.GetButtonDown("rifleSwitch") && canUseWeapon[2])
         {
+            weaponPics.transform.GetChild(2).gameObject.SetActive(true);
             rifle.SetActive(true);
             rifle.GetComponent<gunBehaviour>()?.canShoot(false);
             rifle.GetComponent<gunBehaviour>()?.switchIn();
             shotGun.SetActive(false);
             handGun.SetActive(false);
+            weaponPics.transform.GetChild(0).gameObject.SetActive(false);
+            weaponPics.transform.GetChild(1).gameObject.SetActive(false);
 
         }
     }

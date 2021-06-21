@@ -5,12 +5,11 @@ using UnityEngine;
 public class startingScene : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private Transform cameraTrans;
     [SerializeField] private GameObject player, enemy;
 
     void Start()
     {
-        transform.position = new Vector3(cameraTrans.position.x-1, cameraTrans.position.y-1, 0);
+        transform.position = player.transform.position;
         player.SetActive(false);
         enemy.SetActive(false);
     }

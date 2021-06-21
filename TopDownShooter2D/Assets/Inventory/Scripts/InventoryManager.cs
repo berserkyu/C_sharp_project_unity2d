@@ -129,7 +129,6 @@ public class InventoryManager : MonoBehaviour
                     GoldKeyDoor?.OpenDoor();
                     break;
                 case "SpecialKey":
-   
                     SpecialKeyDoor?.OpenDoor();
                     break;
                 default: break;
